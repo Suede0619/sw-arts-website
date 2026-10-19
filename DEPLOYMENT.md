@@ -22,9 +22,11 @@ To rerun the current commit, use the workflow's **Run workflow** control. To rol
 
 ## Prototype and final website
 
-The prototype and later approved production frontend belong in this **same repository**, served through GitHub Pages at the same address (a custom domain is a later option). Preserve the prototype with the `prototype-v0.1.0` Git tag before replacing it. The full production build still follows Dave/Felix's prototype review; publication of a demo does not authorize real commerce.
+The prototype and later approved production build belong in this **same repository**. Dave requested GitHub hosting for both. **GitHub Pages prohibits using its hosting to run an ecommerce business or a site primarily facilitating commercial transactions.** This design demonstration has no real offers, payment processing or bookings; do not turn the Pages deployment into the live selling service. Choose a compatible commercial host that deploys from this GitHub repository before production. A separate API does not resolve the Pages ecommerce restriction. [Official GitHub Pages usage rules](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
 
-GitHub Pages serves static frontend files. Live AI, payment creation/webhooks, inventory holds, private customer information and seller operations require separately secured APIs/services; keep all secret keys on that backend. A production framework must export a static frontend for Pages, or its server responsibilities must move behind those APIs. Reconcile this requirement with the earlier proposed Next.js/server stack before implementing production. [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+Preserve the prototype with the `prototype-v0.1.0` Git tag before replacing it. The full production build still follows Dave/Felix's prototype review; publication of a demo does not authorize real commerce. The production hosting choice and public domain remain open; no hosting purchase or extra deployment is authorized by this document.
+
+GitHub Pages serves static files and cannot run our privileged server operations. Live AI, payment creation/webhooks, inventory holds, private customer information and seller operations require secured backend services; keep all secret keys there. Reconcile the final hosting choice with the earlier proposed Next.js/server stack before implementing production. [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 ## Prototype boundaries and prior hosting attempt
 

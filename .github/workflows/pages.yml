@@ -3,6 +3,14 @@ name: Check and publish website
 on:
   push:
     branches: [main]
+    paths:
+      - 'dist/**'
+      - 'tools/**'
+      - 'tests/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'playwright.config.js'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
