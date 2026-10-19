@@ -1,0 +1,8 @@
+node_modules/
+.sites-runtime/
+source-assets/
+test-results/
+playwright-report/
+*.tar.gz
+.env*
+.DS_Store

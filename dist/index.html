@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Southwest Art — a Taos-first design prototype for discovering art, meeting its makers and planning a thoughtful visit.">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#f6f2eb">
+<title>Southwest Art — A place for art. A reason to stay.</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="assets/gallery-hero.webp">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="preview-bar"><span>A FIRST LOOK AT SOMETHING GOOD.</span><button id="preview-info">Design prototype <span aria-hidden="true">↗</span></button></div>
+<header class="site-header">
+<a class="wordmark" href="#/" aria-label="Southwest Art home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 33h36M10 26a14 14 0 0128 0"/><circle cx="24" cy="23" r="3"/></svg><span>SOUTHWEST <i>ART</i></span></a>
+<nav class="desktop-nav" aria-label="Main navigation"><a href="#/art" data-nav="art">Art & artists</a><a href="#/galleries" data-nav="galleries">Galleries</a><a href="#/experiences" data-nav="experiences">Experiences</a><a href="#/eat-stay" data-nav="eat-stay">Eat & stay</a></nav>
+<div class="header-actions"><button class="region-button" id="region-button">Taos region <span aria-hidden="true">⌄</span></button><a class="plan-link" href="#/plan" aria-label="Open your saved plan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"/></svg><span class="plan-label">Your plan</span><span id="plan-count">0</span></a><button class="menu-button" id="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+</header>
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#/art">Art & artists</a><a href="#/galleries">Galleries</a><a href="#/experiences">Experiences</a><a href="#/eat-stay">Eat & stay</a><a href="#/plan">Your plan</a><a href="#/about">Our purpose</a></nav>
+<main id="main" tabindex="-1"><div class="loading"><span class="eyebrow">SOUTHWEST ART</span><p>A closer look at Taos.</p></div></main>
+<footer class="site-footer"><div class="footer-top"><a href="#/" class="footer-brand">Southwest Art</a><p>Good art. Real connection.<br>A place worth knowing.</p><div><a href="#/about">Our purpose ↗</a><a href="#/how-to-buy">How collecting works ↗</a><button data-action="preview-info">About this prototype ↗</button></div></div><div class="footer-bottom"><span>TAOS, NEW MEXICO · WORKING BRAND · 2026</span><span>For Dave Paul & Felix Kay · Project day one: November 1, 2026</span></div><p class="prototype-note">Design prototype. Demo work and prices are illustrative, not for sale. Real artist and venue records are research previews; participation is not implied. Concierge and checkout are simulated. Generated images do not depict the named artists’ work or actual venues.</p></footer>
+<button class="concierge-launch" id="concierge-launch"><span class="assistant-symbol" aria-hidden="true">✳</span> Ask Southwest Art <span aria-hidden="true">↗</span></button>
+<aside id="concierge" class="concierge" aria-label="Southwest Art concierge preview" aria-modal="true" role="dialog" hidden><div class="chat-head"><div><span class="eyebrow">A LITTLE LOCAL KNOWLEDGE</span><h2>Your Southwest Art guide</h2></div><button class="icon-button" id="chat-close" aria-label="Close concierge">×</button></div><p class="chat-disclosure">Concierge preview · Simulated assistance using prototype records.</p><div id="chat-messages" class="chat-messages" aria-live="polite"></div><div id="chat-prompts" class="chat-prompts"></div><form id="chat-form" class="chat-form"><label for="chat-input" class="sr-only">Ask Southwest Art</label><input id="chat-input" placeholder="What would you like to discover?" maxlength="500" autocomplete="off"><button aria-label="Send question">↑</button></form></aside>
+<dialog id="modal" class="modal"><button class="icon-button modal-close" id="modal-close" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="app.js"></script>
+</body></html>
