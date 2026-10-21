@@ -1,6 +1,6 @@
 # Southwest Art — Taos design prototype
 
-An original, responsive design prototype for **Dave Paul and Felix Kay**. The purpose is to help artists sell work so they can continue living in Taos, with collector confidence, excellent presentation and a welcoming visit experience.
+An original, responsive Southwest Art design prototype, presented without personal project attribution. The purpose is to help artists sell work so they can continue living in Taos, with collector confidence, excellent presentation and a welcoming visit experience.
 
 **Prototype address:** https://suede0619.github.io/sw-arts-website/
 
@@ -53,6 +53,6 @@ Browser tests use local Google Chrome on macOS when available. Else install Play
 
 The specification and alignment live in the separate [taosarts document repository](https://github.com/Suede0619/taosarts), particularly `PROJECT-BASELINE.md` and `website-spec/`. Source data is copied intentionally; update it from reconciled records rather than scraping directly into publishable offers.
 
-Dave selected **GitHub Pages**, with source and publishing configuration in this repository. `.github/workflows/pages.yml` validates and deploys only `dist/` on pushes to `main`; the public preview requires no account. Assets and hash routes support the `/sw-arts-website/` project path. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment, rollback and the later production transition. The unused Sites registration was never published and is not a deployment destination.
+The prototype uses **GitHub Pages**, with source and publishing configuration in this repository. `.github/workflows/pages.yml` validates and deploys only `dist/` on pushes to `main`; the public preview requires no account. Assets and hash routes support the `/sw-arts-website/` project path. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment, rollback and the later production transition. The unused Sites registration was never published and is not a deployment destination.
 
 Review this prototype before authorizing a production build or real seller/customer operations.
