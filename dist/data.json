@@ -2,9 +2,9 @@
   "artists": [
     {
       "artist": "Larry Bell",
-      "curatorial_rationale": "International Light and Space recognition; a strong anchor for serious contemporary collectors. Taos studio/artist identity is linked from his own site.",
+      "curatorial_rationale": "Light and Space artist whose own site identifies a Taos studio.",
       "context_source_url": "https://larrybell.com/",
-      "sourcing_limitations": "Prices and sale availability are not published for the six selected 2023–24 gallery records. These are inquiry leads, not confirmed stock. Newer public installations are not sale inventory.",
+      "sourcing_limitations": "Prices and sale availability are not published for the six selected 2023–24 gallery records. These inquiry leads need stock confirmation. Newer public installations are not sale inventory.",
       "status": "proposed_not_onboarded",
       "id": "artist-1",
       "works": [
@@ -29,7 +29,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-larry-bell-01",
-          "notes": "Price and current sale availability not published/confirmed; installation dimensions variable for Mill Valley Study."
+          "notes": "Price and current sale availability not published/confirmed. Installation dimensions variable for Mill Valley Study."
         },
         {
           "work_id": "larry-bell-02",
@@ -52,7 +52,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-larry-bell-02",
-          "notes": "Price and current sale availability not published/confirmed; installation dimensions variable for Mill Valley Study."
+          "notes": "Price and current sale availability not published/confirmed. Installation dimensions variable for Mill Valley Study."
         },
         {
           "work_id": "larry-bell-03",
@@ -75,7 +75,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-larry-bell-03",
-          "notes": "Price and current sale availability not published/confirmed; installation dimensions variable for Mill Valley Study."
+          "notes": "Price and current sale availability not published/confirmed. Installation dimensions variable for Mill Valley Study."
         },
         {
           "work_id": "larry-bell-04",
@@ -98,7 +98,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-larry-bell-04",
-          "notes": "Price and current sale availability not published/confirmed; installation dimensions variable for Mill Valley Study."
+          "notes": "Price and current sale availability not published/confirmed. Installation dimensions variable for Mill Valley Study."
         },
         {
           "work_id": "larry-bell-05",
@@ -121,7 +121,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-larry-bell-05",
-          "notes": "Price and current sale availability not published/confirmed; installation dimensions variable for Mill Valley Study."
+          "notes": "Price and current sale availability not published/confirmed. Installation dimensions variable for Mill Valley Study."
         },
         {
           "work_id": "larry-bell-06",
@@ -144,15 +144,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-larry-bell-06",
-          "notes": "Price and current sale availability not published/confirmed; installation dimensions variable for Mill Valley Study."
+          "notes": "Price and current sale availability not published/confirmed. Installation dimensions variable for Mill Valley Study."
         }
       ]
     },
     {
       "artist": "Ron Cooper",
-      "curatorial_rationale": "Taos-associated Light and Space artist, born 1943; institutional context is supported by a LACMA collection record.",
+      "curatorial_rationale": "Taos-associated Light and Space artist, born 1943. LACMA lists his work in its collection.",
       "context_source_url": "https://collections.lacma.org/object/27434",
-      "sourcing_limitations": "Recent 2026/2025 gallery-published works are preferable to importing museum objects or sold works. Charlotte Jackson is in Santa Fe; it is a source/seller, not a Taos gallery target. Do not confuse Cooper with the photographer of the same name.",
+      "sourcing_limitations": "Recent 2026/2025 gallery-published works are preferable to importing museum objects or sold works. Charlotte Jackson is in Santa Fe. Use it as a source and seller. The Taos gallery target list excludes it. Do not confuse Cooper with the photographer of the same name.",
       "status": "proposed_not_onboarded",
       "id": "artist-2",
       "works": [
@@ -166,7 +166,7 @@
           "edition_details": "",
           "dimensions_as_published": "48 x 3.625 x 3.625",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "inquiry_listing",
@@ -177,7 +177,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ron-cooper-01",
-          "notes": "Price by inquiry; listing is not a seller-confirmed sale authorization."
+          "notes": "Price by inquiry. Listing is not a seller-confirmed sale authorization."
         },
         {
           "work_id": "ron-cooper-02",
@@ -189,7 +189,7 @@
           "edition_details": "",
           "dimensions_as_published": "48 x 3.625 x 3.625",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "inquiry_listing",
@@ -200,7 +200,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ron-cooper-02",
-          "notes": "Price by inquiry; listing is not a seller-confirmed sale authorization."
+          "notes": "Price by inquiry. Listing is not a seller-confirmed sale authorization."
         },
         {
           "work_id": "ron-cooper-03",
@@ -212,7 +212,7 @@
           "edition_details": "",
           "dimensions_as_published": "48 x 3.375 x 3.375",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "inquiry_listing",
@@ -223,7 +223,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ron-cooper-03",
-          "notes": "Price by inquiry; listing is not a seller-confirmed sale authorization."
+          "notes": "Price by inquiry. Listing is not a seller-confirmed sale authorization."
         },
         {
           "work_id": "ron-cooper-04",
@@ -235,7 +235,7 @@
           "edition_details": "",
           "dimensions_as_published": "48 x 3.375 x 3.375",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "inquiry_listing",
@@ -246,7 +246,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ron-cooper-04",
-          "notes": "Price by inquiry; listing is not a seller-confirmed sale authorization."
+          "notes": "Price by inquiry. Listing is not a seller-confirmed sale authorization."
         },
         {
           "work_id": "ron-cooper-05",
@@ -258,7 +258,7 @@
           "edition_details": "",
           "dimensions_as_published": "48 x 3 1/2 x 3 1/2",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "inquiry_listing",
@@ -269,7 +269,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ron-cooper-05",
-          "notes": "Published gallery work; current availability and price require confirmation."
+          "notes": "Published gallery work. Current availability and price require confirmation."
         },
         {
           "work_id": "ron-cooper-06",
@@ -281,7 +281,7 @@
           "edition_details": "",
           "dimensions_as_published": "24 x 3.625 x 3.625",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "inquiry_listing",
@@ -292,15 +292,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ron-cooper-06",
-          "notes": "Published gallery work; current availability and price require confirmation."
+          "notes": "Published gallery work. Current availability and price require confirmation."
         }
       ]
     },
     {
       "artist": "Kevin Macpherson",
-      "curatorial_rationale": "Recognized painter/teacher with an artist-operated Taos studio and an active published portfolio.",
+      "curatorial_rationale": "Painter and teacher with an artist-operated Taos studio and a published portfolio.",
       "context_source_url": "https://www.kevinmacpherson.com/",
-      "sourcing_limitations": "Six records are marked Available on his own site; only At Peace displays a price in these selected records. Winter Pastures routes to a San Antonio gallery. Older exhibition text does not make creation dates current.",
+      "sourcing_limitations": "His own site labels six records Available. Only At Peace displays a price in these selected records. Winter Pastures routes to a San Antonio gallery. Older exhibition text does not make creation dates current.",
       "status": "proposed_not_onboarded",
       "id": "artist-3",
       "works": [
@@ -314,7 +314,7 @@
           "edition_details": "",
           "dimensions_as_published": "30 x 24",
           "dimension_unit": "",
-          "dimension_basis": "source order; unit to confirm",
+          "dimension_basis": "source order. Unit to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -325,7 +325,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-kevin-macpherson-01",
-          "notes": "Artist site says Available. Creation year unknown; exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
+          "notes": "Artist site says Available. Creation year unknown. Exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
         },
         {
           "work_id": "kevin-macpherson-02",
@@ -337,7 +337,7 @@
           "edition_details": "",
           "dimensions_as_published": "11 x 14",
           "dimension_unit": "",
-          "dimension_basis": "source order; unit to confirm",
+          "dimension_basis": "source order. Unit to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -348,7 +348,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-kevin-macpherson-02",
-          "notes": "Artist site says Available. Creation year unknown; exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
+          "notes": "Artist site says Available. Creation year unknown. Exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
         },
         {
           "work_id": "kevin-macpherson-03",
@@ -360,7 +360,7 @@
           "edition_details": "",
           "dimensions_as_published": "21 x 20",
           "dimension_unit": "",
-          "dimension_basis": "source order; unit to confirm",
+          "dimension_basis": "source order. Unit to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -371,7 +371,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-kevin-macpherson-03",
-          "notes": "Artist site says Available. Creation year unknown; exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
+          "notes": "Artist site says Available. Creation year unknown. Exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
         },
         {
           "work_id": "kevin-macpherson-04",
@@ -383,7 +383,7 @@
           "edition_details": "",
           "dimensions_as_published": "20 x 20",
           "dimension_unit": "",
-          "dimension_basis": "source order; unit to confirm",
+          "dimension_basis": "source order. Unit to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -394,7 +394,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-kevin-macpherson-04",
-          "notes": "Artist site says Available. Creation year unknown; exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
+          "notes": "Artist site says Available. Creation year unknown. Exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
         },
         {
           "work_id": "kevin-macpherson-05",
@@ -417,7 +417,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-kevin-macpherson-05",
-          "notes": "Artist site says Available. Creation year unknown; exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
+          "notes": "Artist site says Available. Creation year unknown. Exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
         },
         {
           "work_id": "kevin-macpherson-06",
@@ -429,7 +429,7 @@
           "edition_details": "",
           "dimensions_as_published": "40 x 30",
           "dimension_unit": "",
-          "dimension_basis": "source order; unit to confirm",
+          "dimension_basis": "source order. Unit to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -440,15 +440,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-kevin-macpherson-06",
-          "notes": "Artist site says Available. Creation year unknown; exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
+          "notes": "Artist site says Available. Creation year unknown. Exhibition/demo text is not treated as artwork year. Units to confirm except At Peace, which explicitly uses inch marks."
         }
       ]
     },
     {
       "artist": "Walt Gonske",
-      "curatorial_rationale": "Long-established Taos painter; a substantial price-led painting selection gives the collector journey practical depth.",
+      "curatorial_rationale": "Taos painter with priced work listed by the source gallery.",
       "context_source_url": "https://waltgonske.com/index.html",
-      "sourcing_limitations": "The six highest priced results in the retrieved Chimayo price-descending category are $15,000–$18,500 and each individual page says one in stock. This establishes a published asking-price order at this seller, not the artist’s entire market or recent creation dates. Upper Ranchitos and Lower Ranchitos Fall are now sold and were excluded.",
+      "sourcing_limitations": "The six highest priced results in the retrieved Chimayo price-descending category are $15,000–$18,500 and each individual page says one in stock. This ranks published asking prices at that seller. Other sellers’ prices and creation dates remain unknown. The selection excludes Upper Ranchitos and Lower Ranchitos Fall because their pages report sold status.",
       "status": "proposed_not_onboarded",
       "id": "artist-4",
       "works": [
@@ -473,7 +473,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-walt-gonske-01",
-          "notes": "Published 1 in stock; artwork year unknown. Framed dimensions 44 x 40 inches. Seller representation/resale and artist proceeds must be confirmed."
+          "notes": "Published 1 in stock. Artwork year unknown. Framed dimensions 44 x 40 inches. Seller representation/resale and artist proceeds must be confirmed."
         },
         {
           "work_id": "walt-gonske-02",
@@ -496,7 +496,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-walt-gonske-02",
-          "notes": "Published 1 in stock; artwork year unknown. Framed dimensions 37.5 x 41.5 inches. Seller representation/resale and artist proceeds must be confirmed."
+          "notes": "Published 1 in stock. Artwork year unknown. Framed dimensions 37.5 x 41.5 inches. Seller representation/resale and artist proceeds must be confirmed."
         },
         {
           "work_id": "walt-gonske-03",
@@ -519,7 +519,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-walt-gonske-03",
-          "notes": "Published 1 in stock; artwork year unknown. Framed dimensions 41 x 45 inches. Seller representation/resale and artist proceeds must be confirmed."
+          "notes": "Published 1 in stock. Artwork year unknown. Framed dimensions 41 x 45 inches. Seller representation/resale and artist proceeds must be confirmed."
         },
         {
           "work_id": "walt-gonske-04",
@@ -542,7 +542,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-walt-gonske-04",
-          "notes": "Published 1 in stock; artwork year unknown. Framed dimensions 36 x 40 inches. Seller representation/resale and artist proceeds must be confirmed."
+          "notes": "Published 1 in stock. Artwork year unknown. Framed dimensions 36 x 40 inches. Seller representation/resale and artist proceeds must be confirmed."
         },
         {
           "work_id": "walt-gonske-05",
@@ -565,7 +565,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-walt-gonske-05",
-          "notes": "Published 1 in stock; artwork year unknown. Framed dimensions 33.5 x 39.5 inches. Seller representation/resale and artist proceeds must be confirmed."
+          "notes": "Published 1 in stock. Artwork year unknown. Framed dimensions 33.5 x 39.5 inches. Seller representation/resale and artist proceeds must be confirmed."
         },
         {
           "work_id": "walt-gonske-06",
@@ -588,13 +588,13 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-walt-gonske-06",
-          "notes": "Published 1 in stock; artwork year unknown. Framed dimensions 34 x 36 inches. Seller representation/resale and artist proceeds must be confirmed."
+          "notes": "Published 1 in stock. Artwork year unknown. Framed dimensions 34 x 36 inches. Seller representation/resale and artist proceeds must be confirmed."
         }
       ]
     },
     {
       "artist": "Thom (Tex) Wheeler",
-      "curatorial_rationale": "Taos studio artist whose metalwork, mirrors and paintings add material variety and direct-studio possibilities.",
+      "curatorial_rationale": "Taos studio artist working in metal, mirrors and painting.",
       "context_source_url": "https://www.thomwheeler.com/",
       "sourcing_limitations": "Six highest-priced individually identified works selected from the public Current Works gallery. The two Chief works share one photograph and each has its own $4,200 price. Units, years and live stock need confirmation.",
       "status": "proposed_not_onboarded",
@@ -610,7 +610,7 @@
           "edition_details": "",
           "dimensions_as_published": "46 x 25",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "6800",
           "currency": "USD",
           "source_availability": "current_works_catalog",
@@ -621,7 +621,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-thom-tex-wheeler-01",
-          "notes": "Current Works caption; unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph; each has its own published price."
+          "notes": "Current Works caption. Unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph. Each has its own published price."
         },
         {
           "work_id": "thom-tex-wheeler-02",
@@ -633,7 +633,7 @@
           "edition_details": "",
           "dimensions_as_published": "37 x 60",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "6800",
           "currency": "USD",
           "source_availability": "current_works_catalog",
@@ -644,7 +644,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-thom-tex-wheeler-02",
-          "notes": "Current Works caption; unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph; each has its own published price."
+          "notes": "Current Works caption. Unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph. Each has its own published price."
         },
         {
           "work_id": "thom-tex-wheeler-03",
@@ -656,7 +656,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 24",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "4200",
           "currency": "USD",
           "source_availability": "current_works_catalog",
@@ -667,7 +667,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-thom-tex-wheeler-03",
-          "notes": "Current Works caption; unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph; each has its own published price."
+          "notes": "Current Works caption. Unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph. Each has its own published price."
         },
         {
           "work_id": "thom-tex-wheeler-04",
@@ -679,7 +679,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 24",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "4200",
           "currency": "USD",
           "source_availability": "current_works_catalog",
@@ -690,7 +690,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-thom-tex-wheeler-04",
-          "notes": "Current Works caption; unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph; each has its own published price."
+          "notes": "Current Works caption. Unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph. Each has its own published price."
         },
         {
           "work_id": "thom-tex-wheeler-05",
@@ -702,7 +702,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 22",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "4200",
           "currency": "USD",
           "source_availability": "current_works_catalog",
@@ -713,7 +713,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-thom-tex-wheeler-05",
-          "notes": "Current Works caption; unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph; each has its own published price."
+          "notes": "Current Works caption. Unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph. Each has its own published price."
         },
         {
           "work_id": "thom-tex-wheeler-06",
@@ -725,7 +725,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 60",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "4200",
           "currency": "USD",
           "source_availability": "current_works_catalog",
@@ -736,15 +736,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-thom-tex-wheeler-06",
-          "notes": "Current Works caption; unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph; each has its own published price."
+          "notes": "Current Works caption. Unit, creation year and live availability to confirm. Snake Chief and Buffalo Chief share one photograph. Each has its own published price."
         }
       ]
     },
     {
       "artist": "Miguel Martinez",
-      "curatorial_rationale": "Taos painter with a distinctive figurative practice and an artist-operated current portfolio.",
+      "curatorial_rationale": "Taos painter with a figurative practice and an artist-operated portfolio.",
       "context_source_url": "https://www.miguelmartinezfineart.com/about",
-      "sourcing_limitations": "The six original-work pages conflict with the By Request index: $0 placeholders and out-of-stock text. Keep all six as unavailable-to-checkout research leads. Request prices/current inventory rather than treating the placeholder as a free sale.",
+      "sourcing_limitations": "The six original-work pages conflict with the By Request index: $0 display fields without valid sale prices and out-of-stock text. Keep all six as unavailable-to-checkout research leads. Ask the seller for actual prices and current stock.",
       "status": "proposed_not_onboarded",
       "id": "artist-6",
       "works": [
@@ -758,7 +758,7 @@
           "edition_details": "",
           "dimensions_as_published": "30 x 40",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "by_request_source_conflict",
@@ -769,7 +769,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-miguel-martinez-01",
-          "notes": "Exclusive Pieces index says By Request; product shows $0 placeholder and out of stock. Availability and price unresolved; no buy action."
+          "notes": "Exclusive Pieces index says By Request. Product shows $0 placeholder and out of stock. Availability and price unresolved. No buy action."
         },
         {
           "work_id": "miguel-martinez-02",
@@ -781,7 +781,7 @@
           "edition_details": "",
           "dimensions_as_published": "46 x 36",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "by_request_source_conflict",
@@ -792,7 +792,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-miguel-martinez-02",
-          "notes": "Exclusive Pieces index says By Request; product shows $0 placeholder and out of stock. Availability and price unresolved; no buy action."
+          "notes": "Exclusive Pieces index says By Request. Product shows $0 placeholder and out of stock. Availability and price unresolved. No buy action."
         },
         {
           "work_id": "miguel-martinez-03",
@@ -804,7 +804,7 @@
           "edition_details": "",
           "dimensions_as_published": "42 1/2 x 67 1/2",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "by_request_source_conflict",
@@ -815,7 +815,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-miguel-martinez-03",
-          "notes": "Exclusive Pieces index says By Request; product shows $0 placeholder and out of stock. Availability and price unresolved; no buy action."
+          "notes": "Exclusive Pieces index says By Request. Product shows $0 placeholder and out of stock. Availability and price unresolved. No buy action."
         },
         {
           "work_id": "miguel-martinez-04",
@@ -827,7 +827,7 @@
           "edition_details": "",
           "dimensions_as_published": "50 x 60",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "by_request_source_conflict",
@@ -838,7 +838,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-miguel-martinez-04",
-          "notes": "Exclusive Pieces index says By Request; product shows $0 placeholder and out of stock. Availability and price unresolved; no buy action."
+          "notes": "Exclusive Pieces index says By Request. Product shows $0 placeholder and out of stock. Availability and price unresolved. No buy action."
         },
         {
           "work_id": "miguel-martinez-05",
@@ -850,7 +850,7 @@
           "edition_details": "",
           "dimensions_as_published": "64 x 42",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "by_request_source_conflict",
@@ -861,7 +861,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-miguel-martinez-05",
-          "notes": "Exclusive Pieces index says By Request; product shows $0 placeholder and out of stock. Availability and price unresolved; no buy action."
+          "notes": "Exclusive Pieces index says By Request. Product shows $0 placeholder and out of stock. Availability and price unresolved. No buy action."
         },
         {
           "work_id": "miguel-martinez-06",
@@ -873,7 +873,7 @@
           "edition_details": "",
           "dimensions_as_published": "64 x 42",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "by_request_source_conflict",
@@ -884,15 +884,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-miguel-martinez-06",
-          "notes": "Exclusive Pieces index says By Request; product shows $0 placeholder and out of stock. Availability and price unresolved; no buy action."
+          "notes": "Exclusive Pieces index says By Request. Product shows $0 placeholder and out of stock. Availability and price unresolved. No buy action."
         }
       ]
     },
     {
       "artist": "Ed Sandoval",
-      "curatorial_rationale": "Taos landscape painter and locally recognizable gallery presence, adding a different visual language and collector entry.",
+      "curatorial_rationale": "Taos landscape painter with a local gallery.",
       "context_source_url": "https://www.edsandovalgallery.com/",
-      "sourcing_limitations": "Six larger-format available originals selected from his own page. Price and artwork year are unpublished; size is not proof of price. A work on hold was excluded. Preserve title spelling until the artist approves corrections.",
+      "sourcing_limitations": "Six larger-format available originals selected from his own page. The sources publish neither price nor artwork year. Size is not proof of price. The selection excludes a work on hold. Preserve title spelling until the artist approves corrections.",
       "status": "proposed_not_onboarded",
       "id": "artist-7",
       "works": [
@@ -906,7 +906,7 @@
           "edition_details": "",
           "dimensions_as_published": "48 x 48",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -917,7 +917,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ed-sandoval-01",
-          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source; confirm title for Homage to Modilgiani."
+          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source. Confirm title for Homage to Modilgiani."
         },
         {
           "work_id": "ed-sandoval-02",
@@ -929,7 +929,7 @@
           "edition_details": "",
           "dimensions_as_published": "46 x 56",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -940,7 +940,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ed-sandoval-02",
-          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source; confirm title for Homage to Modilgiani."
+          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source. Confirm title for Homage to Modilgiani."
         },
         {
           "work_id": "ed-sandoval-03",
@@ -952,7 +952,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 48",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -963,7 +963,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ed-sandoval-03",
-          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source; confirm title for Homage to Modilgiani."
+          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source. Confirm title for Homage to Modilgiani."
         },
         {
           "work_id": "ed-sandoval-04",
@@ -975,7 +975,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 48",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -986,7 +986,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ed-sandoval-04",
-          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source; confirm title for Homage to Modilgiani."
+          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source. Confirm title for Homage to Modilgiani."
         },
         {
           "work_id": "ed-sandoval-05",
@@ -998,7 +998,7 @@
           "edition_details": "",
           "dimensions_as_published": "36 x 48",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -1009,7 +1009,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ed-sandoval-05",
-          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source; confirm title for Homage to Modilgiani."
+          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source. Confirm title for Homage to Modilgiani."
         },
         {
           "work_id": "ed-sandoval-06",
@@ -1021,7 +1021,7 @@
           "edition_details": "",
           "dimensions_as_published": "30 x 40",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "",
           "currency": "USD",
           "source_availability": "publisher_available",
@@ -1032,15 +1032,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-ed-sandoval-06",
-          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source; confirm title for Homage to Modilgiani."
+          "notes": "Artist available-original-oil page. Price, art year and unit unpublished. Title spelling preserved from source. Confirm title for Homage to Modilgiani."
         }
       ]
     },
     {
       "artist": "Angie Coleman",
-      "curatorial_rationale": "Taos printmaker whose woodblock work broadens price access and demonstrates a genuine original-print path.",
+      "curatorial_rationale": "Taos printmaker working in woodblock prints. Record original editions and reproductions separately.",
       "context_source_url": "https://www.angiecolemanfinearts.com/",
-      "sourcing_limitations": "Five priced 2026 works plus Snowy Mountains (2025) were not marked sold in retrieved records. Three Forks Conejos and Hay Bales and Clouds were sold out/$0 and excluded. Confirm edition size, paper/image dimensions and units.",
+      "sourcing_limitations": "Five priced 2026 works plus Snowy Mountains (2025) were not marked sold in retrieved records. The selection excludes Three Forks Conejos and Hay Bales and Clouds because their pages show sold-out status and $0. Confirm edition size, paper/image dimensions and units.",
       "status": "proposed_not_onboarded",
       "id": "artist-8",
       "works": [
@@ -1054,7 +1054,7 @@
           "edition_details": "",
           "dimensions_as_published": "12 x 16",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "385",
           "currency": "USD",
           "source_availability": "publisher_priced_not_marked_sold",
@@ -1065,7 +1065,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-angie-coleman-01",
-          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026; preserve original source for reconciliation."
+          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026. Preserve original source for reconciliation."
         },
         {
           "work_id": "angie-coleman-02",
@@ -1077,7 +1077,7 @@
           "edition_details": "",
           "dimensions_as_published": "12 x 16",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "385",
           "currency": "USD",
           "source_availability": "publisher_priced_not_marked_sold",
@@ -1088,7 +1088,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-angie-coleman-02",
-          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026; preserve original source for reconciliation."
+          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026. Preserve original source for reconciliation."
         },
         {
           "work_id": "angie-coleman-03",
@@ -1100,7 +1100,7 @@
           "edition_details": "",
           "dimensions_as_published": "12 x 12",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "275",
           "currency": "USD",
           "source_availability": "publisher_priced_not_marked_sold",
@@ -1111,7 +1111,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-angie-coleman-03",
-          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026; preserve original source for reconciliation."
+          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026. Preserve original source for reconciliation."
         },
         {
           "work_id": "angie-coleman-04",
@@ -1123,7 +1123,7 @@
           "edition_details": "",
           "dimensions_as_published": "9 x 12",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "250",
           "currency": "USD",
           "source_availability": "publisher_priced_not_marked_sold",
@@ -1134,7 +1134,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-angie-coleman-04",
-          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026; preserve original source for reconciliation."
+          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026. Preserve original source for reconciliation."
         },
         {
           "work_id": "angie-coleman-05",
@@ -1146,7 +1146,7 @@
           "edition_details": "",
           "dimensions_as_published": "9 x 12",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "250",
           "currency": "USD",
           "source_availability": "publisher_priced_not_marked_sold",
@@ -1157,7 +1157,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-angie-coleman-05",
-          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026; preserve original source for reconciliation."
+          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026. Preserve original source for reconciliation."
         },
         {
           "work_id": "angie-coleman-06",
@@ -1169,7 +1169,7 @@
           "edition_details": "",
           "dimensions_as_published": "5 x 7",
           "dimension_unit": "",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "150",
           "currency": "USD",
           "source_availability": "publisher_priced_not_marked_sold",
@@ -1180,15 +1180,15 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-angie-coleman-06",
-          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026; preserve original source for reconciliation."
+          "notes": "Units and edition details require confirmation. Village Road source appends oc to 2026. Preserve original source for reconciliation."
         }
       ]
     },
     {
       "artist": "Jonathan Warm Day Coming",
-      "curatorial_rationale": "Taos Pueblo artist; his own shop provides originals, objects, an original print edition and clearly separable reproductions.",
+      "curatorial_rationale": "Taos Pueblo artist. His own shop provides originals, objects, an original print edition and clearly separable reproductions.",
       "context_source_url": "https://jwarmdaycomingart.com/",
-      "sourcing_limitations": "Select the highest-priced available variant of six available products, not six original paintings. The three painting originals behind the reproduction listings are explicitly sold. Beaded Shirt is an embossed-paper edition, #4/25; Magpie Vase is acrylic on pottery. Artist approval is required for identity and cultural/process interpretation.",
+      "sourcing_limitations": "Select the highest-priced available variant of each of six products. Record editions and reproductions accurately. The three painting originals behind the reproduction listings are explicitly sold. Beaded Shirt is an embossed-paper edition, #4/25. Magpie Vase is acrylic on pottery. Obtain the artist’s approval for identity, cultural context and process interpretation.",
       "status": "proposed_not_onboarded",
       "id": "artist-9",
       "works": [
@@ -1334,9 +1334,9 @@
     },
     {
       "artist": "Sherrie McGraw",
-      "curatorial_rationale": "Nationally recognized figurative/still-life painter with a documented Taos connection; seller biographies and her long-term collaborator’s account provide context.",
+      "curatorial_rationale": "Figurative and still-life painter with a documented Taos connection. Seller biographies and a long-term collaborator provide context.",
       "context_source_url": "https://davidleffel.com/bio/",
-      "sourcing_limitations": "Three Hindes listings and three ArtzLine listings provide six primary-seller work records. ArtzLine’s resale/artist-proceeds relationship is unknown and Larkspur has a 1998 exhibition history. This is a sourcing fallback, not a claim of six recent direct-artist works. The higher-priced Architecture & Peonies marketplace lead could not be reliably retrieved and is excluded.",
+      "sourcing_limitations": "Three Hindes listings and three ArtzLine listings provide six primary-seller work records. ArtzLine’s resale/artist-proceeds relationship is unknown and Larkspur has a 1998 exhibition history. This sourcing fallback supplies no proof of six recent direct-artist works. The review could not retrieve the higher-priced Architecture & Peonies lead reliably, so the selection excludes it.",
       "status": "proposed_not_onboarded",
       "id": "artist-10",
       "works": [
@@ -1350,7 +1350,7 @@
           "edition_details": "",
           "dimensions_as_published": "14 x 17",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "7500",
           "currency": "USD",
           "source_availability": "publisher_priced_inquiry",
@@ -1361,7 +1361,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-sherrie-mcgraw-01",
-          "notes": "Seller lists a price and invites inquiry; current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading; visible page title and image confirm Maria. ArtzLine may be resale."
+          "notes": "Seller lists a price and invites inquiry. Current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading. Visible page title and image confirm Maria. ArtzLine may be resale."
         },
         {
           "work_id": "sherrie-mcgraw-02",
@@ -1373,7 +1373,7 @@
           "edition_details": "",
           "dimensions_as_published": "11 x 14",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "7500",
           "currency": "USD",
           "source_availability": "publisher_priced_inquiry",
@@ -1384,7 +1384,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-sherrie-mcgraw-02",
-          "notes": "Seller lists a price and invites inquiry; current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading; visible page title and image confirm Maria. ArtzLine may be resale."
+          "notes": "Seller lists a price and invites inquiry. Current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading. Visible page title and image confirm Maria. ArtzLine may be resale."
         },
         {
           "work_id": "sherrie-mcgraw-03",
@@ -1396,7 +1396,7 @@
           "edition_details": "",
           "dimensions_as_published": "12 x 16",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "3500",
           "currency": "USD",
           "source_availability": "publisher_priced_inquiry",
@@ -1407,7 +1407,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-sherrie-mcgraw-03",
-          "notes": "Seller lists a price and invites inquiry; current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading; visible page title and image confirm Maria. ArtzLine may be resale."
+          "notes": "Seller lists a price and invites inquiry. Current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading. Visible page title and image confirm Maria. ArtzLine may be resale."
         },
         {
           "work_id": "sherrie-mcgraw-04",
@@ -1419,7 +1419,7 @@
           "edition_details": "",
           "dimensions_as_published": "14 x 18",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "3500",
           "currency": "USD",
           "source_availability": "publisher_priced_inquiry",
@@ -1430,7 +1430,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-sherrie-mcgraw-04",
-          "notes": "Seller lists a price and invites inquiry; current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading; visible page title and image confirm Maria. ArtzLine may be resale."
+          "notes": "Seller lists a price and invites inquiry. Current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading. Visible page title and image confirm Maria. ArtzLine may be resale."
         },
         {
           "work_id": "sherrie-mcgraw-05",
@@ -1442,7 +1442,7 @@
           "edition_details": "",
           "dimensions_as_published": "14 x 18",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "3500",
           "currency": "USD",
           "source_availability": "publisher_priced_inquiry",
@@ -1453,7 +1453,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-sherrie-mcgraw-05",
-          "notes": "Seller lists a price and invites inquiry; current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading; visible page title and image confirm Maria. ArtzLine may be resale."
+          "notes": "Seller lists a price and invites inquiry. Current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading. Visible page title and image confirm Maria. ArtzLine may be resale."
         },
         {
           "work_id": "sherrie-mcgraw-06",
@@ -1465,7 +1465,7 @@
           "edition_details": "",
           "dimensions_as_published": "12 1/2 x 11",
           "dimension_unit": "in",
-          "dimension_basis": "as printed; order to confirm",
+          "dimension_basis": "as printed. Order to confirm",
           "price_usd": "2500",
           "currency": "USD",
           "source_availability": "publisher_priced_inquiry",
@@ -1476,7 +1476,7 @@
           "seller_authority": "not_obtained",
           "checkout_eligible": "false",
           "demo_product_id": "DEMO-sherrie-mcgraw-06",
-          "notes": "Seller lists a price and invites inquiry; current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading; visible page title and image confirm Maria. ArtzLine may be resale."
+          "notes": "Seller lists a price and invites inquiry. Current stock/artist proceeds unconfirmed. Larkspur shown in a 1998 exhibition: not recent work. Hindes Maria URL is misleading. Visible page title and image confirm Maria. ArtzLine may be resale."
         }
       ]
     }
@@ -1488,13 +1488,13 @@
       "name": "HOUSE of FIRE",
       "locality": "Taos / Kit Carson Road",
       "source_url": "https://www.instagram.com/houseoffiretaos/",
-      "original_editorial_brief": "Contemporary gallery candidate on Kit Carson Road; program and participation to confirm.",
+      "original_editorial_brief": "Contemporary gallery candidate on Kit Carson Road. Program and participation to confirm.",
       "published_price_basis": "",
       "source_checked_on": "2026-10-19",
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Supplied business contact details. No public catalog retrieved; 2026 festival archive pending."
+      "notes": "Supplied business contact details. No public catalog retrieved. 2026 festival archive pending."
     },
     {
       "place_id": "203-fine-art",
@@ -1508,7 +1508,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Waldrum and Tom Dixon dates Sept 19–Nov 8, 2026; confirm per-work stock and price."
+      "notes": "Waldrum and Tom Dixon dates Sept 19–Nov 8, 2026. Confirm per-work stock and price."
     },
     {
       "place_id": "david-anthony-fine-art",
@@ -1522,7 +1522,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Call ahead; current show/prices not established."
+      "notes": "Call ahead. Current show/prices not established."
     },
     {
       "place_id": "parsons-gallery-group",
@@ -1536,7 +1536,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Count one business/group, not two gallery targets."
+      "notes": "Count this business/group once."
     },
     {
       "place_id": "wilder-nightingale-fine-art",
@@ -1550,7 +1550,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Direct retrieval limited; own-site search snapshot used."
+      "notes": "Direct retrieval limited. Own-site search snapshot used."
     },
     {
       "place_id": "chimayo-trading-del-norte",
@@ -1564,7 +1564,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Individual selected works showed one in stock; confirm representation/proceeds."
+      "notes": "Individual selected works showed one in stock. Confirm representation/proceeds."
     },
     {
       "place_id": "michael-gorman-gallery",
@@ -1592,7 +1592,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Automated access limited; approved object/price/image set needed."
+      "notes": "Automated access limited. Approved object/price/image set needed."
     },
     {
       "place_id": "momo-taos",
@@ -1606,7 +1606,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Keep Santa Fe location separate; current Taos stock unconfirmed."
+      "notes": "Keep Santa Fe location separate. Current Taos stock unconfirmed."
     },
     {
       "place_id": "revolt-gallery",
@@ -1620,7 +1620,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Visible current/upcoming shows ended July/August 2026; actual current program unknown."
+      "notes": "Visible current/upcoming shows ended July/August 2026. Actual current program unknown."
     },
     {
       "place_id": "r-c-gorman-navajo-gallery-taos",
@@ -1634,7 +1634,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Taos local inventory/viewing must be confirmed; not living-artist direct proceeds."
+      "notes": "Taos local inventory/viewing must be confirmed. Not living-artist direct proceeds."
     },
     {
       "place_id": "lake-object",
@@ -1648,7 +1648,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Past exhibitions must not be labeled current; six–eight-week published lead time for example."
+      "notes": "Past exhibitions must not be labeled current. Six–eight-week published lead time for example."
     },
     {
       "place_id": "the-love-apple",
@@ -1662,7 +1662,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Cash only; sample menu undated; phone reservation.",
+      "notes": "Cash only. Sample menu undated. Phone reservation.",
       "type": "Regional cooking",
       "meal": "Dinner",
       "range": "Sample mains $26–38"
@@ -1679,7 +1679,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Separate dining and Treehouse menu/service; reconfirm fees and hours.",
+      "notes": "Separate dining and Treehouse menu/service. Reconfirm fees and hours.",
       "type": "Contemporary dining",
       "meal": "Dinner",
       "range": "Selected mains $31–78"
@@ -1696,7 +1696,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Food PDF filename 101326; card processing/gratuity terms published.",
+      "notes": "Food PDF filename 101326. Card processing/gratuity terms published.",
       "type": "Seasonal American",
       "meal": "Dinner",
       "range": "Selected mains $24–59"
@@ -1708,12 +1708,12 @@
       "locality": "Arroyo Seco",
       "source_url": "https://aceqrestaurant.com/food-drink",
       "original_editorial_brief": "A Seco-based dinner anchor for local and visiting art audiences.",
-      "published_price_basis": "Selected large plates $21–$42; steak/fish market price",
+      "published_price_basis": "Selected large plates $21–$42. Steak/fish market price",
       "source_checked_on": "2026-10-19",
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Spring menu language remains visible; current menu/hours need confirmation.",
+      "notes": "Spring menu language remains visible. Current menu/hours need confirmation.",
       "type": "Modern American",
       "meal": "Dinner",
       "range": "Selected mains $21–42"
@@ -1730,7 +1730,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Card only; 20% service fee; upstairs access must be verified.",
+      "notes": "Card only. 20% service fee. Upstairs access must be verified.",
       "type": "Wine & seasonal plates",
       "meal": "Dinner",
       "range": "Sample plates $17–38"
@@ -1747,7 +1747,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Hotel Willa restaurant is Juliette; menu and OpenTable links found.",
+      "notes": "Hotel Willa restaurant is Juliette. Menu and OpenTable links found.",
       "type": "Seasonal regional",
       "meal": "All day",
       "range": "Dinner examples $32–74"
@@ -1764,7 +1764,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Cashless; opening unresolved after association lists Oct 17 seasonal close.",
+      "notes": "Cashless. Opening unresolved after association lists Oct 17 seasonal close.",
       "type": "Mountain dining",
       "meal": "Seasonal",
       "range": "Check current menu"
@@ -1781,7 +1781,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Own menu/prices not retrieved; reconcile arrival address and current operation.",
+      "notes": "Own menu/prices not retrieved. Reconcile arrival address and current operation.",
       "type": "New Mexican",
       "meal": "Confirm hours",
       "range": "Check current menu"
@@ -1798,11 +1798,11 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No date-specific rate; accessible-room area conflicts in source.",
+      "notes": "No date-specific rate. Accessible-room area conflicts in source.",
       "rooms": [
-        "Premier King Patio · 323 sq ft",
-        "Willa Suite · 600 sq ft",
-        "Adobe House · multiroom options"
+        "Premier King Patio, 323 sq ft",
+        "Willa Suite, 600 sq ft",
+        "Adobe House, multiroom options"
       ],
       "type": "Boutique hotel"
     },
@@ -1818,7 +1818,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No date-specific rate; features vary by room type.",
+      "notes": "No date-specific rate. Features vary by room type.",
       "rooms": [
         "Taos Mountain room",
         "One-bedroom suite",
@@ -1838,7 +1838,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No date-specific rate; destination travel and seasonal offers require dates.",
+      "notes": "No date-specific rate. Destination travel and seasonal offers require dates.",
       "rooms": [
         "King / Queen room",
         "One-bedroom suite",
@@ -1858,9 +1858,9 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No date-specific rate; exact room/access/breakfast terms required.",
+      "notes": "No date-specific rate. Exact room/access/breakfast terms required.",
       "rooms": [
-        "Matriarch Suite · 500 sq ft",
+        "Matriarch Suite, 500 sq ft",
         "Romantic Room",
         "Socialite Suite I / II"
       ],
@@ -1878,11 +1878,11 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No date-specific rate; Studio is a workshop space, not assumed guest accommodation.",
+      "notes": "No date-specific rate. Studio serves workshops. The source establishes no guest accommodation there.",
       "rooms": [
-        "Barred Rock Adobe · two bedrooms",
-        "El Gallo Grande · three bedrooms",
-        "Bantam Roost · one bedroom"
+        "Barred Rock Adobe, two bedrooms",
+        "El Gallo Grande, three bedrooms",
+        "Bantam Roost, one bedroom"
       ],
       "type": "Artisan casitas"
     },
@@ -1898,11 +1898,11 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No date-specific rate; Taos property, not Tucson; published no-pets policy.",
+      "notes": "No date-specific rate. The Taos property. Exclude same-name properties elsewhere. Published no-pets policy.",
       "rooms": [
-        "La Casita · 750 sq ft",
-        "Southwest Villa · 750 sq ft",
-        "Earthship · 600 sq ft"
+        "La Casita, 750 sq ft",
+        "Southwest Villa, 750 sq ft",
+        "Earthship, 600 sq ft"
       ],
       "type": "Adobe inn"
     },
@@ -1918,7 +1918,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Not a live nightly quote; Rainbow/La Madonna/Santiago have distinct ranges.",
+      "notes": "Not a live nightly quote. Rainbow/La Madonna/Santiago have distinct ranges.",
       "rooms": [
         "Rainbow Room",
         "La Madonna",
@@ -1938,7 +1938,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Nightly/occupancy/tax basis to confirm; several fireplaces not usable; retreat blocks possible.",
+      "notes": "Nightly/occupancy/tax basis to confirm. Several fireplaces not usable. Retreat blocks possible.",
       "rooms": [
         "Mabel’s Room",
         "Juniper House rooms",
@@ -1958,7 +1958,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Unexpected cultural/community closures; no agreed referral fee.",
+      "notes": "Unexpected cultural/community closures. No agreed referral fee.",
       "type": "Heritage",
       "duration": "1–2 hours",
       "minutes": 120,
@@ -1983,7 +1983,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Closed Mar 1–23, 2027; partial reopening Mar 24–Apr 4.",
+      "notes": "Closed Mar 1–23, 2027. Partial reopening Mar 24–Apr 4.",
       "type": "Art & culture",
       "duration": "1–2 hours",
       "minutes": 90,
@@ -2008,7 +2008,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Tour fee not retrieved; form submission is not tour confirmation.",
+      "notes": "Tour fee not retrieved. Form submission is not tour confirmation.",
       "type": "Art & culture",
       "duration": "2 hours",
       "minutes": 120,
@@ -2033,7 +2033,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Closed Wednesdays and published holidays; confirm access/visit date.",
+      "notes": "Closed Wednesdays and published holidays. Confirm access/visit date.",
       "type": "Art & culture",
       "duration": "1–2 hours",
       "minutes": 90,
@@ -2058,7 +2058,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "No tour purchase proposed; confirm parking/trail conditions and exact access.",
+      "notes": "No tour purchase proposed. Confirm parking/trail conditions and exact access.",
       "type": "Outdoors",
       "duration": "45–90 minutes",
       "minutes": 90,
@@ -2108,7 +2108,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Ticket/lesson/rental prices need actual date/product; do not sell expired seasonal offers.",
+      "notes": "Ticket/lesson/rental prices need actual date/product. Do not sell expired seasonal offers.",
       "type": "Adventure",
       "duration": "Half or full day",
       "minutes": 240,
@@ -2128,12 +2128,12 @@
       "locality": "Taos / Paseo del Pueblo Norte",
       "source_url": "https://www.taosartmuseum.org/visit.html",
       "original_editorial_brief": "Art, house, carved detail and studio.",
-      "published_price_basis": "$20 adult admission; studio/gardens free",
+      "published_price_basis": "$20 adult admission. Studio/gardens free",
       "source_checked_on": "2026-10-19",
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Seasonal hours; wheelchair access described for specified ground-level areas.",
+      "notes": "Seasonal hours. Wheelchair access described for specified ground-level areas.",
       "type": "Art & culture",
       "duration": "1–1.5 hours",
       "minutes": 90,
@@ -2158,7 +2158,7 @@
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Historic map only; current land-manager access/conditions must be checked.",
+      "notes": "Historic map only. Current land-manager access/conditions must be checked.",
       "type": "Outdoors",
       "duration": "About 3–4 hours",
       "minutes": 240,
@@ -2177,13 +2177,13 @@
       "name": "Ojo Caliente day soaking",
       "locality": "Ojo Caliente",
       "source_url": "https://ojosparesorts.com/ojo-caliente/soak/",
-      "original_editorial_brief": "Mineral pools, dry sauna and steam; restorative day trip.",
+      "original_editorial_brief": "Mineral pools, dry sauna and steam. Restorative day trip.",
       "published_price_basis": "$45 Mon–Thu / $65 Fri–Sun/holidays",
       "source_checked_on": "2026-10-19",
       "partner_status": "not_agreed",
       "image_rights": "not_cleared",
       "publication_status": "research_only",
-      "notes": "Under13 not permitted in springs; new cold plunge source still says under construction.",
+      "notes": "Under13 not permitted in springs. New cold plunge source still says under construction.",
       "type": "Wellness",
       "duration": "2–4 hours",
       "minutes": 180,
