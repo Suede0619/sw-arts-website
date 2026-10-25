@@ -51,7 +51,9 @@ Browser tests use local Google Chrome on macOS when available. Else install Play
 
 ## Sources and deployment
 
-The specification and alignment live in the separate [taosarts document repository](https://github.com/Suede0619/taosarts), particularly `PROJECT-BASELINE.md` and `website-spec/`. Update source data from reconciled research records. Confirm stock and rights before offering work.
+The specification and alignment live in the separate [taosarts document repository](https://github.com/Suede0619/taosarts), particularly [the Southwest Arts baseline](https://github.com/Suede0619/taosarts/blob/main/SouthwestArts/PROJECT-BASELINE.md) and [website specifications](https://github.com/Suede0619/taosarts/tree/main/SouthwestArts/website-spec). Update source data from reconciled research records. Confirm stock and rights before offering work.
+
+The October 25 workspace organization moved this local checkout to `ART/SouthwestArts/sw-arts-website/`. Its source repository, branch and history remain the same. ART ignores the checkout. Documentation links now follow `SouthwestArts/` in the document repository. Static/data checks pass from the new location. This move changes no website source or deployment configuration.
 
 The prototype uses **GitHub Pages**, with source and publishing configuration in this repository. `.github/workflows/pages.yml` validates and deploys only `dist/` on pushes to `main`. The public preview requires no account. Assets and hash routes support the `/sw-arts-website/` project path. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment, rollback and the later production transition. The unused Sites registration has no publication. Keep deployment on GitHub Pages.
 

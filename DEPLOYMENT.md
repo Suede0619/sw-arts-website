@@ -18,7 +18,7 @@ GitHub Actions publishes this Pages site. Push intended source changes to `main`
 
 Browser checks use the actual `/sw-arts-website/` path on a local server. This catches broken relative images, data loading, links and shared plans before publication. After a successful Pages workflow, verify the public HTML, catalog/assets and the key browser flows at the website address. Confirm both workflow success and the public page before reporting publication.
 
-To rerun the current commit, use the workflow's **Run workflow** control. To roll back, revert the intended change on `main`, commit and push. The workflow republishes that source. Avoid force-pushing repository history. Record actual published commit and verification in the separate [ART session handoff](https://github.com/Suede0619/taosarts/blob/main/SESSION_STATE.md).
+To rerun the current commit, use the workflow's **Run workflow** control. To roll back, revert the intended change on `main`, commit and push. The workflow republishes that source. Avoid force-pushing repository history. Record actual published commit and verification in the separate [ART session handoff](https://github.com/Suede0619/taosarts/blob/main/SouthwestArts/SESSION_STATE.md).
 
 ## Prototype and final website
 
