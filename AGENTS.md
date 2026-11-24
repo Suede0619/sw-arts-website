@@ -1,14 +1,14 @@
-# Southwest Art prototype
+# ArtSouthwest prototype
 
-This is the separate prototype repository `Suede0619/sw-arts-website`, inside the ignored `ART/SouthwestArts/sw-arts-website/` folder. The surrounding ART repository is documentation, with its own Git history. Never stage parent files, private source archives or credentials here.
+This is the separate prototype repository `Suede0619/sw-arts-website`, inside the ignored `ART/ArtSouthwest/ArtSouthwest-website/` folder. The surrounding ART repository is documentation, with its own Git history. Never stage parent files, private source archives or credentials here.
 
 Public documents and website copy are anonymous and unattributed. Omit project-participant names, biographies, dedications and stories about who proposed or approved ideas. Assign work to roles. The only participant-name exception is a factual business association in the HOUSE of FIRE listing. Sourced artists and historical figures remain valid research subjects. Ignored private material may retain names. Preserve originals. Project day one is **November 1, 2026**. Year one ends October 31, 2027. October research/prototype preparation is not a claim of a live trading launch. The user authorized this prototype and its deployment. Production is a separate review gate.
 
 Follow the [ART writing guide](https://github.com/Suede0619/taosarts/blob/main/WRITING-GUIDE.md) for copy, headings and documentation. Keep original generation prompts as source records.
 
-Purpose: help artists sell art so they can remain in Taos. Preserve a beautiful, welcoming experience, collector confidence, free core artist discovery and zero Southwest Art commission on direct-artist website sales. Processing subsidy and actual seller responsibilities need funding/agreements before production claims.
+Purpose: help artists sell art so they can remain in Taos. Preserve a beautiful, welcoming experience, collector confidence, free core artist discovery and zero ArtSouthwest commission on direct-artist website sales. Processing subsidy and actual seller responsibilities need funding/agreements before production claims.
 
-Read README.md, ASSETS.md and the Southwest Arts documents at `../PROJECT-BASELINE.md` and `../website-spec/` when available. Shared repository rules remain at `../../AGENTS.md`. Audo Copenhagen #11 is the provisional reference, adapted originally. Final design approval is pending prototype review.
+Read README.md, ASSETS.md and the ArtSouthwest documents at `../PROJECT-BASELINE.md` and `../website-spec/` when available. Shared repository rules remain at `../../AGENTS.md`. Audo Copenhagen #11 is the provisional reference, adapted originally. Final design approval is pending prototype review.
 
 Implementation is buildless HTML/CSS/JavaScript in `dist/`. `data.json` separates six fictional demo studies from ten real artist research candidates/sixty sourced work leads and thirty-eight venue/experience candidates. Listing an artist or venue creates no partnership. Do not enable real checkout or booking or invent current availability. Keep assistant, request and checkout simulations explicitly labeled.
 

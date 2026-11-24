@@ -1,6 +1,6 @@
-# Southwest Art: Taos design prototype
+# ArtSouthwest: Taos design prototype
 
-Southwest Art is a responsive design prototype for Taos artist research, demo art browsing and visit planning. Its purpose is to help artists sell work and remain in Taos.
+ArtSouthwest is a responsive design prototype for Taos artist research, demo art browsing and visit planning. Its purpose is to help artists sell work and remain in Taos.
 
 **Prototype address:** https://suede0619.github.io/sw-arts-website/
 
@@ -27,7 +27,7 @@ The prototype connects no model API, Stripe, card entry, seller enrollment, emai
 
 The six demo studies use generated images and fictional sizes and prices. They offer no physical work for sale and carry no attribution to living artists. Real artist and venue records remain candidates without participation agreements. Their October 19, 2026 source observations need refreshing. See [ASSETS.md](ASSETS.md) for image provenance.
 
-The direct-artist production proposal takes zero platform commission, with a separately funded processing policy. Gallery/estate/resale arrangements differ. Working brand Southwest Art is not affiliated with Southwest Art Magazine. Public-name clearance remains a production decision. The preview requests no search indexing.
+The direct-artist production proposal takes zero platform commission, with a separately funded processing policy. Gallery/estate/resale arrangements differ. The preview requests no search indexing.
 
 ## Local preview
 
@@ -51,9 +51,9 @@ Browser tests use local Google Chrome on macOS when available. Else install Play
 
 ## Sources and deployment
 
-The specification and alignment live in the separate [taosarts document repository](https://github.com/Suede0619/taosarts), particularly [the Southwest Arts baseline](https://github.com/Suede0619/taosarts/blob/main/SouthwestArts/PROJECT-BASELINE.md) and [website specifications](https://github.com/Suede0619/taosarts/tree/main/SouthwestArts/website-spec). Update source data from reconciled research records. Confirm stock and rights before offering work.
+The [taosarts document repository](https://github.com/Suede0619/taosarts) holds the specification. In the local workspace, see `ART/ArtSouthwest/PROJECT-BASELINE.md` and `ART/ArtSouthwest/website-spec/README.md`. Update source data from reconciled research records. Confirm stock and rights before offering work.
 
-The October 25 workspace organization moved this local checkout to `ART/SouthwestArts/sw-arts-website/`. Its source repository, branch and history remain the same. ART ignores the checkout. Documentation links now follow `SouthwestArts/` in the document repository. Static/data checks pass from the new location. This move changes no website source or deployment configuration.
+The local checkout lives at `ART/ArtSouthwest/ArtSouthwest-website/`. The ART document repository ignores the independent checkout.
 
 The prototype uses **GitHub Pages**, with source and publishing configuration in this repository. `.github/workflows/pages.yml` validates and deploys only `dist/` on pushes to `main`. The public preview requires no account. Assets and hash routes support the `/sw-arts-website/` project path. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment, rollback and the later production transition. The unused Sites registration has no publication. Keep deployment on GitHub Pages.
 
