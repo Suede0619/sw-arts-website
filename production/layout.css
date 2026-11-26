@@ -1,8 +1,11 @@
 :root { --max: 1600px; --gutter: clamp(1.15rem, 5vw, 5rem); }
-body { background: var(--wash); }
-.site-frame { position: relative; width: 100%; max-width: var(--max); margin-inline: auto; background: var(--paper); }
+.site-frame { position: relative; }
 .full-section { width: 100%; max-width: var(--max); margin-inline: auto; }
 .full-section.inset { padding-inline: var(--gutter); }
+.full-section.full-bleed {
+  max-width: none;
+  padding-inline: max(0px, calc((100% - var(--max)) / 2));
+}
 .site-header, .site-footer { padding-inline: var(--gutter); }
 .intro-strip .text-link { padding: 0; border: 0; text-decoration: underline; text-underline-offset: 3px; }
 .site-frame .site-footer { margin-top: 0; }

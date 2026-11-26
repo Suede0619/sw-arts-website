@@ -1,6 +1,6 @@
 # ArtSouthwest website
 
-The approved prototype governs the live site's layouts. Preserve the split hero, art collection grid, mission band, gallery rows, experience cards, hospitality cards, and illustrated planning section. The production renderer uses the prototype stylesheet with shared outer edges in a 1600px container. Run `npm run build:production`. The domain server renders public pages from `production-release/` and serves approved updates from Neon. The GitHub Pages prototype stays in `dist/`. See the [website README](README.md).
+The approved prototype governs the live site's layouts. Preserve the split hero, art collection grid, mission band, gallery rows, experience cards, hospitality cards, and illustrated planning section. Align content to the shared 1600px grid and extend section background colors to both browser edges. Run `npm run build:production`. The domain server renders public pages from `production-release/` and serves approved updates from Neon. The GitHub Pages prototype stays in `dist/`. See the [website README](README.md).
 
 When working in ART, automatically record the date, task, hours and evidence in `../../private/TIMESHEET.md` before ending the task. Follow the ART instructions for estimates, totals and private files. Use the current ArtSouthwest handoff for the production stage and treat the economics and approvals below as prototype history.
 

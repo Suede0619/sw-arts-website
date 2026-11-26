@@ -4,7 +4,7 @@
 
 **Live catalog:** [artsouthwest.com](https://artsouthwest.com/)
 
-The live catalog uses the approved prototype’s split hero, collection grid, mission band, gallery rows, experience cards, hospitality cards and illustrated visit section. Each section shares the same 1600px container. The domain server sends complete browse pages in the first HTML response, including approved artists and available work. The place catalog includes ten galleries, ten experiences, ten food listings and ten stays per city. Each record links to its own source.
+The live catalog uses the approved prototype’s split hero, collection grid, mission band, gallery rows, experience cards, hospitality cards and illustrated visit section. Section colors reach the browser edges. Content aligns to the same 1600px grid. The domain server sends complete browse pages in the first HTML response, including approved artists and available work. The place catalog includes ten galleries, ten experiences, ten food listings and ten stays per city. Each record links to its own source.
 
 1. Run `npm run build:production` in this repository.
 2. Set `CATALOG_DIR` to its `production-release/` directory and use `npm run start:domains` from the [artist intake service](https://github.com/Suede0619/asw_artist_webform). The apex serves the catalog, published feed, approved previews and Taos itinerary endpoint. The two subdomains serve intake and staff review.
