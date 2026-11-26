@@ -8,6 +8,7 @@ const output = new URL('../production-release/', import.meta.url);
 const publicRoot = new URL('public/', output);
 const places = JSON.parse(await readFile(new URL('content/places.json', source), 'utf8'));
 const keys = new Set();
+const storedPhotos = [];
 for (const listing of places) {
   assert.match(listing.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
   assert.ok(['taos', 'santa-fe'].includes(listing.city));
@@ -17,8 +18,14 @@ for (const listing of places) {
   assert.equal(new URL(listing.source).protocol, 'https:');
   if (listing.image) {
     assert.match(listing.image.src, /^assets\/[a-z0-9][a-z0-9.-]*\.(?:avif|jpg|png|webp)$/);
-    assert.ok(listing.image.alt && listing.image.credit);
-    assert.ok((await stat(new URL(listing.image.src, source))).isFile());
+    assert.ok(listing.image.alt);
+    assert.ok(listing.image.position === undefined || ['lower','bottom'].includes(listing.image.position));
+    if (listing.image.storage === 'neon') {
+      assert.match(listing.image.src, /^assets\/[a-z0-9-]+-[a-f0-9]{12}\.webp$/);
+      storedPhotos.push(listing.image.src);
+    } else {
+      assert.ok((await stat(new URL(listing.image.src, source))).isFile());
+    }
   }
   keys.add(listing.city + '/' + listing.id);
 }
@@ -42,7 +49,10 @@ const prototypeImages = ['favicon.svg','gallery-hero.webp','landscape-study.webp
 for (const file of prototypeImages) {
   await cp(new URL('../dist/assets/' + file, import.meta.url), new URL('assets/' + file, publicRoot));
 }
-for (const item of places) if (item.image) await cp(new URL(item.image.src, source), new URL(item.image.src, publicRoot));
+for (const {image} of places) if (image && image.storage !== 'neon') {
+  await cp(new URL(image.src, source), new URL(image.src, publicRoot));
+}
+await writeFile(new URL('venue-photos.json', output), JSON.stringify(storedPhotos));
 await cp(new URL('site.mjs', source), new URL('site.mjs', output));
 await writeFile(new URL('catalog-renderer.mjs', output),
   'import { createCatalog } from "./site.mjs";\n' +

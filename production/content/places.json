@@ -348,7 +348,12 @@
     "name": "Georgia O’Keeffe Museum",
     "locality": "Downtown",
     "source": "https://www.okeeffemuseum.org/visit/",
-    "description": "Explore O’Keeffe’s work and life in the museum’s downtown galleries."
+    "description": "Explore O’Keeffe’s work and life in the museum’s downtown galleries.",
+    "image": {
+      "src": "assets/santa-fe-okeeffe-museum-b55ae92eb645.webp",
+      "alt": "The adobe exterior of the Georgia O’Keeffe Museum on Johnson Street.",
+      "storage": "neon"
+    }
   },
   {
     "id": "nm-museum-art",
@@ -357,7 +362,12 @@
     "name": "New Mexico Museum of Art",
     "locality": "The Plaza",
     "source": "https://www.nmartmuseum.dca.nm.gov/",
-    "description": "See the state art collection in the historic Plaza building."
+    "description": "See the state art collection in the historic Plaza building.",
+    "image": {
+      "src": "assets/santa-fe-nm-museum-art-cc27bd3ba3d3.webp",
+      "alt": "Adobe walls and a vine-covered pergola frame a sculpture garden at the New Mexico Museum of Art.",
+      "storage": "neon"
+    }
   },
   {
     "id": "santa-fe-botanical",
@@ -366,7 +376,13 @@
     "name": "Santa Fe Botanical Garden",
     "locality": "Museum Hill",
     "source": "https://visitsfbg.org/visit/",
-    "description": "Gardens and trails on Museum Hill with plantings shaped by the high desert."
+    "description": "Gardens and trails on Museum Hill with plantings shaped by the high desert.",
+    "image": {
+      "src": "assets/santa-fe-santa-fe-botanical-f49898a05112.webp",
+      "alt": "Purple flowers and layered plantings at Santa Fe Botanical Garden under a sunset sky.",
+      "storage": "neon",
+      "position": "lower"
+    }
   },
   {
     "id": "nm-history",
@@ -375,7 +391,12 @@
     "name": "New Mexico History Museum",
     "locality": "The Plaza",
     "source": "https://www.nmhistorymuseum.dca.nm.gov/",
-    "description": "The museum and Palace of the Governors trace New Mexico’s history through exhibitions and collections."
+    "description": "The museum and Palace of the Governors trace New Mexico’s history through exhibitions and collections.",
+    "image": {
+      "src": "assets/santa-fe-nm-history-aa25546d9eec.webp",
+      "alt": "A donkey carries firewood along the Palace of the Governors in falling snow.",
+      "storage": "neon"
+    }
   },
   {
     "id": "vladem",
@@ -384,7 +405,12 @@
     "name": "Vladem Contemporary",
     "locality": "Railyard",
     "source": "https://www.nmartmuseum.dca.nm.gov/",
-    "description": "A second New Mexico Museum of Art location devoted to contemporary exhibitions."
+    "description": "A second New Mexico Museum of Art location devoted to contemporary exhibitions.",
+    "image": {
+      "src": "assets/santa-fe-vladem-aff4601f079d.webp",
+      "alt": "Vladem Contemporary’s angular building in the Santa Fe Railyard.",
+      "storage": "neon"
+    }
   },
   {
     "id": "site-santa-fe",
@@ -393,7 +419,12 @@
     "name": "SITE SANTA FE",
     "locality": "Railyard",
     "source": "https://www.sitesantafe.org/en/plan-your-visit/",
-    "description": "Contemporary exhibitions and conversations with gallery guides in the Railyard."
+    "description": "Contemporary exhibitions and conversations with gallery guides in the Railyard.",
+    "image": {
+      "src": "assets/santa-fe-site-santa-fe-f3292d10b414.webp",
+      "alt": "The folded metal exterior of SITE SANTA FE in the Railyard.",
+      "storage": "neon"
+    }
   },
   {
     "id": "farmers-market",
@@ -402,7 +433,12 @@
     "name": "Santa Fe Farmers’ Market",
     "locality": "Railyard",
     "source": "https://santafefarmersmarket.com/",
-    "description": "Local growers and producers gather in the Railyard. Check the current market calendar."
+    "description": "Local growers and producers gather in the Railyard. Check the current market calendar.",
+    "image": {
+      "src": "assets/santa-fe-farmers-market-e1b451a8e2fd.webp",
+      "alt": "Red and green tomatoes at the Santa Fe Farmers’ Market.",
+      "storage": "neon"
+    }
   },
   {
     "id": "meow-wolf",
@@ -411,7 +447,12 @@
     "name": "House of Eternal Return",
     "locality": "Santa Fe",
     "source": "https://meowwolf.com/visit/santa-fe",
-    "description": "Meow Wolf’s immersive installation begins in a house and continues through interconnected rooms."
+    "description": "Meow Wolf’s immersive installation begins in a house and continues through interconnected rooms.",
+    "image": {
+      "src": "assets/santa-fe-meow-wolf-37090d13070f.webp",
+      "alt": "A visitor framed by the glowing refrigerator doorway at House of Eternal Return.",
+      "storage": "neon"
+    }
   },
   {
     "id": "the-shed",
@@ -420,7 +461,12 @@
     "name": "The Shed",
     "locality": "The Plaza",
     "source": "https://sfshed.com/",
-    "description": "New Mexican plates and red chile in a family-run restaurant near the Plaza."
+    "description": "New Mexican plates and red chile in a family-run restaurant near the Plaza.",
+    "image": {
+      "src": "assets/santa-fe-the-shed-6ece2232ae5e.webp",
+      "alt": "Enchiladas, beans and garnishes on a table at The Shed.",
+      "storage": "neon"
+    }
   },
   {
     "id": "la-choza",
@@ -429,7 +475,12 @@
     "name": "La Choza",
     "locality": "Railyard",
     "source": "https://www.lachozasf.com/",
-    "description": "A long-running New Mexican restaurant with red and green chile and a seasonal patio."
+    "description": "A long-running New Mexican restaurant with red and green chile and a seasonal patio.",
+    "image": {
+      "src": "assets/santa-fe-la-choza-81e8df0614c6.webp",
+      "alt": "Guests in La Choza’s dining room beneath colorful ceiling decorations.",
+      "storage": "neon"
+    }
   },
   {
     "id": "sazon",
@@ -438,7 +489,12 @@
     "name": "Sazón",
     "locality": "Downtown",
     "source": "https://sazonsantafe.com/",
-    "description": "Chef Fernando Olea’s restaurant explores Mexican cooking through dishes built around mole."
+    "description": "Chef Fernando Olea’s restaurant explores Mexican cooking through dishes built around mole.",
+    "image": {
+      "src": "assets/santa-fe-sazon-13c081f5064a.webp",
+      "alt": "A set table framed by colorful paintings in Sazón’s dining room.",
+      "storage": "neon"
+    }
   },
   {
     "id": "pasquals",
@@ -447,7 +503,12 @@
     "name": "Café Pasqual’s",
     "locality": "Downtown",
     "source": "https://pasquals.com/",
-    "description": "A downtown café serving breakfast, lunch and dinner with New Mexican and Mexican influences."
+    "description": "A downtown café serving breakfast, lunch and dinner with New Mexican and Mexican influences.",
+    "image": {
+      "src": "assets/santa-fe-pasquals-f184cb5aed5d.webp",
+      "alt": "Guests sit beneath painted murals and hanging decorations at Café Pasqual’s.",
+      "storage": "neon"
+    }
   },
   {
     "id": "paper-dosa",
@@ -456,7 +517,13 @@
     "name": "Paper Dosa",
     "locality": "Santa Fe",
     "source": "https://www.paper-dosa.com/",
-    "description": "South Indian cooking centered on dosas with seasonal dishes and accompaniments."
+    "description": "South Indian cooking centered on dosas with seasonal dishes and accompaniments.",
+    "image": {
+      "src": "assets/santa-fe-paper-dosa-776bc0140cf5.webp",
+      "alt": "An overhead spread of dosa, chutneys and accompaniments from Paper Dosa.",
+      "storage": "neon",
+      "position": "bottom"
+    }
   },
   {
     "id": "josephs",
@@ -465,7 +532,12 @@
     "name": "Joseph’s Culinary Pub",
     "locality": "Railyard",
     "source": "https://www.josephsculinarypub.com/",
-    "description": "A menu with New Mexican influences and the informality of a neighborhood pub."
+    "description": "A menu with New Mexican influences and the informality of a neighborhood pub.",
+    "image": {
+      "src": "assets/santa-fe-josephs-d800717f2e0c.webp",
+      "alt": "The wood-beamed dining room at Joseph’s Culinary Pub.",
+      "storage": "neon"
+    }
   },
   {
     "id": "izanami",
@@ -474,7 +546,13 @@
     "name": "Izanami",
     "locality": "Hyde Park Road",
     "source": "https://tenthousandwaves.com/food",
-    "description": "Izakaya-style small plates and sake at Ten Thousand Waves."
+    "description": "Izakaya-style small plates and sake at Ten Thousand Waves.",
+    "image": {
+      "src": "assets/santa-fe-izanami-9eb0e045f48f.webp",
+      "alt": "Izanami’s warmly lit entrance beneath a blue evening sky.",
+      "storage": "neon",
+      "position": "lower"
+    }
   },
   {
     "id": "la-fonda",
@@ -618,7 +696,12 @@
     "name": "Museum of Indian Arts & Culture",
     "locality": "Museum Hill",
     "source": "https://www.miaclab.org/visit",
-    "description": "Explore the arts and cultures of the Southwest in the museum’s galleries on Museum Hill."
+    "description": "Explore the arts and cultures of the Southwest in the museum’s galleries on Museum Hill.",
+    "image": {
+      "src": "assets/santa-fe-museum-indian-arts-6d48f58ef3f9.webp",
+      "alt": "The exterior of the Museum of Indian Arts & Culture on Museum Hill.",
+      "storage": "neon"
+    }
   },
   {
     "id": "michael-gorman-gallery",
@@ -690,7 +773,12 @@
     "name": "Wheelwright Museum of the American Indian",
     "locality": "Museum Hill",
     "source": "https://wheelwright.org/visit/admissions-tours/",
-    "description": "Visit the museum and its shop on Museum Hill. The museum offers access services by arrangement."
+    "description": "Visit the museum and its shop on Museum Hill. The museum offers access services by arrangement.",
+    "image": {
+      "src": "assets/santa-fe-wheelwright-ea07a11d8a39.webp",
+      "alt": "The adobe entry and courtyard of the Wheelwright Museum on Museum Hill.",
+      "storage": "neon"
+    }
   },
   {
     "id": "la-boca",
@@ -699,7 +787,12 @@
     "name": "La Boca",
     "locality": "Downtown",
     "source": "https://www.labocasantafe.com/",
-    "description": "Spanish tapas in a restaurant near the Plaza, with a wine list that includes Spanish sherries."
+    "description": "Spanish tapas in a restaurant near the Plaza, with a wine list that includes Spanish sherries.",
+    "image": {
+      "src": "assets/santa-fe-la-boca-4d4807212495.webp",
+      "alt": "An overhead view of small plates shared at a La Boca table.",
+      "storage": "neon"
+    }
   },
   {
     "id": "geronimo",
@@ -708,7 +801,12 @@
     "name": "Geronimo",
     "locality": "Canyon Road",
     "source": "https://www.geronimorestaurant.com/",
-    "description": "Dinner in a historic Canyon Road adobe, with a seasonal menu."
+    "description": "Dinner in a historic Canyon Road adobe, with a seasonal menu.",
+    "image": {
+      "src": "assets/santa-fe-geronimo-ba63bc1181ef.webp",
+      "alt": "White-tablecloth tables and high-backed wooden chairs in Geronimo’s dining room.",
+      "storage": "neon"
+    }
   },
   {
     "id": "santacafe",
@@ -717,6 +815,11 @@
     "name": "Santacafé",
     "locality": "Downtown",
     "source": "https://www.santacafe.com/",
-    "description": "A downtown restaurant with contemporary cooking and patio dining."
+    "description": "A downtown restaurant with contemporary cooking and patio dining.",
+    "image": {
+      "src": "assets/santa-fe-santacafe-411ab30bce7c.webp",
+      "alt": "A sculpture surrounded by greenery and shaded tables at Santacafé.",
+      "storage": "neon"
+    }
   }
 ]

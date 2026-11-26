@@ -33,8 +33,10 @@
 .journal-copy p { white-space: pre-line; }
 .place-image img { width: 100%; height: 100%; object-fit: cover; }
 .place-detail-hero p { font-size: 1rem; line-height: 1.65; }
-.hospitality-image { position: relative; height: 100px; overflow: hidden; }
+.hospitality-image { position: relative; aspect-ratio: 16 / 9; margin-bottom: 18px; overflow: hidden; }
 .hospitality-image img { width: 100%; height: 100%; object-fit: cover; }
+[data-photo-position="lower"] img { object-position: center 66%; }
+[data-photo-position="bottom"] img { object-position: center 88%; }
 .production-gallery-row { grid-template-columns: 1fr 1.3fr auto; }
 .production-gallery-row .row-actions { grid-column: auto; }
 .listing-actions { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-top: 1.5rem; }

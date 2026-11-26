@@ -93,7 +93,10 @@ function artistCard(artist) {
 }
 
 function placeVisual(place, className = 'place-image') {
-  if (place.image) return `<div class="${className}">${image('/' + place.image.src, place.image.alt)}<span class="demo-tag">${esc(place.image.credit)}</span></div>`;
+  if (place.image) {
+    const position = place.image.position ? ` data-photo-position="${esc(place.image.position)}"` : '';
+    return `<div class="${className}"${position}>${image('/' + place.image.src, place.image.alt)}</div>`;
+  }
   const treatment = place.category === 'gallery' ? ['gallery-hero.webp', 'Gallery illustration'] :
     /ojo|spa|soak/.test(place.id) ? ['sage-study-card.webp', 'Desert illustration'] :
     /museum|harwood|site-santa-fe|wheelwright/.test(place.id) ? ['abstract-study-card.webp', 'Abstract illustration'] :
