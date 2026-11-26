@@ -153,3 +153,93 @@ document.addEventListener('keydown', event => {
     open.querySelector('summary').focus();
   }
 });
+
+for (const button of document.querySelectorAll('[data-share]')) {
+  button.addEventListener('click', async () => {
+    const status = document.querySelector('[data-share-status]');
+    try {
+      await navigator.clipboard.writeText(location.origin + location.pathname);
+      status.textContent = 'Link copied.';
+    } catch {
+      status.textContent = 'Copy the address from your browser.';
+    }
+  });
+}
+
+for (const form of document.querySelectorAll('[data-editorial-form]')) {
+  const status = form.querySelector('[data-editorial-result]');
+  const errors = form.querySelector('[data-editorial-errors]');
+  const receipt = form.querySelector('[data-editorial-receipt]');
+  const button = form.querySelector('button[type="submit"]');
+  const kind = form.querySelector('[data-event-kind]');
+  const times = form.querySelectorAll('[data-event-time]');
+  const key = crypto.randomUUID();
+  if (kind) kind.addEventListener('change', () => {
+    for (const time of times) time.required = kind.value !== 'exhibition';
+  });
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    errors.replaceChildren();
+    button.disabled = true;
+    status.textContent = 'Submitting…';
+    try {
+      const response = await fetch('/api/editorial/submissions/'+form.dataset.editorialForm,{
+        method:'POST', headers:{ 'X-Intake-Request':'1','Idempotency-Key':key },
+        body:new FormData(form),signal:AbortSignal.timeout(90000),
+      });
+      const result = await response.json();
+      if (!response.ok) {
+        for (const [name,message] of Object.entries(result.fields||{})) {
+          const label=form.elements.namedItem(name)?.labels?.[0]?.textContent?.trim();
+          errors.append(node('li',(label ? label+'. ' : '')+message));
+        }
+        throw new Error(result.message || 'Check the form and try again.');
+      }
+      status.textContent='We received your submission. Reference '+result.id.slice(0,8).toUpperCase()+'.';
+      if (result.token) {
+        const next=node('a','Save your private sponsorship link','text-link');
+        next.href='/advertise/status#'+result.id+':'+result.token;
+        receipt.append(next);
+      }
+      form.reset();
+      for (const control of form.elements) control.disabled=true;
+    } catch (error) {
+      status.textContent=error.name==='TimeoutError' ? 'The upload timed out. Try the same submission again.' : error.message;
+      button.disabled = false;
+    }
+  });
+}
+
+const sponsor = document.querySelector('[data-sponsor-status]');
+if (sponsor) {
+  const [id,token]=location.hash.slice(1).split(':');
+  const call=async action=>{
+    const response=await fetch('/api/editorial/sponsorship/'+encodeURIComponent(id)+'/'+action,{
+      method:'POST',headers:{ 'X-Intake-Request':'1','Content-Type':'application/json' },
+      body:JSON.stringify({ token }),signal:AbortSignal.timeout(20000),
+    });
+    const body=await response.json();
+    if(!response.ok) throw new Error(body.message||'Could not check this sponsorship.');
+    return body;
+  };
+  if (!/^[a-f0-9-]{36}$/i.test(id||'') || !/^[\w-]{43}$/.test(token||'')) {
+    sponsor.textContent='Open the private link from your submission receipt.';
+  } else call('status').then(result=>{
+    const statuses={ pending:'Awaiting review',reserved:'Approved. Payment due.',paid:'Payment received.',
+      declined:'Submission declined.',withdrawn:'Submission withdrawn.',released:'The reservation expired.',
+      refund_review:'The payment is under review.',refunded:'Refunded' };
+    sponsor.replaceChildren(node('h2',result.title),node('p',statuses[result.state]||'The status is being updated.'));
+    if (!result.payable) return;
+    const pricing=new Intl.NumberFormat('en-US',{style:'currency',currency:result.currency}).format(result.amount/100);
+    const button=node('button','Pay '+pricing+' with Stripe','button');
+    const feedback=node('p');
+    feedback.setAttribute('role','status');
+    button.type='button';
+    button.addEventListener('click',async ()=>{
+      button.disabled=true;
+      try { location.assign((await call('checkout')).url); }
+      catch(error){ feedback.textContent=error.message; button.disabled=false; }
+    });
+    sponsor.append(button,feedback);
+  }).catch(error=>{ sponsor.textContent=error.message; });
+}

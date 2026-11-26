@@ -57,7 +57,7 @@ for (const {image} of places) if (image && image.storage !== 'neon') {
   await cp(new URL(image.src, source), new URL(image.src, publicRoot));
 }
 await writeFile(new URL('venue-photos.json', output), JSON.stringify(storedPhotos));
-await cp(new URL('site.mjs', source), new URL('site.mjs', output));
+for (const file of ['site.mjs','editorial.mjs']) await cp(new URL(file, source), new URL(file, output));
 await writeFile(new URL('catalog-renderer.mjs', output),
   'import { createCatalog } from "./site.mjs";\n' +
   'export const catalog = createCatalog(' + JSON.stringify(places) + ', ' + JSON.stringify(assets) + ');\n');

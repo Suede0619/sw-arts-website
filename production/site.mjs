@@ -1,3 +1,5 @@
+import { createEditorialPages } from './editorial.mjs';
+
 const cities = { taos: 'Taos', 'santa-fe': 'Santa Fe' };
 const categories = { gallery: 'Galleries', experience: 'Experiences', food: 'Eat', lodging: 'Stay' };
 const cityPattern = /^(taos|santa-fe)$/;
@@ -138,7 +140,9 @@ function studioStudies() {
   return `<div class="art-grid home-art-grid">${studies.map(([file, title]) => `<article class="art-card"><div class="art-image">${image('/assets/' + file + '-study-card.webp', title, { width: 420, height: 470 })}</div><div class="art-meta"><h3>${esc(title)}</h3></div></article>`).join('')}</div>`;
 }
 
-function editorialHome(city, places, artists) {
+const editorialPages = createEditorialPages({ esc,image,link,lead });
+
+function editorialHome(city, places, artists, editorial) {
   const label = cities[city];
   const selected = artists.flatMap(artist => artist.works).slice(0, 4);
   const experiences = city === 'taos' ? ['harwood-museum-of-art', 'rio-grande-gorge-overlook-and-west-rim-walk', 'ojo-caliente-day-soaking'] : ['okeeffe-museum', 'site-santa-fe', 'wheelwright'];
@@ -156,6 +160,7 @@ function editorialHome(city, places, artists) {
     <section class="mission-block full-section full-bleed"><div><span class="eyebrow">OUR PURPOSE</span><h2>Helping artists sell<br>their work.</h2></div><div class="mission-copy"><p>ArtSouthwest introduces collectors to artists in Taos and Santa Fe. Get to know the work, find places to see art in person, and contact the artist or gallery when a piece catches your eye.</p>${link('/about', 'Get to know our purpose')}</div></section>
     <section class="section full-section inset">${sectionHeading('EXPERIENCES', 'Experiences around ' + label, '/' + city + '/experiences', 'Explore experiences')}
     <div class="experience-grid">${choices.map(experienceCard).join('')}</div></section>
+    ${editorialPages.cityFeature(city,editorial)}
     <section class="journal full-section full-bleed">${visitPlace ? placeVisual(visitPlace, 'journal-image') : ''}<div class="journal-copy"><span class="eyebrow">VISIT PLANNING</span><h2>Your ${label} visit</h2><p>Save galleries, museums and places to eat and stay. Check hours and access before you go.</p>${link(city === 'taos' ? '/plan' : '/santa-fe/food', city === 'taos' ? 'Start your Taos plan' : 'Find a table in Santa Fe')}</div></section>
     <section class="section full-section inset">${sectionHeading('ARTISTS', 'Artists in ' + label, '/' + city + '/artists', 'Artist profiles')}
     ${artists.length ? `<div class="artist-grid">${artists.slice(0, 3).map(artistCard).join('')}</div>` : `<p class="muted">New artist profiles appear here after editorial review.</p>`}</section>`;
@@ -234,21 +239,21 @@ function planner() {
     <aside class="plan-summary"><h2>Save what catches your eye</h2><p>See the work and places you’ve saved on this device.</p>${link('/saved', 'Open saved selections', 'button secondary')}</aside></div></section>`;
 }
 
-function headLinks(city) {
-  return `<a href="/${city}/art">Art &amp; artists</a><a href="/${city}/galleries">Galleries</a><a href="/${city}/experiences">Experiences</a><a href="/${city}/food">Eat &amp; stay</a>`;
+function headLinks(city, editorial) {
+  return `<a href="/${city}/art">Art &amp; artists</a><a href="/${city}/galleries">Galleries</a><a href="/${city}/experiences">Experiences</a>${editorial?`<a href="/${city}/whats-on">What’s on</a>`:''}<a href="/${city}/food">Eat &amp; stay</a>`;
 }
 
-function shell({ city, title, content, css, script, hero, artistOrigin }) {
+function shell({ city, title, content, css, script, hero, artistOrigin, editorial }) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="A guide to artists, art and places to visit in Taos and Santa Fe."><meta name="theme-color" content="#f6f2eb">
     <title>${esc(title)} | ArtSouthwest</title><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="${css}">
     ${hero ? '<link rel="preload" as="image" href="/assets/gallery-hero.webp">' : ''}</head><body><div class="site-frame">
     <a class="skip-link" href="#main">Skip to content</a><header class="site-header full-section">
     <a class="wordmark" href="/" aria-label="ArtSouthwest home">${mark}<span>ArtSouthwest</span></a>
-    <nav class="desktop-nav" aria-label="Main navigation">${headLinks(city)}</nav><div class="header-actions">
+    <nav class="desktop-nav" aria-label="Main navigation">${headLinks(city, editorial)}</nav><div class="header-actions">
     <details class="region-menu"><summary class="region-button">${cities[city]}</summary><nav aria-label="Choose a city"><a href="/taos">Taos</a><a href="/santa-fe">Santa Fe</a></nav></details>
     <a class="plan-link" href="/saved" aria-label="Open your saved plan">${bookmark}<span class="plan-label">Your plan</span><span id="plan-count">0</span></a>
-    <details class="mobile-menu"><summary class="menu-button" aria-label="Open navigation">☰</summary><nav aria-label="Mobile navigation">${headLinks(city)}<a href="/plan">Plan a visit</a></nav></details></div></header>
+    <details class="mobile-menu"><summary class="menu-button" aria-label="Open navigation">☰</summary><nav aria-label="Mobile navigation">${headLinks(city, editorial)}<a href="/plan">Plan a visit</a></nav></details></div></header>
     <main id="main" tabindex="-1">${content}</main>
     <footer class="site-footer full-section"><div class="footer-top"><a href="/" class="footer-brand">ArtSouthwest</a><p>Art, artists and places to visit<br>in Taos and Santa Fe.</p><div><a href="/about">Our purpose</a><a href="${esc(artistOrigin)}/?campaign=taos-artists">Artist submissions</a></div></div></footer>
     <a class="concierge-launch" href="/plan"><span class="assistant-symbol" aria-hidden="true">✳</span> Plan a visit</a><div class="toast" id="toast" role="status" aria-live="polite"></div></div>
@@ -261,7 +266,7 @@ export function createCatalog(places, assets) {
   const usesPublications = path => /^\/(?:$|(?:taos|santa-fe)(?:\/?$|\/(?:art|artists)(?:\/|$)))/.test(path);
   return {
     usesPublications,
-    render(path, published = [], { artistOrigin = 'https://artist.artsouthwest.com' } = {}) {
+    render(path, published = [], { artistOrigin = 'https://artist.artsouthwest.com', editorial, query = new URLSearchParams() } = {}) {
       const parts = path.split('/').filter(Boolean);
       const [rawCity, view, slug, workId] = parts;
       const city = cityPattern.test(rawCity) ? rawCity : 'taos';
@@ -270,7 +275,18 @@ export function createCatalog(places, assets) {
       let content, title = cities[city], hero = false;
       if (!rawCity || (cityPattern.test(rawCity) && !view)) {
         hero = true;
-        content = editorialHome(city, cityPlaces, artists);
+        content = editorialHome(city, cityPlaces, artists, editorial);
+      } else if (editorial && cityPattern.test(rawCity) && view === 'whats-on' && parts.length <= 3) {
+        const row=editorial.all?.find(item=>item.city===city && item.id===slug);
+        if (!slug) { title='What’s on in '+title; content=editorialPages.calendar(city,editorial,query); }
+        else if (row) { title=row.title; content=editorialPages.detail(city,row,editorial); }
+      } else if (editorial && (path==='/weekly' || rawCity==='weekly' && editorial.issue)) {
+        title='ArtSouthwest Weekly'; content=editorialPages.weekly(editorial,Boolean(view));
+      } else if (editorial && (path==='/submit-event' || path==='/advertise')) {
+        title=path==='/submit-event'?'Submit an event':'Advertise';
+        content=editorialPages.submission(path==='/submit-event'?'calendar':'sponsor',editorial);
+      } else if (editorial && path==='/advertise/status') {
+        title='Sponsorship status'; content=editorialPages.sponsorshipStatus();
       } else if (cityPattern.test(rawCity)) {
         if ((view === 'art' || view === 'artists') && !slug) {
           title = view === 'art' ? 'Art in ' + title : 'Artists in ' + title;
@@ -299,7 +315,7 @@ export function createCatalog(places, assets) {
       if (!content) {
         title = 'Page unavailable'; content = `<section class="full-section inset bottom-space">${lead(city, title, 'This listing may have been removed or moved.')}${link('/' + city, 'Browse ' + cities[city], 'button')}</section>`;
       }
-      return { status, html: shell({ city, title, content, ...assets, hero, artistOrigin }) };
+      return { status, html: shell({ city, title, content, ...assets, hero, artistOrigin, editorial }) };
     },
   };
 }

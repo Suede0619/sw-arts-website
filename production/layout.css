@@ -74,3 +74,32 @@
   .site-header .header-actions { gap: .6rem; }
   .region-menu summary { padding-right: .6rem; }
 }
+
+.editorial-actions { display:flex; flex-wrap:wrap; align-items:end; gap:1rem 1.5rem; margin:1.5rem 0 2.5rem; }
+.calendar-filter { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; }
+.calendar-filter select, .editorial-form input:not([type=checkbox]), .editorial-form select, .editorial-form textarea {
+  border:1px solid var(--line); background:var(--white); color:var(--ink); padding:.7rem; max-width:100%; font:inherit;
+}
+.calendar-list { max-width: 66rem; }
+.calendar-list > h2, .weekly-article > h2 { margin:2rem 0 .9rem; }
+.calendar-row { display:grid; grid-template-columns:minmax(120px,1fr) minmax(0,2.2fr); align-items:start; gap:clamp(1rem,3vw,2rem); padding:1.2rem 0; border-bottom:1px solid var(--line); }
+.calendar-row > div:only-child { grid-column:1 / -1; }
+.calendar-row h3 { font-size:clamp(1.45rem,3vw,2.05rem); margin:.24rem 0; }
+.calendar-row p { margin:0 0 .4rem; line-height:1.5; }
+.calendar-row h3 a { text-decoration:none; }
+.calendar-row h3 a:hover { text-decoration:underline; }
+.calendar-date { color:var(--clay); font-weight:600; }
+.calendar-image img { display:block; width:100%; height:auto; aspect-ratio:3 / 2; object-fit:cover; }
+.calendar-feature .calendar-row { grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); align-items:center; }
+.editorial-empty, .editorial-status { padding:1rem; background:var(--wash); }
+.editorial-form { max-width:56rem; display:grid; gap:1.1rem; }
+.editorial-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.editorial-form label { display:grid; gap:.35rem; }
+.editorial-form .editorial-check { display:flex; align-items:center; gap:.55rem; }
+.editorial-form .button { justify-self:start; }
+.weekly-article { max-width:50rem; }
+.weekly-sponsor { margin-top:2rem; padding:1.25rem; border:1px solid var(--line); }
+.weekly-story img, .weekly-sponsor img { display:block; max-width:100%; height:auto; }
+@media (max-width: 700px) {
+  .editorial-fields, .calendar-row, .calendar-feature .calendar-row { grid-template-columns:1fr; }
+}
