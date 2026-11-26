@@ -1,6 +1,6 @@
 # ArtSouthwest website
 
-The approved visual direction carries forward into `production/`, the Taos and Santa Fe catalog. Run `npm run build:production`. The ArtSouthwest domain server serves `production-dist/` at the apex and the approved API from Neon. The separate `dist/` folder remains the GitHub Pages prototype. See the [website README](README.md) for the two build paths.
+The approved prototype governs the live site's layouts. Preserve the split hero, art collection grid, mission band, gallery rows, experience cards, hospitality cards, and illustrated planning section. The production renderer uses the prototype stylesheet with shared outer edges in a 1600px container. Run `npm run build:production`. The domain server renders public pages from `production-release/` and serves approved updates from Neon. The GitHub Pages prototype stays in `dist/`. See the [website README](README.md).
 
 When working in ART, automatically record the date, task, hours and evidence in `../../private/TIMESHEET.md` before ending the task. Follow the ART instructions for estimates, totals and private files. Use the current ArtSouthwest handoff for the production stage and treat the economics and approvals below as prototype history.
 

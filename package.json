@@ -7,7 +7,7 @@
     "dev": "node tools/serve.mjs",
     "check": "node tools/check.mjs",
     "test": "playwright test",
-    "build:production": "node --check production/catalog.mjs && node tools/build-production.mjs"
+    "build:production": "node --check production/interactions.mjs && node tools/build-production.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1"

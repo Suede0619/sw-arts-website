@@ -1,0 +1,65 @@
+:root { --max: 1600px; --gutter: clamp(1.15rem, 5vw, 5rem); }
+body { background: var(--wash); }
+.site-frame { position: relative; width: 100%; max-width: var(--max); margin-inline: auto; background: var(--paper); }
+.full-section { width: 100%; max-width: var(--max); margin-inline: auto; }
+.full-section.inset { padding-inline: var(--gutter); }
+.site-header, .site-footer { padding-inline: var(--gutter); }
+.intro-strip .text-link { padding: 0; border: 0; text-decoration: underline; text-underline-offset: 3px; }
+.site-frame .site-footer { margin-top: 0; }
+.site-frame .footer-top { padding-bottom: 0; }
+.site-frame .mission-block > div { padding-inline: var(--gutter); }
+.mission-copy .text-link { align-self: flex-start; }
+.site-frame .hero-image { margin-right: var(--gutter); }
+.site-frame .hero-copy { padding-left: var(--gutter); }
+.site-frame .hero-actions .text-link { white-space: normal; }
+.region-menu, .mobile-menu { position: relative; }
+.region-menu summary, .mobile-menu summary { list-style: none; cursor: pointer; }
+.site-frame .region-menu .region-button { display: block; }
+.region-menu summary::-webkit-details-marker, .mobile-menu summary::-webkit-details-marker { display: none; }
+.region-menu summary::after { content: '⌄'; padding-left: 9px; }
+.region-menu nav, .mobile-menu nav { position: absolute; right: 0; top: calc(100% + 14px); background: var(--paper); border: 1px solid var(--line); padding: 8px 14px; min-width: 9rem; z-index: 25; box-shadow: 0 15px 26px #202a201c; }
+.region-menu nav a, .mobile-menu nav a { display: block; padding: 7px 0; }
+.region-menu nav a:hover, .mobile-menu nav a:hover { color: var(--clay); }
+.mobile-menu { display: none; }
+.site-frame .concierge-launch { right: max(20px, calc((100vw - 1600px)/2 + 20px)); }
+.artist-portrait { display: block; margin-bottom: 1rem; }
+.artist-portrait img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.journal img { width: 100%; height: 100%; object-fit: cover; }
+.artist-story img { object-fit: contain; background: var(--paper); }
+.journal-copy p { white-space: pre-line; }
+.place-image img { width: 100%; height: 100%; object-fit: cover; }
+.place-detail-hero p { font-size: 1rem; line-height: 1.65; }
+.hospitality-image { position: relative; height: 100px; overflow: hidden; }
+.hospitality-image img { width: 100%; height: 100%; object-fit: cover; }
+.production-gallery-row { grid-template-columns: 1fr 1.3fr auto; }
+.production-gallery-row .row-actions { grid-column: auto; }
+.listing-actions { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-top: 1.5rem; }
+.filter-field input, .planner-fields input, .planner-fields select { min-width: 0; padding: .65rem .75rem; border: 1px solid var(--line); background: var(--white); color: var(--ink); }
+.filter-field input { width: min(340px, 100%); }
+[hidden] { display: none !important; }
+.planner-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.25rem; }
+.planner-fields label { display: grid; gap: .45rem; }
+#plan-result { margin: 1.5rem 0 0; padding: 1.35rem; border: 1px solid var(--line); }
+#plan-result p { margin-block: .5rem; }
+#plan-result ol { padding-left: 1.45rem; }
+#plan-result li { margin-block: 1rem; }
+.saved-item { grid-template-columns: 1fr auto; }
+@media (max-width: 1000px) {
+  .mobile-menu { display: block; }
+  .production-gallery-row { grid-template-columns: 1fr 1fr; }
+  .production-gallery-row .row-actions { grid-column: 1 / -1; }
+}
+@media (max-width: 700px) {
+  .site-frame .hero-image { margin-inline: var(--gutter); }
+  .site-frame .hero-copy { padding-inline: var(--gutter); }
+  .production-gallery-row { grid-template-columns: 1fr; gap: .75rem; }
+  .planner-fields { grid-template-columns: 1fr; }
+}
+@media (max-width: 400px) {
+  .site-header { gap: .6rem; }
+  .site-header .wordmark { gap: .35rem; }
+  .site-header .wordmark svg { width: 25px; }
+  .site-header .wordmark span { font-size: 13px; letter-spacing: .04em; }
+  .site-header .header-actions { gap: .6rem; }
+  .region-menu summary { padding-right: .6rem; }
+}
