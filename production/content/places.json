@@ -78,7 +78,16 @@
     "name": "The Love Apple",
     "locality": "North Taos",
     "source": "https://theloveapple.net/",
-    "description": "Northern New Mexican cooking in a former chapel, with a menu shaped by local ingredients."
+    "description": "Northern New Mexican cooking in a former chapel, with a menu shaped by local ingredients.",
+    "detail": [
+      "The Love Apple serves dinner in the former Placitas Chapel in north Taos. The kitchen draws on Northern New Mexican home cooking and works with nearby growers and small producers, letting the season determine much of what reaches the table.",
+      "The small dining room suits a meal with time between courses. The restaurant posts a sample menu to give diners a sense of its cooking. It accepts cash and takes reservations by phone."
+    ],
+    "image": {
+      "src": "assets/taos-the-love-apple-b5daf9b66ccd.webp",
+      "alt": "Two dinner plates on a white tablecloth at The Love Apple.",
+      "storage": "neon"
+    }
   },
   {
     "id": "medley",
@@ -87,7 +96,16 @@
     "name": "medley.",
     "locality": "El Prado / north corridor",
     "source": "https://www.medleytaos.com/",
-    "description": "A restaurant and wine shop in El Prado with a seasonal dinner menu."
+    "description": "A restaurant and wine shop in El Prado with a seasonal dinner menu.",
+    "detail": [
+      "In El Prado, medley. combines a dinner restaurant with a wine shop. The menu ranges from small plates to fuller entrées. Regional ingredients turn up in dishes such as smoked brisket chili with New Mexico red chile.",
+      "The wine shop makes this a useful stop even if dinner is elsewhere. For an evening at the restaurant, browse the latest menu before choosing a few plates to share or settling in for a full meal."
+    ],
+    "image": {
+      "src": "assets/taos-medley-14a07b4f8efe.webp",
+      "alt": "Three dishes on a wood table at medley.",
+      "storage": "neon"
+    }
   },
   {
     "id": "aceq",
@@ -96,7 +114,16 @@
     "name": "ACEQ",
     "locality": "Arroyo Seco",
     "source": "https://aceqrestaurant.com/food-drink",
-    "description": "Seasonal cooking in Arroyo Seco. See the restaurant’s current menu before visiting."
+    "description": "Seasonal cooking in Arroyo Seco. See the restaurant’s current menu before visiting.",
+    "detail": [
+      "ACEQ cooks with the seasons in Arroyo Seco, where a village dinner can follow a day in Taos or on the mountain. The kitchen works with local ingredients and changes its specials frequently. The bar makes its own contribution with a list of house cocktails.",
+      "The published menu offers a sense of the kitchen’s range, from grilled romaine with anchovy to polenta with grilled mushrooms and Chimayó red chile. Set aside time for dinner here if you’re spending the afternoon in Arroyo Seco, and check the current menu when booking."
+    ],
+    "image": {
+      "src": "assets/taos-aceq-4c168217faa9.webp",
+      "alt": "The dining room at ACEQ in Arroyo Seco.",
+      "storage": "neon"
+    }
   },
   {
     "id": "corner-office",
@@ -105,7 +132,16 @@
     "name": "Corner Office",
     "locality": "Downtown Taos",
     "source": "https://www.cornerofficetaos.com/menus",
-    "description": "A small Taos restaurant with a changing menu and a focus on wine."
+    "description": "A small Taos restaurant with a changing menu and a focus on wine.",
+    "detail": [
+      "Corner Office is a small restaurant and wine bar in downtown Taos. Its changing menu moves easily among influences. A past menu paired escargots with garlic scape butter and used Chimayó chile in a crawfish and chayote chowder.",
+      "The food lends itself to ordering in stages, especially if you want to try the same wine with a few different plates. The restaurant keeps its most current wine list on site and publishes a sample menu online."
+    ],
+    "image": {
+      "src": "assets/taos-corner-office-ab386768e5a5.webp",
+      "alt": "Escargots from the Corner Office kitchen.",
+      "storage": "neon"
+    }
   },
   {
     "id": "juliette",
@@ -114,7 +150,16 @@
     "name": "Juliette",
     "locality": "Taos / Hotel Willa",
     "source": "https://www.restaurantjuliette.com/",
-    "description": "The restaurant at Hotel Willa serves seasonal food in a downtown Taos setting."
+    "description": "The restaurant at Hotel Willa serves seasonal food in a downtown Taos setting.",
+    "detail": [
+      "Juliette is the restaurant at Hotel Willa. Its kitchen follows the seasons in Northern New Mexico, drawing on relationships with regional farmers and growers. At dinner, several shared plates offer a good way to see what’s in season.",
+      "The restaurant also posts separate menus for breakfast, Sunday brunch and drinks. Its location makes it easy to come for coffee before visiting a museum, then return for a longer meal after an afternoon downtown."
+    ],
+    "image": {
+      "src": "assets/taos-juliette-32b49efb1872.webp",
+      "alt": "Shared plates on a table at Juliette.",
+      "storage": "neon"
+    }
   },
   {
     "id": "192-at-the-blake",
@@ -122,8 +167,17 @@
     "category": "food",
     "name": "192 at The Blake",
     "locality": "Taos Ski Valley",
-    "source": "https://www.skitaos.com/dining",
-    "description": "A restaurant inside The Blake at Taos Ski Valley. Check the resort’s dining page for seasonal service."
+    "source": "https://www.skitaos.com/things-to-do/dining/192",
+    "description": "A restaurant inside The Blake at Taos Ski Valley. Check the resort’s dining page for seasonal service.",
+    "detail": [
+      "Inside The Blake at Taos Ski Valley, 192 is a sit-down restaurant near the base of the lifts. The resort’s dining page shows small plates and charcuterie alongside more substantial food, and cocktails at the bar.",
+      "The location suits a meal at the end of a mountain day, especially if your group is staying in the village. The resort lists seasonal service for its restaurants, so check which meals 192 is serving before you go."
+    ],
+    "image": {
+      "src": "assets/taos-192-at-the-blake-1165e7fa21a7.webp",
+      "alt": "Two brunch plates at 192 at The Blake.",
+      "storage": "neon"
+    }
   },
   {
     "id": "hotel-willa",
@@ -132,7 +186,16 @@
     "name": "Hotel Willa",
     "locality": "Taos town",
     "source": "https://www.hotelwilla.com/stay/rooms",
-    "description": "A boutique Taos hotel with local art and accommodations ranging from guest rooms to a three-bedroom suite."
+    "description": "A boutique Taos hotel with local art and accommodations ranging from guest rooms to a three-bedroom suite.",
+    "detail": [
+      "Hotel Willa brings local art into a contemporary Taos hotel. Terracotta walls, custom woodwork and arched shower openings give the rooms a character of their own. Some open to patios, and others have fireplaces.",
+      "The Adobe House includes a three-bedroom suite for groups traveling together. Juliette, the hotel’s restaurant, makes breakfast or dinner easy to plan around a day in town. The room descriptions show which layouts have outdoor space."
+    ],
+    "image": {
+      "src": "assets/taos-hotel-willa-7118e85710fb.webp",
+      "alt": "A guest room at Hotel Willa with terracotta walls and a wood ceiling.",
+      "storage": "neon"
+    }
   },
   {
     "id": "el-monte-sagrado",
@@ -141,7 +204,16 @@
     "name": "El Monte Sagrado",
     "locality": "Taos town",
     "source": "https://www.elmontesagrado.com/stay",
-    "description": "A Taos resort with a spa and accommodations that include rooms, suites and historic casitas."
+    "description": "A Taos resort with a spa and accommodations that include rooms, suites and historic casitas.",
+    "detail": [
+      "El Monte Sagrado sits near central Taos on grounds with mature trees and water features. Its accommodations range from Taos Mountain rooms to historic casitas and larger suites with separate living areas.",
+      "The Living Spa makes the resort a good choice for a visit with time between outings. The Painted Horse Casita and some larger suites offer room for a longer stay. Compare individual layouts for features such as a courtyard or a kiva fireplace."
+    ],
+    "image": {
+      "src": "assets/taos-el-monte-sagrado-8f615572bb79.webp",
+      "alt": "The bedroom and kiva fireplace in El Monte Sagrado’s Painted Horse Casita.",
+      "storage": "neon"
+    }
   },
   {
     "id": "the-blake",
@@ -150,7 +222,16 @@
     "name": "The Blake",
     "locality": "Taos Ski Valley",
     "source": "https://www.skitaos.com/stay",
-    "description": "A slopeside hotel at Taos Ski Valley with rooms, suites and separately listed residences."
+    "description": "A slopeside hotel at Taos Ski Valley with rooms, suites and separately listed residences.",
+    "detail": [
+      "The Blake sits steps from Lift 1 at Taos Ski Valley. Its location puts skiers near the lifts and gives other travelers a base in the mountain village, with a spa, outdoor pool and dining at 192.",
+      "The hotel lists rooms, suites and larger residences separately. A residence with a kitchen makes sense for a family or group staying several nights. Check the exact unit and the resort’s seasonal hours when planning your visit."
+    ],
+    "image": {
+      "src": "assets/taos-the-blake-1edcbd9caa13.webp",
+      "alt": "The Blake beneath snowy slopes at Taos Ski Valley.",
+      "storage": "neon"
+    }
   },
   {
     "id": "palacio-de-marquesa",
@@ -159,7 +240,16 @@
     "name": "Palacio de Marquesa",
     "locality": "Taos town",
     "source": "https://www.marquesataos.com/stay",
-    "description": "A small Taos inn whose rooms honor women associated with the town’s artistic life."
+    "description": "A small Taos inn whose rooms honor women associated with the town’s artistic life.",
+    "detail": [
+      "Palacio de Marquesa dedicates its guest rooms to women who shaped Taos. Their stories guide the room names and furnishings. A quiet palette of ivory and silver ties the rooms together, with canopy beds and touches of leather or brushed metal.",
+      "The property offers an intimate setting for a stay near central Taos. Its rooms vary in size and arrangement, so a couple and a group can choose on the strength of the actual floor plan."
+    ],
+    "image": {
+      "src": "assets/taos-palacio-de-marquesa-6a0690dd4b3f.webp",
+      "alt": "A guest room at Palacio de Marquesa with a fireplace and armchairs.",
+      "storage": "neon"
+    }
   },
   {
     "id": "casa-gallina",
@@ -168,7 +258,16 @@
     "name": "Casa Gallina",
     "locality": "Taos outskirts",
     "source": "https://casagallina.net/project_category/casitas/",
-    "description": "Individual casitas with kitchens and distinct layouts in a residential part of Taos."
+    "description": "Individual casitas with kitchens and distinct layouts in a residential part of Taos.",
+    "detail": [
+      "Casa Gallina offers self-contained adobe casitas off the main streets of Taos. El Gallo Grande has three bedrooms and a private courtyard garden. The Barred Rock Adobe offers two bedrooms, a full kitchen and a wood-burning stove.",
+      "The kitchens make it easy to bring home market finds and spend an evening in. Smaller units such as the Studio suit a solo trip or a couple’s stay. Each casita has its own layout and photos, which are worth comparing before booking."
+    ],
+    "image": {
+      "src": "assets/taos-casa-gallina-4037beebed9f.webp",
+      "alt": "The Barred Rock Adobe kitchen at Casa Gallina.",
+      "storage": "neon"
+    }
   },
   {
     "id": "hacienda-del-sol",
@@ -177,7 +276,16 @@
     "name": "Hacienda del Sol",
     "locality": "North Taos",
     "source": "https://www.taoshaciendadelsol.com/rooms",
-    "description": "A Taos inn with guest rooms and separate accommodations, including an Earthship."
+    "description": "A Taos inn with guest rooms and separate accommodations, including an Earthship.",
+    "detail": [
+      "Hacienda del Sol groups guest rooms and standalone accommodations on the north side of Taos. The rooms vary widely. Depending on where you stay, you’ll find a kiva fireplace, a private patio or a separate kitchen and living room.",
+      "The property also lists an Earthship for guests who want to experience a different building tradition. A room in the inn works for a shorter visit. The standalone options offer more space for cooking and settling in."
+    ],
+    "image": {
+      "src": "assets/taos-hacienda-del-sol-50969d31f5bb.webp",
+      "alt": "An adobe fireplace in a guest accommodation at Hacienda del Sol.",
+      "storage": "neon"
+    }
   },
   {
     "id": "la-do-a-luz",
@@ -186,7 +294,16 @@
     "name": "La Doña Luz",
     "locality": "Central Taos",
     "source": "https://www.ladonaluz.com/VisitOurRooms.html",
-    "description": "A historic Taos bed and breakfast with individually furnished rooms near the Plaza."
+    "description": "A historic Taos bed and breakfast with individually furnished rooms near the Plaza.",
+    "detail": [
+      "La Doña Luz is a historic bed and breakfast near Taos Plaza. Its rooms bring together artwork, painted details and furnishings that reflect different parts of the region’s history. The names and photos give a good sense of how individual each room feels.",
+      "Some rooms have a wood-burning fireplace. The penthouse suite has a rooftop hot tub with a mountain view. Pick the room whose layout and amenities suit your stay, then leave time to explore the Plaza on foot."
+    ],
+    "image": {
+      "src": "assets/taos-la-do-a-luz-0137a79d5e60.webp",
+      "alt": "The adobe facade and red entrance at La Doña Luz Inn.",
+      "storage": "neon"
+    }
   },
   {
     "id": "mabel-dodge-luhan-house",
@@ -195,7 +312,16 @@
     "name": "Mabel Dodge Luhan House",
     "locality": "Taos town",
     "source": "https://www.mabeldodgeluhan.com/accommodations/rooms/",
-    "description": "Stay at the home of arts patron Mabel Dodge Luhan, now an inn and retreat center."
+    "description": "Stay at the home of arts patron Mabel Dodge Luhan, now an inn and retreat center.",
+    "detail": [
+      "Mabel Dodge Luhan’s former home remains an inn and retreat center on Morada Lane. Georgia O’Keeffe, D. H. Lawrence and Ansel Adams all spent time here. Adobe walls, exposed vigas and carved pillars preserve a sense of the house they knew.",
+      "The rooms have individual furnishings, and the inn serves breakfast. Workshops and retreats can reserve parts of the property, so check availability for the specific room you want. The center of Taos is a short walk away."
+    ],
+    "image": {
+      "src": "assets/taos-mabel-dodge-luhan-house-4e48b46333df.webp",
+      "alt": "Shade trees in the courtyard at Mabel Dodge Luhan House.",
+      "storage": "neon"
+    }
   },
   {
     "id": "taos-pueblo",
@@ -204,7 +330,17 @@
     "name": "Taos Pueblo",
     "locality": "Taos Pueblo",
     "source": "https://taospueblo.com/visiting-taos-pueblo/",
-    "description": "Visit the living community on terms set by Taos Pueblo. Check its website for access, closures and photography rules."
+    "description": "Visit the living community on terms set by Taos Pueblo. Check its website for access, closures and photography rules.",
+    "detail": [
+      "Taos Pueblo is a living Indigenous community whose multistory adobe homes form part of a UNESCO World Heritage Site. The Pueblo welcomes visitors on its own terms and offers guided tours that explain the community’s history and architecture.",
+      "The Pueblo’s events calendar gives the latest information on public access and closures. Follow posted boundaries and check with the tourism office about photography. The Pueblo limits visitor photos to personal use and requires advance approval for other uses."
+    ],
+    "image": {
+      "src": "assets/taos-taos-pueblo-5bbb2a360f64.webp",
+      "alt": "An archival black-and-white photograph of Taos Pueblo’s adobe homes.",
+      "storage": "neon",
+      "position": "lower"
+    }
   },
   {
     "id": "harwood-museum-of-art",
@@ -213,7 +349,16 @@
     "name": "Harwood Museum of Art",
     "locality": "Taos / Ledoux Street",
     "source": "https://harwoodmuseum.org/visit/",
-    "description": "See work from the Harwood’s collection and changing exhibitions in its Ledoux Street galleries."
+    "description": "See work from the Harwood’s collection and changing exhibitions in its Ledoux Street galleries.",
+    "detail": [
+      "The Harwood’s Ledoux Street galleries trace several generations of art in Taos. The collection brings work by Pueblo and Hispano artists into conversation with the Taos Society of Artists, the Taos Moderns and artists working in the region today.",
+      "The octagonal Agnes Martin Gallery rewards a few unhurried minutes. Seven canvases hang around the room, and the space lets the eye settle on small changes in color and line. The museum posts its exhibitions and installation closures online."
+    ],
+    "image": {
+      "src": "assets/taos-harwood-museum-of-art-35b061f43743.webp",
+      "alt": "The octagonal Agnes Martin Gallery at the Harwood Museum of Art.",
+      "storage": "neon"
+    }
   },
   {
     "id": "couse-sharp-historic-site",
@@ -222,7 +367,16 @@
     "name": "Couse-Sharp Historic Site",
     "locality": "Taos / Kit Carson Road",
     "source": "https://couse-sharp.org/tour",
-    "description": "Visit the studios and homes of two Taos Society of Artists painters. Check available tours before going."
+    "description": "Visit the studios and homes of two Taos Society of Artists painters. Check available tours before going.",
+    "detail": [
+      "On Kit Carson Road, the Couse-Sharp site preserves studios used by Eanger Irving Couse and Joseph Henry Sharp, two founding members of the Taos Society of Artists. Couse’s studio still holds his easel, tools and objects he collected. Sharp’s restored studio shows another painter’s way of working.",
+      "Docents take visitors through the historic spaces by appointment. A tour puts the paintings in the context of the studios, gardens and people that shaped them, including the Pueblo models and makers who contributed to the painters’ work."
+    ],
+    "image": {
+      "src": "assets/taos-couse-sharp-historic-site-8df49a2c1adf.webp",
+      "alt": "The Couse home, studio and garden on Kit Carson Road.",
+      "storage": "neon"
+    }
   },
   {
     "id": "millicent-rogers-museum",
@@ -230,8 +384,17 @@
     "category": "experience",
     "name": "Millicent Rogers Museum",
     "locality": "El Prado",
-    "source": "https://www.millicentrogers.org/pages/welcome",
-    "description": "View Southwestern art and material culture in the museum’s galleries north of Taos."
+    "source": "https://www.millicentrogers.org/pages/visit",
+    "description": "View Southwestern art and material culture in the museum’s galleries north of Taos.",
+    "detail": [
+      "At the Millicent Rogers Museum in El Prado, jewelry, ceramics, textiles and devotional objects tell different stories of the Southwest. The collection grew from the interests of Millicent Rogers and includes work across a range of Indigenous and Hispanic traditions.",
+      "Give yourself time to compare the materials and techniques across galleries, from silverwork to Pueblo pottery. The museum makes a good north-of-town stop before heading toward Arroyo Seco or back to Taos."
+    ],
+    "image": {
+      "src": "assets/taos-millicent-rogers-museum-e1b0a621dd0b.webp",
+      "alt": "The Millicent Rogers Museum entrance and the landscape beyond.",
+      "storage": "neon"
+    }
   },
   {
     "id": "rio-grande-gorge-overlook-and-west-rim-walk",
@@ -239,8 +402,17 @@
     "category": "experience",
     "name": "Rio Grande Gorge overlook and West Rim walk",
     "locality": "Rio Grande Gorge",
-    "source": "https://www.blm.gov/visit/rio-grande-wild-and-scenic-river",
-    "description": "Explore the Río Grande gorge and surrounding public lands. Check the land manager’s guidance for the area you plan to visit."
+    "source": "https://www.blm.gov/visit/rgdnnm",
+    "description": "Explore the Río Grande gorge and surrounding public lands. Check the land manager’s guidance for the area you plan to visit.",
+    "detail": [
+      "West of Taos, the Río Grande cuts through the volcanic rock of the plateau. The bridge looks down into the canyon, while the West Rim Trail gives you time to watch the view change as you walk away from the highway.",
+      "The rim is open and exposed, with little shade. Bring water and choose a distance that suits the weather. Check the Bureau of Land Management’s information about the area before setting out."
+    ],
+    "image": {
+      "src": "assets/taos-rio-grande-gorge-overlook-and-west-rim-walk-14c99599ce1e.webp",
+      "alt": "The Río Grande winding between steep canyon walls in the national monument.",
+      "storage": "neon"
+    }
   },
   {
     "id": "nm-river-adventures-racecourse-half-day",
@@ -248,8 +420,17 @@
     "category": "experience",
     "name": "NM River Adventures Racecourse half-day",
     "locality": "Embudo / river meeting point",
-    "source": "https://www.newmexicoriveradventures.com/",
-    "description": "Join a guided whitewater trip. Check the operator for route conditions, seasonal dates and age requirements."
+    "source": "https://www.newmexicoriveradventures.com/the-racecourse/",
+    "description": "Join a guided whitewater trip. Check the operator for route conditions, seasonal dates and age requirements.",
+    "detail": [
+      "New Mexico River Adventures runs its half-day Racecourse trip on the Río Grande near the lower end of the gorge. This is a guided whitewater outing, with time spent paddling as a group and stretches for taking in the canyon.",
+      "River levels change the character of the rapids through the season. Check the operator’s trip page for current conditions, minimum ages and where to meet. Its base is in the river corridor south of Taos."
+    ],
+    "image": {
+      "src": "assets/taos-nm-river-adventures-racecourse-half-day-5a8c17ed0e0b.webp",
+      "alt": "A New Mexico River Adventures raft cutting through whitewater on the Racecourse.",
+      "storage": "neon"
+    }
   },
   {
     "id": "taos-ski-valley-mountain-day",
@@ -258,7 +439,16 @@
     "name": "Taos Ski Valley mountain day",
     "locality": "Taos Ski Valley",
     "source": "https://www.skitaos.com/",
-    "description": "Plan a mountain visit using the resort’s current conditions, lift schedules and activities."
+    "description": "Plan a mountain visit using the resort’s current conditions, lift schedules and activities.",
+    "detail": [
+      "Taos Ski Valley sits high in the Sangre de Cristo Mountains. In winter, lifts serve skiing and snowboarding terrain from the village. In warmer months, the mountain offers a different reason to make the drive, with hiking and other activities listed by season.",
+      "Give the day enough room for the drive, a stop in the village and a change in weather. Check the resort’s conditions and lift information before leaving Taos, particularly between seasons."
+    ],
+    "image": {
+      "src": "assets/taos-taos-ski-valley-mountain-day-9ac098b8120b.webp",
+      "alt": "A skier on a snowy slope at Taos Ski Valley.",
+      "storage": "neon"
+    }
   },
   {
     "id": "taos-art-museum-at-fechin-house",
@@ -267,7 +457,16 @@
     "name": "Taos Art Museum at Fechin House",
     "locality": "Taos / Paseo del Pueblo Norte",
     "source": "https://www.taosartmuseum.org/visit.html",
-    "description": "Visit Nicolai Fechin’s former home and studio. The artist’s carved woodwork is part of the experience."
+    "description": "Visit Nicolai Fechin’s former home and studio. The artist’s carved woodwork is part of the experience.",
+    "detail": [
+      "Nicolai Fechin turned an adobe house on Paseo del Pueblo Norte into a home for his family and a setting for his work. He carved doors, rails and furniture himself. Taos Pueblo masons Miguel and Pedro Mirabal helped carry out the renovation.",
+      "The museum shows paintings in spaces that still carry the artist’s hand. Look closely at the carved wood and how the windows bring light into the rooms. Leave time to visit the studio and garden as well."
+    ],
+    "image": {
+      "src": "assets/taos-taos-art-museum-at-fechin-house-c9588bcf35eb.webp",
+      "alt": "The front of the Fechin House seen from Paseo del Pueblo Norte.",
+      "storage": "neon"
+    }
   },
   {
     "id": "ojo-caliente-day-soaking",
@@ -276,7 +475,16 @@
     "name": "Ojo Caliente day soaking",
     "locality": "Ojo Caliente",
     "source": "https://ojosparesorts.com/ojo-caliente/soak/",
-    "description": "Spend time in mineral pools at Ojo Caliente. Check the resort’s current access and reservation policies."
+    "description": "Spend time in mineral pools at Ojo Caliente. Check the resort’s current access and reservation policies.",
+    "detail": [
+      "Ojo Caliente’s mineral pools sit against a hillside in the village of Ojo Caliente. The pools vary in temperature and setting, so an afternoon can be as simple as moving between the water and a quiet place to sit.",
+      "The resort offers communal soaking and lists private options separately. Allow time for the drive from Taos and check the resort’s current hours, access and age policy before making plans."
+    ],
+    "image": {
+      "src": "assets/taos-ojo-caliente-day-soaking-acd6b1175df6.webp",
+      "alt": "A mineral pool at Ojo Caliente beside a stone terrace.",
+      "storage": "neon"
+    }
   },
   {
     "id": "zane-bennett",
@@ -353,7 +561,11 @@
       "src": "assets/santa-fe-okeeffe-museum-b55ae92eb645.webp",
       "alt": "The adobe exterior of the Georgia O’Keeffe Museum on Johnson Street.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "The Georgia O’Keeffe Museum on Johnson Street follows the artist through her life and work. Changing installations draw on the collection to show how she handled color, scale and form across different subjects and periods.",
+      "Allow time to look closely at a few paintings. The Santa Fe galleries make a compact downtown visit, while the museum’s tours in Abiquiú take you into a different part of O’Keeffe’s life. The museum lists tickets for each location separately."
+    ]
   },
   {
     "id": "nm-museum-art",
@@ -367,7 +579,11 @@
       "src": "assets/santa-fe-nm-museum-art-cc27bd3ba3d3.webp",
       "alt": "Adobe walls and a vine-covered pergola frame a sculpture garden at the New Mexico Museum of Art.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "The New Mexico Museum of Art opened beside Santa Fe Plaza in 1917. Its Pueblo Revival building and courtyard form part of the visit. Inside, exhibitions draw on a collection that has grown alongside the region’s modern art history.",
+      "The Plaza Building offers a way to see how artists have worked in and responded to New Mexico over time. For a longer visit, pair it with the museum’s contemporary exhibitions at Vladem in the Railyard."
+    ]
   },
   {
     "id": "santa-fe-botanical",
@@ -382,7 +598,11 @@
       "alt": "Purple flowers and layered plantings at Santa Fe Botanical Garden under a sunset sky.",
       "storage": "neon",
       "position": "lower"
-    }
+    },
+    "detail": [
+      "The Santa Fe Botanical Garden on Museum Hill works with the conditions of the high desert. Native plants grow alongside species suited to the same climate. Paths lead through the orchard and across an arroyo to the Ojos y Manos garden.",
+      "Ojos y Manos explores the ties between plants and people in Northern New Mexico. The garden changes with the season, from the orchard’s spring blossoms to the shapes and textures that remain after flowering. Much of the visit takes place outdoors."
+    ]
   },
   {
     "id": "nm-history",
@@ -396,7 +616,11 @@
       "src": "assets/santa-fe-nm-history-aa25546d9eec.webp",
       "alt": "A donkey carries firewood along the Palace of the Governors in falling snow.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "The New Mexico History Museum and the Palace of the Governors tell the region’s history through objects, documents and changing exhibitions. The Palace dates to the early Spanish colonial period and still faces the north side of Santa Fe Plaza.",
+      "Under the Palace portal, the museum’s program gives visitors a chance to buy directly from participating Native American artists. Leave time for both the indoor galleries and the portal if you want to see how the site serves the city today."
+    ]
   },
   {
     "id": "vladem",
@@ -404,13 +628,17 @@
     "category": "experience",
     "name": "Vladem Contemporary",
     "locality": "Railyard",
-    "source": "https://www.nmartmuseum.dca.nm.gov/",
+    "source": "https://www.nmartmuseum.org/about-us/",
     "description": "A second New Mexico Museum of Art location devoted to contemporary exhibitions.",
     "image": {
       "src": "assets/santa-fe-vladem-aff4601f079d.webp",
       "alt": "Vladem Contemporary’s angular building in the Santa Fe Railyard.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "Vladem Contemporary is the New Mexico Museum of Art’s Railyard venue for contemporary work. The museum adapted a former brick warehouse and added new gallery space. The new galleries have room for large installations as well as smaller works.",
+      "A visit here pairs easily with SITE SANTA FE or a walk through the Railyard. To see another side of the state museum’s collection, continue to the Plaza Building and its galleries in the historic center."
+    ]
   },
   {
     "id": "site-santa-fe",
@@ -424,7 +652,11 @@
       "src": "assets/santa-fe-site-santa-fe-f3292d10b414.webp",
       "alt": "The folded metal exterior of SITE SANTA FE in the Railyard.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "SITE SANTA FE presents contemporary art in the Railyard. The folded exterior cladding designed by SHoP Architects gives the building a distinct presence among the district’s former rail and warehouse spaces.",
+      "The exhibitions change, and gallery guides can help you find a way into the work. The bookstore carries contemporary art publications and artist editions, so there’s reason to leave a little time after the galleries."
+    ]
   },
   {
     "id": "farmers-market",
@@ -438,7 +670,11 @@
       "src": "assets/santa-fe-farmers-market-e1b451a8e2fd.webp",
       "alt": "Red and green tomatoes at the Santa Fe Farmers’ Market.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "Northern New Mexico growers and producers bring their harvests to the Santa Fe Farmers’ Market in the Railyard. What you see changes through the year, from early greens to late-summer tomatoes and chile.",
+      "Bring a bag and make time to walk the market before choosing what to take home. Its location makes it easy to pair a visit with the Railyard galleries. Check the market’s calendar for the day and season you’re in town."
+    ]
   },
   {
     "id": "meow-wolf",
@@ -452,7 +688,11 @@
       "src": "assets/santa-fe-meow-wolf-37090d13070f.webp",
       "alt": "A visitor framed by the glowing refrigerator doorway at House of Eternal Return.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "House of Eternal Return begins inside an apparently ordinary house. Meow Wolf turns that familiar setting into a network of rooms, passages and installations. Visitors can follow clues about the fictional family or explore at their own pace.",
+      "The experience includes changes in light and sound, and different routes reveal different parts of the installation. Review the venue’s accessibility information if sensory conditions matter to your visit, and check timed ticket options before heading over."
+    ]
   },
   {
     "id": "the-shed",
@@ -466,7 +706,11 @@
       "src": "assets/santa-fe-the-shed-6ece2232ae5e.webp",
       "alt": "Enchiladas, beans and garnishes on a table at The Shed.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "The Shed serves Northern New Mexican food just off Santa Fe Plaza. The family restaurant is known for red chile enchiladas and blue corn specialties, with green chile stew for another expression of the same regional cooking.",
+      "The location makes it an easy lunch to plan around the Plaza museums. Dinner is worth planning ahead. The restaurant lists its menus and reservation options separately, and it also offers takeout."
+    ]
   },
   {
     "id": "la-choza",
@@ -480,7 +724,11 @@
       "src": "assets/santa-fe-la-choza-81e8df0614c6.webp",
       "alt": "Guests in La Choza’s dining room beneath colorful ceiling decorations.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "La Choza has served New Mexican food in the Railyard area since 1983. The Shed’s sister restaurant has its own following for dishes built around red and green chile, from enchiladas to bowls of stew.",
+      "Ordering both chiles gives you a chance to taste what each brings to the same plate. There’s a full bar and a seasonal patio, so the setting can suit a quick meal or a longer evening."
+    ]
   },
   {
     "id": "sazon",
@@ -494,7 +742,11 @@
       "src": "assets/santa-fe-sazon-13c081f5064a.webp",
       "alt": "A set table framed by colorful paintings in Sazón’s dining room.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "At Sazón, Mexico City-born chef Fernando Olea brings several mole traditions into a single restaurant. His cooking moves between traditional Mexican preparations and his own interpretations, with sauces that can change the character of a dish from the first taste.",
+      "The dining room on Shelby Street is close to the Plaza and suits a full evening. The menu gives diners a chance to explore unfamiliar combinations alongside dishes they already know. See the restaurant’s reservation page for current service."
+    ]
   },
   {
     "id": "pasquals",
@@ -508,7 +760,11 @@
       "src": "assets/santa-fe-pasquals-f184cb5aed5d.webp",
       "alt": "Guests sit beneath painted murals and hanging decorations at Café Pasqual’s.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "Café Pasqual’s has occupied a downtown corner since 1979. The kitchen draws on Mexican and New Mexican cooking, with an emphasis on how it sources produce and other ingredients. The colorful room has the energy of a neighborhood café.",
+      "Breakfast or lunch fits easily into a day downtown, and the dinner menu gives another view of the kitchen. The gallery next door shows work by local and regional artists and offers a reason to linger after a meal."
+    ]
   },
   {
     "id": "paper-dosa",
@@ -523,7 +779,11 @@
       "alt": "An overhead spread of dosa, chutneys and accompaniments from Paper Dosa.",
       "storage": "neon",
       "position": "bottom"
-    }
+    },
+    "detail": [
+      "Paper Dosa serves South Indian food on West Cordova Road. The dosa, a thin fermented rice-and-lentil crêpe, is the center of the menu. Its crisp edges make a good contrast to spiced fillings, chutneys and sambar.",
+      "A table can share a dosa alongside a few other dishes and see more of the kitchen’s range. Check the current menu for seasonal additions. The restaurant sits a short drive from the downtown museums and the Railyard."
+    ]
   },
   {
     "id": "josephs",
@@ -537,7 +797,11 @@
       "src": "assets/santa-fe-josephs-d800717f2e0c.webp",
       "alt": "The wood-beamed dining room at Joseph’s Culinary Pub.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "Chef Joseph Wrede’s Culinary Pub sits in the Railyard district. The restaurant gives locally sourced ingredients room to meet techniques and flavors from farther afield. The atmosphere is that of a small dining room and pub.",
+      "The bar counter offers an option for a solo dinner or a more spontaneous evening. For a table with friends, look at the current menu and reserve ahead if you’re planning dinner after a Railyard exhibition."
+    ]
   },
   {
     "id": "izanami",
@@ -552,7 +816,11 @@
       "alt": "Izanami’s warmly lit entrance beneath a blue evening sky.",
       "storage": "neon",
       "position": "lower"
-    }
+    },
+    "detail": [
+      "Izanami is the Japanese izakaya at Ten Thousand Waves, on the hillside above Santa Fe. The menu is built around small plates, and the sake list gives a group plenty of room to explore different pairings.",
+      "Order a few plates at a time and let the meal follow the table’s appetite. It can be part of a day at the spa or a destination of its own. The restaurant is outside the center of town, so allow time for the drive."
+    ]
   },
   {
     "id": "la-fonda",
@@ -561,7 +829,11 @@
     "name": "La Fonda on the Plaza",
     "locality": "The Plaza",
     "source": "https://lafondasantafe.com/",
-    "description": "A historic hotel on the Plaza with an art collection and easy access to downtown."
+    "description": "A historic hotel on the Plaza with an art collection and easy access to downtown.",
+    "detail": [
+      "La Fonda sits directly on Santa Fe Plaza. The hotel carries its art collection into the guest rooms and public spaces, where hand-painted furnishings and original work make a walk through the building worth some time.",
+      "The Plaza location puts the Palace of the Governors, the cathedral and the downtown museums within an easy walk. La Plazuela serves meals inside the hotel, and the seasonal Bell Tower Bar looks out over the roofs."
+    ]
   },
   {
     "id": "el-rey",
@@ -570,7 +842,11 @@
     "name": "El Rey Court",
     "locality": "Cerrillos Road",
     "source": "https://elreycourt.com/",
-    "description": "A former motor court with adobe rooms and courtyards on Cerrillos Road."
+    "description": "A former motor court with adobe rooms and courtyards on Cerrillos Road.",
+    "detail": [
+      "El Rey Court began as a motor court on old Route 66 in 1936. The adobe rooms and gardens still reflect the original roadside layout. Guests move between low buildings, outdoor spaces and the hotel’s bar, La Reina.",
+      "The Cerrillos Road location gives you a base outside the historic center. It makes sense for a visit that includes galleries and restaurants across several neighborhoods. Check the room photos and property calendar when choosing dates."
+    ]
   },
   {
     "id": "five-graces",
@@ -579,7 +855,11 @@
     "name": "The Inn of the Five Graces",
     "locality": "Barrio de Analco",
     "source": "https://fivegraces.com/",
-    "description": "An inn in the historic Barrio de Analco with individually furnished suites and courtyards."
+    "description": "An inn in the historic Barrio de Analco with individually furnished suites and courtyards.",
+    "detail": [
+      "The Inn of the Five Graces occupies a group of historic adobe buildings in the Barrio de Analco. Rooms and suites have their own arrangements of textiles, carved furnishings and mosaic tile, so the interiors are worth comparing when you book.",
+      "Courtyards give the buildings a quieter scale, a short walk from the Plaza. The location suits a visit divided between the historic center and Canyon Road, with time to return to the inn between outings."
+    ]
   },
   {
     "id": "anasazi",
@@ -588,7 +868,11 @@
     "name": "Rosewood Inn of the Anasazi",
     "locality": "Downtown",
     "source": "https://www.rosewoodhotels.com/en/inn-of-the-anasazi-santa-fe",
-    "description": "A small hotel near the Plaza with rooms furnished in a Southwestern style."
+    "description": "A small hotel near the Plaza with rooms furnished in a Southwestern style.",
+    "detail": [
+      "The Rosewood Inn of the Anasazi is a small hotel near Santa Fe Plaza. Wood, stone and textiles give its rooms a local character, and the hotel has its own restaurant and bar.",
+      "The downtown location keeps the museums and Palace of the Governors close at hand. The hotel can arrange in-room treatments and offers bicycles for guests who want to spend part of the visit exploring farther afield."
+    ]
   },
   {
     "id": "hotel-santa-fe",
@@ -597,7 +881,11 @@
     "name": "Hotel Santa Fe",
     "locality": "Railyard",
     "source": "https://www.hotelsantafe.com/",
-    "description": "A Native American-owned hotel in the Railyard district."
+    "description": "A Native American-owned hotel in the Railyard district.",
+    "detail": [
+      "Hotel Santa Fe is Native American-owned and draws on its connection to Picuris Pueblo. Its collection of Native art extends into the public spaces of the hotel.",
+      "The hotel is in the Railyard district, near the farmers’ market and contemporary art venues. Compare the hotel rooms with the Hacienda accommodations when choosing a stay. Both are well placed for a day on foot in the Railyard."
+    ]
   },
   {
     "id": "inn-alameda",
@@ -606,7 +894,11 @@
     "name": "Inn on the Alameda",
     "locality": "Alameda",
     "source": "https://www.innonthealameda.com/",
-    "description": "An adobe-style inn between the Plaza and Canyon Road."
+    "description": "An adobe-style inn between the Plaza and Canyon Road.",
+    "detail": [
+      "Inn on the Alameda sits between the Plaza and Canyon Road. The rooms use wood and adobe, and many suites have fireplaces. The inn’s location makes it easy to divide a day between museums downtown and galleries farther east.",
+      "Joe’s, named for the inn’s founder, gives guests a place to eat or have a drink on the property. Compare room layouts if you want a fireplace or extra space for a longer stay."
+    ]
   },
   {
     "id": "turquoise-bear",
@@ -615,7 +907,11 @@
     "name": "Inn of the Turquoise Bear",
     "locality": "Santa Fe",
     "source": "https://www.turquoisebear.com/",
-    "description": "A bed and breakfast in the former estate of poet Witter Bynner."
+    "description": "A bed and breakfast in the former estate of poet Witter Bynner.",
+    "detail": [
+      "The Inn of the Turquoise Bear is a bed and breakfast in the former estate of poet Witter Bynner. The adobe house and terraced gardens recall an earlier Santa Fe. Several rooms have their own garden entrances.",
+      "Mornings begin with breakfast at the inn. The property is within walking distance of the Plaza, and its garden gives you a quieter place to return to after a day downtown. Compare entrances and layouts when choosing a room."
+    ]
   },
   {
     "id": "hotel-st-francis",
@@ -624,7 +920,11 @@
     "name": "Hotel St. Francis",
     "locality": "Downtown",
     "source": "https://www.hotelstfrancis.com/",
-    "description": "A downtown hotel occupying a historic building a short walk from the Plaza."
+    "description": "A downtown hotel occupying a historic building a short walk from the Plaza.",
+    "detail": [
+      "Hotel St. Francis occupies a historic building a block from the Plaza. Natural colors and locally crafted wood furnishings give the interiors a restrained character. The lobby offers a pause between the busier streets outside and the guest rooms.",
+      "The location works well for a visit centered on the museums, Palace of the Governors and nearby restaurants. Secreto Lounge offers drinks on site, and the hotel lists guided tours for visitors curious about the building’s history."
+    ]
   },
   {
     "id": "drury",
@@ -633,7 +933,11 @@
     "name": "Drury Plaza Hotel in Santa Fe",
     "locality": "Downtown",
     "source": "https://www.druryhotels.com/locations/santa-fe-nm/drury-plaza-hotel-in-santa-fe",
-    "description": "A downtown hotel on the former St. Vincent Hospital site."
+    "description": "A downtown hotel on the former St. Vincent Hospital site.",
+    "detail": [
+      "Drury Plaza Hotel occupies the former St. Vincent Hospital site near downtown Santa Fe. The property gives guests a base between the Plaza and the galleries on Canyon Road. Its rooftop pool looks out toward the mountains.",
+      "The hotel includes breakfast and offers an evening reception. Those amenities can simplify a family or group visit, especially with different plans during the day. Check the hotel’s site for current rooftop and dining details."
+    ]
   },
   {
     "id": "ten-thousand-waves",
@@ -642,7 +946,11 @@
     "name": "Ten Thousand Waves",
     "locality": "Hyde Park Road",
     "source": "https://tenthousandwaves.com/lodging",
-    "description": "Japanese-inspired guest lodgings on the hillside near the spa and restaurant."
+    "description": "Japanese-inspired guest lodgings on the hillside near the spa and restaurant.",
+    "detail": [
+      "Ten Thousand Waves offers lodging on a piñon- and juniper-covered hillside above Santa Fe. The rooms draw on the Japanese ryokan tradition and are a short walk from the spa. Their layouts and furnishings vary.",
+      "The setting suits a stay built around soaking, a meal at Izanami and time outside. Santa Fe’s center is a drive away. If you want a particular bath or dinner time, check those reservations while arranging the room."
+    ]
   },
   {
     "city": "taos",
@@ -651,7 +959,16 @@
     "name": "Tiwa Kitchen Restaurant & Bakery",
     "locality": "Taos Pueblo",
     "source": "https://www.tiwakitchen.com/",
-    "description": "Taos Pueblo and Northern New Mexican cooking, including blue corn frybread. Check service around traditional events."
+    "description": "Taos Pueblo and Northern New Mexican cooking, including blue corn frybread. Check service around traditional events.",
+    "detail": [
+      "Tiwa Kitchen is a Taos Pueblo restaurant and bakery. Its menu makes room for buffalo burgers, blue corn frybread and baked goods. The restaurant grows blue corn at Taos Pueblo, giving visitors a direct connection to an ingredient they might first encounter at the table.",
+      "A stop here fits naturally with a visit to the Pueblo when both are open. Tiwa Kitchen observes traditional events and feast days, which may affect restaurant service. Check with the restaurant before making a special trip."
+    ],
+    "image": {
+      "src": "assets/taos-tiwa-kitchen-9bd256c5d3e3.webp",
+      "alt": "The adobe exterior of Tiwa Kitchen with mountains behind it.",
+      "storage": "neon"
+    }
   },
   {
     "city": "taos",
@@ -660,7 +977,16 @@
     "name": "The Historic Taos Inn",
     "locality": "Downtown Taos",
     "source": "https://taosinn.com/",
-    "description": "A historic adobe inn near the Plaza, with Doc Martin’s Restaurant and the Adobe Bar."
+    "description": "A historic adobe inn near the Plaza, with Doc Martin’s Restaurant and the Adobe Bar.",
+    "detail": [
+      "The Historic Taos Inn grew out of a group of adobe houses that included the home of physician Thomas Paul Martin and Helen Martin. The guest rooms retain a sense of that earlier layout, a short walk from the Plaza.",
+      "The Adobe Bar and Doc Martin’s give the inn a life of its own in the evening. It works well as a base for galleries and museums on foot, with live music at the bar after a day out."
+    ],
+    "image": {
+      "src": "assets/taos-taos-inn-a3da676de28a.webp",
+      "alt": "The historic Taos Inn and its blue sign with Taos Mountain beyond.",
+      "storage": "neon"
+    }
   },
   {
     "city": "santa-fe",
@@ -701,7 +1027,11 @@
       "src": "assets/santa-fe-museum-indian-arts-6d48f58ef3f9.webp",
       "alt": "The exterior of the Museum of Indian Arts & Culture on Museum Hill.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "The Museum of Indian Arts & Culture presents the histories and living cultures of Indigenous peoples of the Southwest. On Museum Hill, its exhibitions bring pottery, textiles, jewelry and other works together with the perspectives of the communities that made them.",
+      "The core exhibition, Here, Now and Always, offers a place to begin. Allow time to read and listen as well as look. The museum and the nearby Wheelwright offer different perspectives on Native art, so they pair well in a longer visit."
+    ]
   },
   {
     "id": "michael-gorman-gallery",
@@ -728,7 +1058,16 @@
     "name": "Taos Center for the Arts",
     "locality": "Downtown Taos",
     "source": "https://tcataos.org/",
-    "description": "The center programs visual art, film and live performances. Check its calendar for your visit."
+    "description": "The center programs visual art, film and live performances. Check its calendar for your visit.",
+    "detail": [
+      "Taos Center for the Arts brings film, live performances and visual art together in downtown Taos. The program changes throughout the year, so a visit might revolve around a screening, an exhibition or a performance.",
+      "The calendar is the best place to start. An evening show fits neatly after a day of galleries or museums, and the downtown location makes it easy to plan dinner nearby."
+    ],
+    "image": {
+      "src": "assets/taos-taos-center-for-the-arts-b45b82d788a0.webp",
+      "alt": "The auditorium at Taos Center for the Arts from near the stage.",
+      "storage": "neon"
+    }
   },
   {
     "id": "doc-martins",
@@ -737,7 +1076,17 @@
     "name": "Doc Martin’s",
     "locality": "Downtown Taos",
     "source": "https://taosinn.com/eat-drink/restaurant-doc-martins/",
-    "description": "A dining room inside the historic Taos Inn with seasonal Northern New Mexican cooking."
+    "description": "A dining room inside the historic Taos Inn with seasonal Northern New Mexican cooking.",
+    "detail": [
+      "Doc Martin’s occupies adobe rooms at The Historic Taos Inn and takes its name from Thomas Paul Martin, the Taos physician who once lived on the property. Today the kitchen draws on Northern New Mexico, with ingredients such as chile, blue corn and piñon.",
+      "Dinner here can lead into music or a drink at the inn’s Adobe Bar. The restaurant posts its current dinner and brunch service separately, which helps when planning a meal around an evening in town."
+    ],
+    "image": {
+      "src": "assets/taos-doc-martins-4a07c1809230.webp",
+      "alt": "A plated entrée from Doc Martin’s at the Taos Inn.",
+      "storage": "neon",
+      "position": "lower"
+    }
   },
   {
     "id": "la-luna",
@@ -746,7 +1095,16 @@
     "name": "La Luna Eatery",
     "locality": "Taos Plaza",
     "source": "https://www.lafondataos.com/restaurant/",
-    "description": "A restaurant at Hotel La Fonda de Taos serving food rooted in Indigenous and New Mexican traditions."
+    "description": "A restaurant at Hotel La Fonda de Taos serving food rooted in Indigenous and New Mexican traditions.",
+    "detail": [
+      "At Hotel La Fonda on Taos Plaza, La Luna brings Indigenous ingredients into a kitchen shaped by the Valdez family. Chef Robin Valdez of Taos Pueblo and Maria Valdez have served a roasted poblano with corn, beans and squash, bringing the Three Sisters together in a single dish.",
+      "The restaurant’s location makes it a natural stop on a day spent around the Plaza. Ask what the kitchen is making with seasonal ingredients. Past preparations have ranged from squash and beans to bison and roasted hibiscus."
+    ],
+    "image": {
+      "src": "assets/taos-la-luna-e1f5bc1b504f.webp",
+      "alt": "A roasted poblano with corn, beans and squash from La Luna.",
+      "storage": "neon"
+    }
   },
   {
     "id": "la-cueva",
@@ -755,7 +1113,16 @@
     "name": "La Cueva Café",
     "locality": "Downtown Taos",
     "source": "https://www.lacuevacafe.com/",
-    "description": "Mexican and New Mexican dishes from a gluten-free kitchen, with a patio at Casa Baca."
+    "description": "Mexican and New Mexican dishes from a gluten-free kitchen, with a patio at Casa Baca.",
+    "detail": [
+      "La Cueva Café serves Mexican and New Mexican cooking at the historic Casa Baca property. The kitchen is gluten-free, with dishes such as chile rellenos, huevos rancheros and enchiladas with mole poblano.",
+      "The café works well for breakfast before a Plaza walk or for lunch after visiting the downtown galleries. Its patio offers an outdoor table when the weather allows. Daily specials bring dishes such as cochinita pibil into the rotation."
+    ],
+    "image": {
+      "src": "assets/taos-la-cueva-3a34b8e0b83d.webp",
+      "alt": "The entrance to La Cueva Café in historic Casa Baca.",
+      "storage": "neon"
+    }
   },
   {
     "id": "luna-mystica",
@@ -764,7 +1131,16 @@
     "name": "Hotel Luna Mystica",
     "locality": "El Prado",
     "source": "https://hotellunamystica.com/about/",
-    "description": "Vintage trailers with individual decks on the mesa outside Taos. Tent sites are also available."
+    "description": "Vintage trailers with individual decks on the mesa outside Taos. Tent sites are also available.",
+    "detail": [
+      "Hotel Luna Mystica sets a collection of vintage trailers out on the mesa in El Prado. Each has a deck, its own bathroom and a place to prepare food. Interiors vary with the trailer, so part of the pleasure is choosing one.",
+      "There are tent sites and primitive RV spaces as well. The mesa setting suits travelers who want to spend a clear evening outdoors and don’t mind the drive back into town for gallery visits."
+    ],
+    "image": {
+      "src": "assets/taos-luna-mystica-e84da39f2234.webp",
+      "alt": "A vintage silver trailer and its deck at Hotel Luna Mystica.",
+      "storage": "neon"
+    }
   },
   {
     "id": "wheelwright",
@@ -778,7 +1154,11 @@
       "src": "assets/santa-fe-wheelwright-ea07a11d8a39.webp",
       "alt": "The adobe entry and courtyard of the Wheelwright Museum on Museum Hill.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "The Wheelwright Museum on Museum Hill presents Native American art through focused exhibitions. Its jewelry collection offers a way to follow materials, techniques and individual makers across generations.",
+      "The Case Trading Post, the museum’s shop, carries work by Native artists. Leave time to look there after the galleries, and check with the museum in advance if you’d like to arrange a tour or discuss access needs."
+    ]
   },
   {
     "id": "la-boca",
@@ -792,7 +1172,11 @@
       "src": "assets/santa-fe-la-boca-4d4807212495.webp",
       "alt": "An overhead view of small plates shared at a La Boca table.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "At La Boca, chef James Campbell Caruso draws on Spanish cooking and works with locally sourced ingredients. Tapas set the pace. The wine list includes a range of Spanish sherries, from dry fino to sweet Pedro Ximénez.",
+      "The small plates make it easy to build a meal around a few shared choices. Ask the staff about a sherry pairing if you want to try something unfamiliar. The restaurant is on Marcy Street near the Plaza."
+    ]
   },
   {
     "id": "geronimo",
@@ -806,7 +1190,11 @@
       "src": "assets/santa-fe-geronimo-ba63bc1181ef.webp",
       "alt": "White-tablecloth tables and high-backed wooden chairs in Geronimo’s dining room.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "Geronimo serves dinner in the Borrego House, an eighteenth-century adobe on Canyon Road. Thick walls, wood beams and kiva fireplaces give the room a character that fits its setting among the galleries.",
+      "The kitchen’s seasonal menu draws from several cuisines. Leave time for a full dinner if you’re planning a gallery afternoon on Canyon Road. The restaurant posts its current menu and takes reservations."
+    ]
   },
   {
     "id": "santacafe",
@@ -820,6 +1208,10 @@
       "src": "assets/santa-fe-santacafe-411ab30bce7c.webp",
       "alt": "A sculpture surrounded by greenery and shaded tables at Santacafé.",
       "storage": "neon"
-    }
+    },
+    "detail": [
+      "Santacafé serves contemporary American food in downtown Santa Fe. Its courtyard is a particular draw in warm weather, when a meal outside can offer a pause between the Plaza and the surrounding streets.",
+      "The restaurant posts separate menus for lunch and dinner. A midday table works well between museum visits. If you’re planning your meal around the courtyard, ask about outdoor seating when you reserve."
+    ]
   }
 ]

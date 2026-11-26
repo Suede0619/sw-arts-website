@@ -33,6 +33,7 @@
 .journal-copy p { white-space: pre-line; }
 .place-image img { width: 100%; height: 100%; object-fit: cover; }
 .place-detail-hero p { font-size: 1rem; line-height: 1.65; }
+.place-detail-copy p + p { margin-top: 1em; }
 .hospitality-image { position: relative; aspect-ratio: 16 / 9; margin-bottom: 18px; overflow: hidden; }
 .hospitality-image img { width: 100%; height: 100%; object-fit: cover; }
 [data-photo-position="lower"] img { object-position: center 66%; }

@@ -191,8 +191,9 @@ function detailPlace(place) {
   const href = placeHref(place);
   const isHospitality = ['food', 'lodging'].includes(place.category);
   const visual = isHospitality && !place.image ? `<div class="abstract-venue">${place.category === 'food' ? plate : house}</div>` : placeVisual(place, 'place-detail-art');
+  const copy = (place.detail || [place.description]).map(paragraph => `<p>${esc(paragraph)}</p>`).join('');
   return `<section class="full-section inset bottom-space">${lead(place.city, place.name, '', href.slice(0, href.lastIndexOf('/')), categories[place.category])}
-    <div class="place-detail-hero">${visual}<div class="place-detail-copy"><span class="eyebrow">${esc(place.locality)}</span><p>${esc(place.description)}</p>
+    <div class="place-detail-hero">${visual}<div class="place-detail-copy"><span class="eyebrow">${esc(place.locality)}</span>${copy}
     <div class="listing-actions">${link(place.source, 'Visit the official site', 'button')}${save(href, place.name, place.locality, true)}</div></div></div></section>`;
 }
 
