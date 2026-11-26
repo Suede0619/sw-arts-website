@@ -1,4 +1,8 @@
-# ArtSouthwest prototype
+# ArtSouthwest website
+
+The approved visual direction carries forward into `production/`, the Taos and Santa Fe catalog. Run `npm run build:production` and serve `production-dist/` at `/discover/` from the artist intake origin. The build reads approved artists, works and image previews through the intake API. The separate `dist/` folder remains the GitHub Pages prototype. See the [website README](README.md) for the two build paths.
+
+When working in ART, automatically record the date, task, hours and evidence in `../../private/TIMESHEET.md` before ending the task. Follow the ART instructions for estimates, totals and private files. Use the current ArtSouthwest handoff for the production stage and treat the economics and approvals below as prototype history.
 
 This is the separate prototype repository `Suede0619/sw-arts-website`, inside the ignored `ART/ArtSouthwest/ArtSouthwest-website/` folder. The surrounding ART repository is documentation, with its own Git history. Never stage parent files, private source archives or credentials here.
 

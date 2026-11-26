@@ -1,4 +1,18 @@
-# ArtSouthwest: Taos design prototype
+# ArtSouthwest website
+
+## Taos and Santa Fe catalog
+
+The production build carries forward the approved prototype’s typography, palette, split hero and catalog grid. It reads artists and available work from the artist intake service’s approved catalog endpoint. The place catalog includes ten galleries, ten experiences, ten food listings and ten stays per city. Each record links to its own source. The catalog can be reviewed while the team clears artist profiles and artwork.
+
+1. Run `npm run build:production` in this repository.
+2. Set `CATALOG_DIR` to its `production-dist/` directory when starting the [artist intake service](https://github.com/Suede0619/asw_artist_webform). Open `/discover/` on that server. The intake service hosts the catalog API, images and Taos itinerary endpoint on the same origin.
+3. Review for correct city, artist, work, image and price. Use the staff review desk to approve a fictional application on a test branch and confirm it appears. Pull it down and confirm the catalog updates.
+
+Use `production/content/places.json` for the editorial place catalog. Copy and photos come from the individual venues or their official visitor pages. Publish a photo only after checking the subject, photographer, usage permission and credit. Cleared venue images can live under `production/assets/` with the associated listing’s `image` metadata. Pending image material stays in the private ART source archive.
+
+GitHub Pages publishes the prototype from `dist/`. Hosting for the catalog needs to serve the production build and its server endpoints together.
+
+## Taos design prototype
 
 ArtSouthwest is a responsive design prototype for Taos artist research, demo art browsing and visit planning. Its purpose is to help artists sell work and remain in Taos.
 

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "house-of-fire",
+    "city": "taos",
+    "category": "gallery",
+    "name": "HOUSE of FIRE",
+    "locality": "Taos / Kit Carson Road",
+    "source": "https://www.instagram.com/houseoffiretaos/",
+    "description": "A contemporary art gallery on Kit Carson Road."
+  },
+  {
+    "id": "203-fine-art",
+    "city": "taos",
+    "category": "gallery",
+    "name": "203 Fine Art",
+    "locality": "Taos / Gusdorf Road",
+    "source": "https://203fineart.com/",
+    "description": "Art from Taos Modernists and contemporary artists, with painting, sculpture and works on paper."
+  },
+  {
+    "id": "david-anthony-fine-art",
+    "city": "taos",
+    "category": "gallery",
+    "name": "David Anthony Fine Art",
+    "locality": "Taos / Kit Carson Road",
+    "source": "https://davidanthonyfineart.com/artists/",
+    "description": "Contemporary art and studio furniture on Kit Carson Road."
+  },
+  {
+    "id": "parsons-gallery-group",
+    "city": "taos",
+    "category": "gallery",
+    "name": "Parsons gallery group",
+    "locality": "Taos / Kit Carson Road and Bent Street",
+    "source": "https://parsonsart.com/",
+    "description": "Explore contemporary Western art and historic Taos work at the Parsons gallery locations."
+  },
+  {
+    "id": "chimayo-trading-del-norte",
+    "city": "taos",
+    "category": "gallery",
+    "name": "Chimayo Trading Del Norte",
+    "locality": "Ranchos de Taos",
+    "source": "https://chimayotrading.com/",
+    "description": "Southwestern paintings, Pueblo pottery and Navajo weavings in Ranchos de Taos."
+  },
+  {
+    "id": "momo-taos",
+    "city": "taos",
+    "category": "gallery",
+    "name": "MoMo Taos",
+    "locality": "Taos / Bent Street",
+    "source": "https://www.momotaos.com/artists",
+    "description": "Contemporary art, ceramics, jewelry and design from artists and makers in Taos."
+  },
+  {
+    "id": "r-c-gorman-navajo-gallery-taos",
+    "city": "taos",
+    "category": "gallery",
+    "name": "R.C. Gorman Navajo Gallery Taos",
+    "locality": "Taos / Hotel La Fonda",
+    "source": "https://rcgormannavajogallery.com/locations/",
+    "description": "See the work of Diné artist R.C. Gorman at the Taos gallery."
+  },
+  {
+    "id": "lake-object",
+    "city": "taos",
+    "category": "gallery",
+    "name": "Lake Object",
+    "locality": "Taos / Bent Street",
+    "source": "https://www.lakeobject.com/",
+    "description": "A Taos gallery for contemporary art, sculpture and jewelry."
+  },
+  {
+    "id": "the-love-apple",
+    "city": "taos",
+    "category": "food",
+    "name": "The Love Apple",
+    "locality": "North Taos",
+    "source": "https://theloveapple.net/",
+    "description": "Northern New Mexican cooking in a former chapel, with a menu shaped by local ingredients."
+  },
+  {
+    "id": "medley",
+    "city": "taos",
+    "category": "food",
+    "name": "medley.",
+    "locality": "El Prado / north corridor",
+    "source": "https://www.medleytaos.com/",
+    "description": "A restaurant and wine shop in El Prado with a seasonal dinner menu."
+  },
+  {
+    "id": "aceq",
+    "city": "taos",
+    "category": "food",
+    "name": "ACEQ",
+    "locality": "Arroyo Seco",
+    "source": "https://aceqrestaurant.com/food-drink",
+    "description": "Seasonal cooking in Arroyo Seco. See the restaurant’s current menu before visiting."
+  },
+  {
+    "id": "corner-office",
+    "city": "taos",
+    "category": "food",
+    "name": "Corner Office",
+    "locality": "Downtown Taos",
+    "source": "https://www.cornerofficetaos.com/menus",
+    "description": "A small Taos restaurant with a changing menu and a focus on wine."
+  },
+  {
+    "id": "juliette",
+    "city": "taos",
+    "category": "food",
+    "name": "Juliette",
+    "locality": "Taos / Hotel Willa",
+    "source": "https://www.restaurantjuliette.com/",
+    "description": "The restaurant at Hotel Willa serves seasonal food in a downtown Taos setting."
+  },
+  {
+    "id": "192-at-the-blake",
+    "city": "taos",
+    "category": "food",
+    "name": "192 at The Blake",
+    "locality": "Taos Ski Valley",
+    "source": "https://www.skitaos.com/dining",
+    "description": "A restaurant inside The Blake at Taos Ski Valley. Check the resort’s dining page for seasonal service."
+  },
+  {
+    "id": "hotel-willa",
+    "city": "taos",
+    "category": "lodging",
+    "name": "Hotel Willa",
+    "locality": "Taos town",
+    "source": "https://www.hotelwilla.com/stay/rooms",
+    "description": "A boutique Taos hotel with local art and accommodations ranging from guest rooms to a three-bedroom suite."
+  },
+  {
+    "id": "el-monte-sagrado",
+    "city": "taos",
+    "category": "lodging",
+    "name": "El Monte Sagrado",
+    "locality": "Taos town",
+    "source": "https://www.elmontesagrado.com/stay",
+    "description": "A Taos resort with a spa and accommodations that include rooms, suites and historic casitas."
+  },
+  {
+    "id": "the-blake",
+    "city": "taos",
+    "category": "lodging",
+    "name": "The Blake",
+    "locality": "Taos Ski Valley",
+    "source": "https://www.skitaos.com/stay",
+    "description": "A slopeside hotel at Taos Ski Valley with rooms, suites and separately listed residences."
+  },
+  {
+    "id": "palacio-de-marquesa",
+    "city": "taos",
+    "category": "lodging",
+    "name": "Palacio de Marquesa",
+    "locality": "Taos town",
+    "source": "https://www.marquesataos.com/stay",
+    "description": "A small Taos inn whose rooms honor women associated with the town’s artistic life."
+  },
+  {
+    "id": "casa-gallina",
+    "city": "taos",
+    "category": "lodging",
+    "name": "Casa Gallina",
+    "locality": "Taos outskirts",
+    "source": "https://casagallina.net/project_category/casitas/",
+    "description": "Individual casitas with kitchens and distinct layouts in a residential part of Taos."
+  },
+  {
+    "id": "hacienda-del-sol",
+    "city": "taos",
+    "category": "lodging",
+    "name": "Hacienda del Sol",
+    "locality": "North Taos",
+    "source": "https://www.taoshaciendadelsol.com/rooms",
+    "description": "A Taos inn with guest rooms and separate accommodations, including an Earthship."
+  },
+  {
+    "id": "la-do-a-luz",
+    "city": "taos",
+    "category": "lodging",
+    "name": "La Doña Luz",
+    "locality": "Central Taos",
+    "source": "https://www.ladonaluz.com/VisitOurRooms.html",
+    "description": "A historic Taos bed and breakfast with individually furnished rooms near the Plaza."
+  },
+  {
+    "id": "mabel-dodge-luhan-house",
+    "city": "taos",
+    "category": "lodging",
+    "name": "Mabel Dodge Luhan House",
+    "locality": "Taos town",
+    "source": "https://www.mabeldodgeluhan.com/accommodations/rooms/",
+    "description": "Stay at the home of arts patron Mabel Dodge Luhan, now an inn and retreat center."
+  },
+  {
+    "id": "taos-pueblo",
+    "city": "taos",
+    "category": "experience",
+    "name": "Taos Pueblo",
+    "locality": "Taos Pueblo",
+    "source": "https://taospueblo.com/visiting-taos-pueblo/",
+    "description": "Visit the living community on terms set by Taos Pueblo. Check its website for access, closures and photography rules."
+  },
+  {
+    "id": "harwood-museum-of-art",
+    "city": "taos",
+    "category": "experience",
+    "name": "Harwood Museum of Art",
+    "locality": "Taos / Ledoux Street",
+    "source": "https://harwoodmuseum.org/visit/",
+    "description": "See work from the Harwood’s collection and changing exhibitions in its Ledoux Street galleries."
+  },
+  {
+    "id": "couse-sharp-historic-site",
+    "city": "taos",
+    "category": "experience",
+    "name": "Couse-Sharp Historic Site",
+    "locality": "Taos / Kit Carson Road",
+    "source": "https://couse-sharp.org/tour",
+    "description": "Visit the studios and homes of two Taos Society of Artists painters. Check available tours before going."
+  },
+  {
+    "id": "millicent-rogers-museum",
+    "city": "taos",
+    "category": "experience",
+    "name": "Millicent Rogers Museum",
+    "locality": "El Prado",
+    "source": "https://www.millicentrogers.org/pages/welcome",
+    "description": "View Southwestern art and material culture in the museum’s galleries north of Taos."
+  },
+  {
+    "id": "rio-grande-gorge-overlook-and-west-rim-walk",
+    "city": "taos",
+    "category": "experience",
+    "name": "Rio Grande Gorge overlook and West Rim walk",
+    "locality": "Rio Grande Gorge",
+    "source": "https://www.blm.gov/visit/rio-grande-wild-and-scenic-river",
+    "description": "Explore the Río Grande gorge and surrounding public lands. Check the land manager’s guidance for the area you plan to visit."
+  },
+  {
+    "id": "nm-river-adventures-racecourse-half-day",
+    "city": "taos",
+    "category": "experience",
+    "name": "NM River Adventures Racecourse half-day",
+    "locality": "Embudo / river meeting point",
+    "source": "https://www.newmexicoriveradventures.com/",
+    "description": "Join a guided whitewater trip. Check the operator for route conditions, seasonal dates and age requirements."
+  },
+  {
+    "id": "taos-ski-valley-mountain-day",
+    "city": "taos",
+    "category": "experience",
+    "name": "Taos Ski Valley mountain day",
+    "locality": "Taos Ski Valley",
+    "source": "https://www.skitaos.com/",
+    "description": "Plan a mountain visit using the resort’s current conditions, lift schedules and activities."
+  },
+  {
+    "id": "taos-art-museum-at-fechin-house",
+    "city": "taos",
+    "category": "experience",
+    "name": "Taos Art Museum at Fechin House",
+    "locality": "Taos / Paseo del Pueblo Norte",
+    "source": "https://www.taosartmuseum.org/visit.html",
+    "description": "Visit Nicolai Fechin’s former home and studio. The artist’s carved woodwork is part of the experience."
+  },
+  {
+    "id": "ojo-caliente-day-soaking",
+    "city": "taos",
+    "category": "experience",
+    "name": "Ojo Caliente day soaking",
+    "locality": "Ojo Caliente",
+    "source": "https://ojosparesorts.com/ojo-caliente/soak/",
+    "description": "Spend time in mineral pools at Ojo Caliente. Check the resort’s current access and reservation policies."
+  },
+  {
+    "id": "zane-bennett",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "Zane Bennett Contemporary Art",
+    "locality": "Railyard",
+    "source": "https://zanebennettgallery.com/",
+    "description": "See editioned works on paper by postwar and contemporary artists in the Railyard."
+  },
+  {
+    "id": "charlotte-jackson",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "Charlotte Jackson Fine Art",
+    "locality": "Railyard",
+    "source": "https://www.charlottejackson.com/",
+    "description": "Abstract work with a particular focus on monochrome painting and color."
+  },
+  {
+    "id": "evoke",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "EVOKE Contemporary",
+    "locality": "Railyard",
+    "source": "https://evokecontemporary.com/",
+    "description": "Contemporary figurative and narrative art, with painting and sculpture."
+  },
+  {
+    "id": "tai-modern",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "TAI Modern",
+    "locality": "Railyard",
+    "source": "https://taimodern.com/",
+    "description": "Japanese bamboo art shares the program with contemporary painting and sculpture."
+  },
+  {
+    "id": "turner-carroll",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "Turner Carroll Gallery",
+    "locality": "Canyon Road",
+    "source": "https://www.turnercarrollgallery.com/",
+    "description": "Contemporary painting and sculpture from an international roster."
+  },
+  {
+    "id": "blue-rain",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "Blue Rain Gallery",
+    "locality": "Railyard",
+    "source": "https://blueraingallery.com/",
+    "description": "Contemporary Native American and regional work across painting, glass and ceramics."
+  },
+  {
+    "id": "owings",
+    "city": "santa-fe",
+    "category": "gallery",
+    "name": "The Owings Gallery",
+    "locality": "Downtown",
+    "source": "https://owingsgallery.com/",
+    "description": "Historic and contemporary American art with a focus on the Southwest."
+  },
+  {
+    "id": "okeeffe-museum",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "Georgia O’Keeffe Museum",
+    "locality": "Downtown",
+    "source": "https://www.okeeffemuseum.org/visit/",
+    "description": "Explore O’Keeffe’s work and life in the museum’s downtown galleries."
+  },
+  {
+    "id": "nm-museum-art",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "New Mexico Museum of Art",
+    "locality": "The Plaza",
+    "source": "https://www.nmartmuseum.dca.nm.gov/",
+    "description": "See the state art collection in the historic Plaza building."
+  },
+  {
+    "id": "santa-fe-botanical",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "Santa Fe Botanical Garden",
+    "locality": "Museum Hill",
+    "source": "https://visitsfbg.org/visit/",
+    "description": "Gardens and trails on Museum Hill with plantings shaped by the high desert."
+  },
+  {
+    "id": "nm-history",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "New Mexico History Museum",
+    "locality": "The Plaza",
+    "source": "https://www.nmhistorymuseum.dca.nm.gov/",
+    "description": "The museum and Palace of the Governors trace New Mexico’s history through exhibitions and collections."
+  },
+  {
+    "id": "vladem",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "Vladem Contemporary",
+    "locality": "Railyard",
+    "source": "https://www.nmartmuseum.dca.nm.gov/",
+    "description": "A second New Mexico Museum of Art location devoted to contemporary exhibitions."
+  },
+  {
+    "id": "site-santa-fe",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "SITE SANTA FE",
+    "locality": "Railyard",
+    "source": "https://www.sitesantafe.org/en/plan-your-visit/",
+    "description": "Contemporary exhibitions and conversations with gallery guides in the Railyard."
+  },
+  {
+    "id": "farmers-market",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "Santa Fe Farmers’ Market",
+    "locality": "Railyard",
+    "source": "https://santafefarmersmarket.com/",
+    "description": "Local growers and producers gather in the Railyard. Check the current market calendar."
+  },
+  {
+    "id": "meow-wolf",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "House of Eternal Return",
+    "locality": "Santa Fe",
+    "source": "https://meowwolf.com/visit/santa-fe",
+    "description": "Meow Wolf’s immersive installation begins in a house and continues through interconnected rooms."
+  },
+  {
+    "id": "the-shed",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "The Shed",
+    "locality": "The Plaza",
+    "source": "https://sfshed.com/",
+    "description": "New Mexican plates and red chile in a family-run restaurant near the Plaza."
+  },
+  {
+    "id": "la-choza",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "La Choza",
+    "locality": "Railyard",
+    "source": "https://www.lachozasf.com/",
+    "description": "A long-running New Mexican restaurant with red and green chile and a seasonal patio."
+  },
+  {
+    "id": "sazon",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Sazón",
+    "locality": "Downtown",
+    "source": "https://sazonsantafe.com/",
+    "description": "Chef Fernando Olea’s restaurant explores Mexican cooking through dishes built around mole."
+  },
+  {
+    "id": "pasquals",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Café Pasqual’s",
+    "locality": "Downtown",
+    "source": "https://pasquals.com/",
+    "description": "A downtown café serving breakfast, lunch and dinner with New Mexican and Mexican influences."
+  },
+  {
+    "id": "paper-dosa",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Paper Dosa",
+    "locality": "Santa Fe",
+    "source": "https://www.paper-dosa.com/",
+    "description": "South Indian cooking centered on dosas with seasonal dishes and accompaniments."
+  },
+  {
+    "id": "josephs",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Joseph’s Culinary Pub",
+    "locality": "Railyard",
+    "source": "https://www.josephsculinarypub.com/",
+    "description": "A menu with New Mexican influences and the informality of a neighborhood pub."
+  },
+  {
+    "id": "izanami",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Izanami",
+    "locality": "Hyde Park Road",
+    "source": "https://tenthousandwaves.com/food",
+    "description": "Izakaya-style small plates and sake at Ten Thousand Waves."
+  },
+  {
+    "id": "la-fonda",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "La Fonda on the Plaza",
+    "locality": "The Plaza",
+    "source": "https://lafondasantafe.com/",
+    "description": "A historic hotel on the Plaza with an art collection and easy access to downtown."
+  },
+  {
+    "id": "el-rey",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "El Rey Court",
+    "locality": "Cerrillos Road",
+    "source": "https://elreycourt.com/",
+    "description": "A former motor court with adobe rooms and courtyards on Cerrillos Road."
+  },
+  {
+    "id": "five-graces",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "The Inn of the Five Graces",
+    "locality": "Barrio de Analco",
+    "source": "https://fivegraces.com/",
+    "description": "An inn in the historic Barrio de Analco with individually furnished suites and courtyards."
+  },
+  {
+    "id": "anasazi",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Rosewood Inn of the Anasazi",
+    "locality": "Downtown",
+    "source": "https://www.rosewoodhotels.com/en/inn-of-the-anasazi-santa-fe",
+    "description": "A small hotel near the Plaza with rooms furnished in a Southwestern style."
+  },
+  {
+    "id": "hotel-santa-fe",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Hotel Santa Fe",
+    "locality": "Railyard",
+    "source": "https://www.hotelsantafe.com/",
+    "description": "A Native American-owned hotel in the Railyard district."
+  },
+  {
+    "id": "inn-alameda",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Inn on the Alameda",
+    "locality": "Alameda",
+    "source": "https://www.innonthealameda.com/",
+    "description": "An adobe-style inn between the Plaza and Canyon Road."
+  },
+  {
+    "id": "turquoise-bear",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Inn of the Turquoise Bear",
+    "locality": "Santa Fe",
+    "source": "https://www.turquoisebear.com/",
+    "description": "A bed and breakfast in the former estate of poet Witter Bynner."
+  },
+  {
+    "id": "hotel-st-francis",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Hotel St. Francis",
+    "locality": "Downtown",
+    "source": "https://www.hotelstfrancis.com/",
+    "description": "A downtown hotel occupying a historic building a short walk from the Plaza."
+  },
+  {
+    "id": "drury",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Drury Plaza Hotel in Santa Fe",
+    "locality": "Downtown",
+    "source": "https://www.druryhotels.com/locations/santa-fe-nm/drury-plaza-hotel-in-santa-fe",
+    "description": "A downtown hotel on the former St. Vincent Hospital site."
+  },
+  {
+    "id": "ten-thousand-waves",
+    "city": "santa-fe",
+    "category": "lodging",
+    "name": "Ten Thousand Waves",
+    "locality": "Hyde Park Road",
+    "source": "https://tenthousandwaves.com/lodging",
+    "description": "Japanese-inspired guest lodgings on the hillside near the spa and restaurant."
+  },
+  {
+    "city": "taos",
+    "category": "food",
+    "id": "tiwa-kitchen",
+    "name": "Tiwa Kitchen Restaurant & Bakery",
+    "locality": "Taos Pueblo",
+    "source": "https://www.tiwakitchen.com/",
+    "description": "Taos Pueblo and Northern New Mexican cooking, including blue corn frybread. Check service around traditional events."
+  },
+  {
+    "city": "taos",
+    "category": "lodging",
+    "id": "taos-inn",
+    "name": "The Historic Taos Inn",
+    "locality": "Downtown Taos",
+    "source": "https://taosinn.com/",
+    "description": "A historic adobe inn near the Plaza, with Doc Martin’s Restaurant and the Adobe Bar."
+  },
+  {
+    "city": "santa-fe",
+    "category": "gallery",
+    "id": "nuart",
+    "name": "Nüart Gallery",
+    "locality": "Canyon Road",
+    "source": "https://www.nuartgallery.com/about/contact/",
+    "description": "Contemporary abstract and figurative art from national and international artists."
+  },
+  {
+    "city": "santa-fe",
+    "category": "gallery",
+    "id": "gerald-peters",
+    "name": "Gerald Peters Gallery",
+    "locality": "Paseo de Peralta",
+    "source": "https://gpgallery.com/",
+    "description": "The Santa Fe gallery presents historic and contemporary American art and exhibitions by artists working today."
+  },
+  {
+    "city": "santa-fe",
+    "category": "gallery",
+    "id": "new-concept",
+    "name": "New Concept Gallery",
+    "locality": "Canyon Road",
+    "source": "https://www.newconceptgallery.com/",
+    "description": "Paintings, photography and sculpture by contemporary New Mexico artists."
+  },
+  {
+    "city": "santa-fe",
+    "category": "experience",
+    "id": "museum-indian-arts",
+    "name": "Museum of Indian Arts & Culture",
+    "locality": "Museum Hill",
+    "source": "https://www.miaclab.org/visit",
+    "description": "Explore the arts and cultures of the Southwest in the museum’s galleries on Museum Hill."
+  },
+  {
+    "id": "michael-gorman-gallery",
+    "city": "taos",
+    "category": "gallery",
+    "name": "Michael Gorman Gallery",
+    "locality": "Taos Plaza",
+    "source": "https://www.michaelgormangallery.com/",
+    "description": "See ceramic vessels, sculpture and works by several generations of the Gorman family."
+  },
+  {
+    "id": "inger-jirby-gallery",
+    "city": "taos",
+    "category": "gallery",
+    "name": "Inger Jirby Gallery",
+    "locality": "Ledoux Street",
+    "source": "https://www.ingerjirby.com/",
+    "description": "View Inger Jirby’s paintings and watercolors at her Ledoux Street gallery and sculpture garden."
+  },
+  {
+    "id": "taos-center-for-the-arts",
+    "city": "taos",
+    "category": "experience",
+    "name": "Taos Center for the Arts",
+    "locality": "Downtown Taos",
+    "source": "https://tcataos.org/",
+    "description": "The center programs visual art, film and live performances. Check its calendar for your visit."
+  },
+  {
+    "id": "doc-martins",
+    "city": "taos",
+    "category": "food",
+    "name": "Doc Martin’s",
+    "locality": "Downtown Taos",
+    "source": "https://taosinn.com/eat-drink/restaurant-doc-martins/",
+    "description": "A dining room inside the historic Taos Inn with seasonal Northern New Mexican cooking."
+  },
+  {
+    "id": "la-luna",
+    "city": "taos",
+    "category": "food",
+    "name": "La Luna Eatery",
+    "locality": "Taos Plaza",
+    "source": "https://www.lafondataos.com/restaurant/",
+    "description": "A restaurant at Hotel La Fonda de Taos serving food rooted in Indigenous and New Mexican traditions."
+  },
+  {
+    "id": "la-cueva",
+    "city": "taos",
+    "category": "food",
+    "name": "La Cueva Café",
+    "locality": "Downtown Taos",
+    "source": "https://www.lacuevacafe.com/",
+    "description": "Mexican and New Mexican dishes from a gluten-free kitchen, with a patio at Casa Baca."
+  },
+  {
+    "id": "luna-mystica",
+    "city": "taos",
+    "category": "lodging",
+    "name": "Hotel Luna Mystica",
+    "locality": "El Prado",
+    "source": "https://hotellunamystica.com/about/",
+    "description": "Vintage trailers with individual decks on the mesa outside Taos. Tent sites are also available."
+  },
+  {
+    "id": "wheelwright",
+    "city": "santa-fe",
+    "category": "experience",
+    "name": "Wheelwright Museum of the American Indian",
+    "locality": "Museum Hill",
+    "source": "https://wheelwright.org/visit/admissions-tours/",
+    "description": "Visit the museum and its shop on Museum Hill. The museum offers access services by arrangement."
+  },
+  {
+    "id": "la-boca",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "La Boca",
+    "locality": "Downtown",
+    "source": "https://www.labocasantafe.com/",
+    "description": "Spanish tapas in a restaurant near the Plaza, with a wine list that includes Spanish sherries."
+  },
+  {
+    "id": "geronimo",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Geronimo",
+    "locality": "Canyon Road",
+    "source": "https://www.geronimorestaurant.com/",
+    "description": "Dinner in a historic Canyon Road adobe, with a seasonal menu."
+  },
+  {
+    "id": "santacafe",
+    "city": "santa-fe",
+    "category": "food",
+    "name": "Santacafé",
+    "locality": "Downtown",
+    "source": "https://www.santacafe.com/",
+    "description": "A downtown restaurant with contemporary cooking and patio dining."
+  }
+]

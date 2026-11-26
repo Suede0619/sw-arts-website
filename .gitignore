@@ -6,3 +6,5 @@ playwright-report/
 *.tar.gz
 .env*
 .DS_Store
+
+production-dist/
