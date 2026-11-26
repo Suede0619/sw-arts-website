@@ -1,6 +1,6 @@
 # ArtSouthwest website
 
-The approved visual direction carries forward into `production/`, the Taos and Santa Fe catalog. Run `npm run build:production` and serve `production-dist/` at `/discover/` from the artist intake origin. The build reads approved artists, works and image previews through the intake API. The separate `dist/` folder remains the GitHub Pages prototype. See the [website README](README.md) for the two build paths.
+The approved visual direction carries forward into `production/`, the Taos and Santa Fe catalog. Run `npm run build:production`. The ArtSouthwest domain server serves `production-dist/` at the apex and the approved API from Neon. The separate `dist/` folder remains the GitHub Pages prototype. See the [website README](README.md) for the two build paths.
 
 When working in ART, automatically record the date, task, hours and evidence in `../../private/TIMESHEET.md` before ending the task. Follow the ART instructions for estimates, totals and private files. Use the current ArtSouthwest handoff for the production stage and treat the economics and approvals below as prototype history.
 
