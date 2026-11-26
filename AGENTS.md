@@ -1,6 +1,6 @@
 # ArtSouthwest website
 
-The approved prototype governs the live site's layouts. Preserve the split hero, art collection grid, mission band, gallery rows, experience cards, hospitality cards, and illustrated planning section. Align content to the shared 1600px grid and extend section background colors to both browser edges. Run `npm run build:production`. The domain server renders public pages from `production-release/` and serves approved updates from Neon. The GitHub Pages prototype stays in `dist/`. See the [website README](README.md).
+The approved prototype governs the live site's layouts. Preserve the split hero, art collection grid, mission band, gallery rows, experience cards, hospitality cards, and visit-planning section. Use real venue photos for experience, food and lodging imagery in the live catalog. Align content to the shared 1600px grid and extend section background colors to both browser edges. Run `npm run build:production`. The domain server renders public pages from `production-release/` and serves approved updates from Neon. The GitHub Pages prototype stays in `dist/`. See the [website README](README.md).
 
 When working in ART, automatically record the date, task, hours and evidence in `../../private/TIMESHEET.md` before ending the task. Follow the ART instructions for estimates, totals and private files. Use the current ArtSouthwest handoff for the production stage and treat the economics and approvals below as prototype history.
 
@@ -16,7 +16,7 @@ Read README.md, ASSETS.md and the ArtSouthwest documents at `../PROJECT-BASELINE
 
 Implementation is buildless HTML/CSS/JavaScript in `dist/`. `data.json` separates six fictional demo studies from ten real artist research candidates/sixty sourced work leads and thirty-eight venue/experience candidates. Listing an artist or venue creates no partnership. Do not enable real checkout or booking or invent current availability. Keep assistant, request and checkout simulations explicitly labeled.
 
-All imagery is original generated illustration or original SVG. The site publishes no uncleared artist images or venue photographs. Generated gallery imagery does not depict HOUSE of FIRE or any real venue. Room photography and real art images require permission and exact attribution before replacement. The source PNG masters are local in ignored `source-assets/`. Git tracks web assets and prompts.
+The GitHub Pages prototype uses original illustrations and SVGs. Its generated gallery is fictional. The source PNG masters are local in ignored `source-assets/`. Git tracks prototype web assets and prompts. Follow the production venue photo sources and permissions recorded in the ArtSouthwest handoff for the live catalog.
 
 Run `npm run check` and meaningful browser tests after functional changes. `npm test` uses a local Chrome if installed, otherwise Playwright Chromium. Test images/results are ignored. Avoid unrelated test expansion. Keep phone layouts, keyboard/focus handling, no-result recovery, image containment, source-versus-demo labels and no unauthorized external actions intact.
 

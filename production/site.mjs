@@ -143,6 +143,8 @@ function editorialHome(city, places, artists) {
   const selected = artists.flatMap(artist => artist.works).slice(0, 4);
   const experiences = city === 'taos' ? ['harwood-museum-of-art', 'rio-grande-gorge-overlook-and-west-rim-walk', 'ojo-caliente-day-soaking'] : ['okeeffe-museum', 'site-santa-fe', 'wheelwright'];
   const choices = experiences.map(id => places.find(place => place.id === id)).filter(Boolean);
+  const visitPlaceId = city === 'taos' ? 'couse-sharp-historic-site' : 'nm-museum-art';
+  const visitPlace = places.find(place => place.id === visitPlaceId && place.image) || choices.find(place => place.image);
   return `<section class="hero full-section"><div class="hero-copy"><span class="eyebrow">ART AND VISIT PLANNING, NEW MEXICO</span><h1>Art and artists<br>in <em>${label}.</em></h1>
     <p>Discover artists, galleries and museums. Plan a visit around the work you want to see.</p>
     <div class="hero-actions">${link('/' + city + '/art', 'Discover the collection', 'button')}${link('/' + city + '/experiences', 'Explore ' + label)}</div>
@@ -154,7 +156,7 @@ function editorialHome(city, places, artists) {
     <section class="mission-block full-section full-bleed"><div><span class="eyebrow">OUR PURPOSE</span><h2>Helping artists sell<br>their work.</h2></div><div class="mission-copy"><p>ArtSouthwest introduces collectors to artists in Taos and Santa Fe. Get to know the work, find places to see art in person, and contact the artist or gallery when a piece catches your eye.</p>${link('/about', 'Get to know our purpose')}</div></section>
     <section class="section full-section inset">${sectionHeading('EXPERIENCES', 'Experiences around ' + label, '/' + city + '/experiences', 'Explore experiences')}
     <div class="experience-grid">${choices.map(experienceCard).join('')}</div></section>
-    <section class="journal full-section full-bleed"><div class="journal-image">${image('/assets/landscape-study.webp', 'Illustration of northern New Mexico hills', { width: 900, height: 600 })}</div><div class="journal-copy"><span class="eyebrow">VISIT PLANNING</span><h2>Your ${label} visit</h2><p>Save galleries, museums and places to eat and stay. Check hours and access before you go.</p>${link(city === 'taos' ? '/plan' : '/santa-fe/food', city === 'taos' ? 'Start your Taos plan' : 'Find a table in Santa Fe')}</div></section>
+    <section class="journal full-section full-bleed">${visitPlace ? placeVisual(visitPlace, 'journal-image') : ''}<div class="journal-copy"><span class="eyebrow">VISIT PLANNING</span><h2>Your ${label} visit</h2><p>Save galleries, museums and places to eat and stay. Check hours and access before you go.</p>${link(city === 'taos' ? '/plan' : '/santa-fe/food', city === 'taos' ? 'Start your Taos plan' : 'Find a table in Santa Fe')}</div></section>
     <section class="section full-section inset">${sectionHeading('ARTISTS', 'Artists in ' + label, '/' + city + '/artists', 'Artist profiles')}
     ${artists.length ? `<div class="artist-grid">${artists.slice(0, 3).map(artistCard).join('')}</div>` : `<p class="muted">New artist profiles appear here after editorial review.</p>`}</section>`;
 }

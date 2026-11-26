@@ -48,7 +48,7 @@ async function versionedAsset(body, extension) {
 }
 
 const assets = { css: await versionedAsset(css, 'css'), script: await versionedAsset(js, 'mjs') };
-const prototypeImages = ['favicon.svg','gallery-hero.webp','landscape-study.webp','landscape-study-card.webp',
+const prototypeImages = ['favicon.svg','gallery-hero.webp','landscape-study-card.webp',
   'abstract-study-card.webp','ceramic-study-card.webp','sage-study-card.webp'];
 for (const file of prototypeImages) {
   await cp(new URL('../dist/assets/' + file, import.meta.url), new URL('assets/' + file, publicRoot));

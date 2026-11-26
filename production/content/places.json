@@ -833,7 +833,12 @@
     "detail": [
       "La Fonda sits directly on Santa Fe Plaza. The hotel carries its art collection into the guest rooms and public spaces, where hand-painted furnishings and original work make a walk through the building worth some time.",
       "The Plaza location puts the Palace of the Governors, the cathedral and the downtown museums within an easy walk. La Plazuela serves meals inside the hotel, and the seasonal Bell Tower Bar looks out over the roofs."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-la-fonda-2d755544aebb.webp",
+      "alt": "La Fonda on the Plaza, with adobe walls and illuminated windows at dusk.",
+      "storage": "neon"
+    }
   },
   {
     "id": "el-rey",
@@ -846,7 +851,12 @@
     "detail": [
       "El Rey Court began as a motor court on old Route 66 in 1936. The adobe rooms and gardens still reflect the original roadside layout. Guests move between low buildings, outdoor spaces and the hotel’s bar, La Reina.",
       "The Cerrillos Road location gives you a base outside the historic center. It makes sense for a visit that includes galleries and restaurants across several neighborhoods. Check the room photos and property calendar when choosing dates."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-el-rey-be1999dd409d.webp",
+      "alt": "A Patio King guest room at El Rey Court with exposed beams and red chairs.",
+      "storage": "neon"
+    }
   },
   {
     "id": "five-graces",
@@ -859,7 +869,12 @@
     "detail": [
       "The Inn of the Five Graces occupies a group of historic adobe buildings in the Barrio de Analco. Rooms and suites have their own arrangements of textiles, carved furnishings and mosaic tile, so the interiors are worth comparing when you book.",
       "Courtyards give the buildings a quieter scale, a short walk from the Plaza. The location suits a visit divided between the historic center and Canyon Road, with time to return to the inn between outings."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-five-graces-56931250729a.webp",
+      "alt": "A Five Graces guest suite with carved woodwork, patterned tile and a kiva fireplace.",
+      "storage": "neon"
+    }
   },
   {
     "id": "anasazi",
@@ -872,7 +887,12 @@
     "detail": [
       "The Rosewood Inn of the Anasazi is a small hotel near Santa Fe Plaza. Wood, stone and textiles give its rooms a local character, and the hotel has its own restaurant and bar.",
       "The downtown location keeps the museums and Palace of the Governors close at hand. The hotel can arrange in-room treatments and offers bicycles for guests who want to spend part of the visit exploring farther afield."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-anasazi-4b06a99fcbcd.webp",
+      "alt": "The entrance to the Rosewood Inn of the Anasazi, framed by greenery.",
+      "storage": "neon"
+    }
   },
   {
     "id": "hotel-santa-fe",
@@ -885,7 +905,12 @@
     "detail": [
       "Hotel Santa Fe is Native American-owned and draws on its connection to Picuris Pueblo. Its collection of Native art extends into the public spaces of the hotel.",
       "The hotel is in the Railyard district, near the farmers’ market and contemporary art venues. Compare the hotel rooms with the Hacienda accommodations when choosing a stay. Both are well placed for a day on foot in the Railyard."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-hotel-santa-fe-e4fe772d82bb.webp",
+      "alt": "The lounge at Hotel Santa Fe with an adobe fireplace, pottery and woven rugs.",
+      "storage": "neon"
+    }
   },
   {
     "id": "inn-alameda",
@@ -898,7 +923,12 @@
     "detail": [
       "Inn on the Alameda sits between the Plaza and Canyon Road. The rooms use wood and adobe, and many suites have fireplaces. The inn’s location makes it easy to divide a day between museums downtown and galleries farther east.",
       "Joe’s, named for the inn’s founder, gives guests a place to eat or have a drink on the property. Compare room layouts if you want a fireplace or extra space for a longer stay."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-inn-alameda-308eee45bcc2.webp",
+      "alt": "A suite at Inn on the Alameda with a kiva fireplace and a door to the patio.",
+      "storage": "neon"
+    }
   },
   {
     "id": "turquoise-bear",
@@ -911,7 +941,12 @@
     "detail": [
       "The Inn of the Turquoise Bear is a bed and breakfast in the former estate of poet Witter Bynner. The adobe house and terraced gardens recall an earlier Santa Fe. Several rooms have their own garden entrances.",
       "Mornings begin with breakfast at the inn. The property is within walking distance of the Plaza, and its garden gives you a quieter place to return to after a day downtown. Compare entrances and layouts when choosing a room."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-turquoise-bear-a40f4c85cdf1.webp",
+      "alt": "The adobe exterior of the Inn of the Turquoise Bear beside a garden path.",
+      "storage": "neon"
+    }
   },
   {
     "id": "hotel-st-francis",
@@ -924,7 +959,12 @@
     "detail": [
       "Hotel St. Francis occupies a historic building a block from the Plaza. Natural colors and locally crafted wood furnishings give the interiors a restrained character. The lobby offers a pause between the busier streets outside and the guest rooms.",
       "The location works well for a visit centered on the museums, Palace of the Governors and nearby restaurants. Secreto Lounge offers drinks on site, and the hotel lists guided tours for visitors curious about the building’s history."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-hotel-st-francis-6734a8a43e7b.webp",
+      "alt": "The entrance of Hotel St. Francis with snow on the trees.",
+      "storage": "neon"
+    }
   },
   {
     "id": "drury",
@@ -937,7 +977,12 @@
     "detail": [
       "Drury Plaza Hotel occupies the former St. Vincent Hospital site near downtown Santa Fe. The property gives guests a base between the Plaza and the galleries on Canyon Road. Its rooftop pool looks out toward the mountains.",
       "The hotel includes breakfast and offers an evening reception. Those amenities can simplify a family or group visit, especially with different plans during the day. Check the hotel’s site for current rooftop and dining details."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-drury-4e24bbcc8be1.webp",
+      "alt": "The landscaped garden beside the Drury Plaza Hotel’s historic brick building.",
+      "storage": "neon"
+    }
   },
   {
     "id": "ten-thousand-waves",
@@ -950,7 +995,12 @@
     "detail": [
       "Ten Thousand Waves offers lodging on a piñon- and juniper-covered hillside above Santa Fe. The rooms draw on the Japanese ryokan tradition and are a short walk from the spa. Their layouts and furnishings vary.",
       "The setting suits a stay built around soaking, a meal at Izanami and time outside. Santa Fe’s center is a drive away. If you want a particular bath or dinner time, check those reservations while arranging the room."
-    ]
+    ],
+    "image": {
+      "src": "assets/santa-fe-ten-thousand-waves-7b252f631e08.webp",
+      "alt": "Wood-framed screens and a tokonoma alcove in the Bessou lodging at Ten Thousand Waves.",
+      "storage": "neon"
+    }
   },
   {
     "city": "taos",
