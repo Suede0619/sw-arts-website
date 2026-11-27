@@ -18,6 +18,7 @@
 .region-menu, .mobile-menu { position: relative; }
 .region-menu summary, .mobile-menu summary { list-style: none; cursor: pointer; }
 .site-frame .region-menu .region-button { display: block; }
+#plan-count { min-width: 1.4rem; padding-inline: .15rem; }
 .region-menu summary::-webkit-details-marker, .mobile-menu summary::-webkit-details-marker { display: none; }
 .region-menu summary::after { content: '⌄'; padding-left: 9px; }
 .region-menu nav, .mobile-menu nav { position: absolute; right: 0; top: calc(100% + 14px); background: var(--paper); border: 1px solid var(--line); padding: 8px 14px; min-width: 9rem; z-index: 25; box-shadow: 0 15px 26px #202a201c; }
@@ -64,13 +65,14 @@
   .journal.full-bleed > .journal-image { margin-inline: var(--gutter); }
   .journal.full-bleed > .journal-copy { padding-inline: var(--gutter); }
   .production-gallery-row { grid-template-columns: 1fr; gap: .75rem; }
+  .site-frame .section-heading { flex-wrap: wrap; row-gap: .65rem; }
   .planner-fields { grid-template-columns: 1fr; }
 }
 @media (max-width: 400px) {
   .site-header { gap: .6rem; }
   .site-header .wordmark { gap: .35rem; }
   .site-header .wordmark svg { width: 25px; }
-  .site-header .wordmark span { font-size: 13px; letter-spacing: .04em; }
+  .site-header .wordmark span { letter-spacing: .04em; }
   .site-header .header-actions { gap: .6rem; }
   .region-menu summary { padding-right: .6rem; }
 }

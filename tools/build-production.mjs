@@ -36,7 +36,11 @@ for (const listing of places) {
 
 await rm(output, { force: true, recursive: true });
 await mkdir(new URL('assets/', publicRoot), { recursive: true });
-const css = (await readFile(new URL('../dist/styles.css', import.meta.url), 'utf8')) + '\n' +
+const designStyles = await readFile(new URL('../dist/styles.css', import.meta.url), 'utf8');
+// Raise the approved prototype's small text in the public catalog build.
+const readableStyles = designStyles.replace(/(\bfont(?:-size)?:\s*)(\d+(?:\.\d+)?)px\b/g,
+  (rule, declaration, size) => Number(size) < 14 ? declaration + '14px' : rule);
+const css = readableStyles + '\n' +
   await readFile(new URL('layout.css', source), 'utf8');
 const js = await readFile(new URL('interactions.mjs', source), 'utf8');
 
