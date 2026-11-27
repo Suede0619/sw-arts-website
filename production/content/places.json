@@ -755,6 +755,7 @@
     "name": "Café Pasqual’s",
     "locality": "Downtown",
     "source": "https://pasquals.com/pages/resturant-hours",
+    "publicPhone": "+15059839340",
     "description": "A downtown café serving breakfast, lunch and dinner with New Mexican and Mexican influences.",
     "image": {
       "src": "assets/santa-fe-pasquals-f184cb5aed5d.webp",
@@ -1098,7 +1099,8 @@
     "category": "gallery",
     "name": "Inger Jirby Gallery",
     "locality": "Ledoux Street",
-    "source": "https://www.ingerjirby.com/",
+    "source": "https://taosartscouncil.org/inger-jirby-southwest-paintings-and-watercolors/",
+    "sourceLabel": "View Taos Arts Council listing",
     "description": "View Inger Jirby’s paintings and watercolors at her Ledoux Street gallery and sculpture garden."
   },
   {
