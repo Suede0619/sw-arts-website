@@ -80,7 +80,8 @@
 .editorial-actions { display:flex; flex-wrap:wrap; align-items:end; gap:1rem 1.5rem; margin:1.5rem 0 2.5rem; }
 .calendar-filter { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; }
 .calendar-filter select, .editorial-form input:not([type=checkbox]), .editorial-form select, .editorial-form textarea {
-  border:1px solid var(--line); background:var(--white); color:var(--ink); padding:.7rem; max-width:100%; font:inherit;
+  min-height:3rem; border:1px solid #8a8b80; border-radius:0; background:var(--white);
+  color:var(--ink); padding:.62rem .8rem; max-width:100%; font:inherit;
 }
 .calendar-list { max-width: 66rem; }
 .calendar-list > h2, .weekly-article > h2 { margin:2rem 0 .9rem; }
@@ -94,10 +95,17 @@
 .calendar-image img { display:block; width:100%; height:auto; aspect-ratio:3 / 2; object-fit:cover; }
 .calendar-feature .calendar-row { grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); align-items:center; }
 .editorial-empty, .editorial-status { padding:1rem; background:var(--wash); }
-.editorial-form { max-width:56rem; display:grid; gap:1.1rem; }
-.editorial-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
-.editorial-form label { display:grid; gap:.35rem; }
-.editorial-form .editorial-check { display:flex; align-items:center; gap:.55rem; }
+.editorial-form { max-width:47rem; display:grid; gap:1.25rem; padding-top:1.6rem; border-top:1px solid var(--line); }
+.editorial-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.1rem; }
+.editorial-form label { display:grid; gap:.4rem; min-width:0; font-weight:600; }
+.editorial-form input:not([type=checkbox]), .editorial-form textarea, .editorial-form select { width:100%; font-size:1rem; font-weight:400; }
+.editorial-form input[type=file] { padding:.5rem; }
+.editorial-form input[type=file]::file-selector-button {
+  border:1px solid var(--line); background:var(--wash); color:var(--ink);
+  margin-inline-end:.6rem; padding:.3rem .55rem; cursor:pointer; font:inherit;
+}
+.editorial-form [type=checkbox] { accent-color:var(--forest); }
+.editorial-form .editorial-check { display:flex; align-items:flex-start; gap:.65rem; font-weight:400; }
 .editorial-form .button { justify-self:start; }
 .weekly-article { max-width:50rem; }
 .weekly-sponsor { margin-top:2rem; padding:1.25rem; border:1px solid var(--line); }
