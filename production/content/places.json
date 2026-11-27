@@ -167,7 +167,7 @@
     "category": "food",
     "name": "192 at The Blake",
     "locality": "Taos Ski Valley",
-    "source": "https://www.skitaos.com/things-to-do/dining/192",
+    "source": "https://www.skitaos.com/dining?section=dinner",
     "description": "A restaurant inside The Blake at Taos Ski Valley. Check the resort’s dining page for seasonal service.",
     "detail": [
       "Inside The Blake at Taos Ski Valley, 192 is a sit-down restaurant near the base of the lifts. The resort’s dining page shows small plates and charcuterie alongside more substantial food, and cocktails at the bar.",
@@ -754,7 +754,7 @@
     "category": "food",
     "name": "Café Pasqual’s",
     "locality": "Downtown",
-    "source": "https://pasquals.com/",
+    "source": "https://pasquals.com/pages/resturant-hours",
     "description": "A downtown café serving breakfast, lunch and dinner with New Mexican and Mexican influences.",
     "image": {
       "src": "assets/santa-fe-pasquals-f184cb5aed5d.webp",

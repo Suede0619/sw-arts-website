@@ -53,6 +53,9 @@
 #plan-result p { margin-block: .5rem; }
 #plan-result ol { padding-left: 1.45rem; }
 #plan-result li { margin-block: 1rem; }
+.itinerary-stops li + li { border-top: 1px solid var(--line); padding-top: 1rem; }
+.itinerary-actions { display: flex; flex-wrap: wrap; gap: .45rem 1.2rem; }
+.plan-summary > .text-link { display: table; margin-block-start: 1rem; }
 .saved-item { grid-template-columns: 1fr auto; }
 @media (max-width: 1000px) {
   .mobile-menu { display: block; }
