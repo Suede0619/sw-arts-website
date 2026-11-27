@@ -65,7 +65,8 @@ function price(work) {
 function buildArtists(items) {
   return items.flatMap(artist => {
     const city = String(artist.city).split(',')[0].replace(/\s+NM\.?$/i, '').trim();
-    const market = /^santa fe$/i.test(city) ? 'santa-fe' : /^(taos|el prado|arroyo seco|ranchos de taos|taos ski valley)$/i.test(city) ? 'taos' : '';
+    const market = cityPattern.test(artist.market) ? artist.market :
+      /^santa fe$/i.test(city) ? 'santa-fe' : /^(taos|el prado|arroyo seco|arroyo hondo|ranchos de taos|taos ski valley|rinconada)$/i.test(city) ? 'taos' : '';
     if (!market || !idPattern.test(artist.slug)) return [];
     const profile = { ...artist, market };
     profile.works = (artist.works || []).filter(work => idPattern.test(work.id) && media(work.images?.[0]))
@@ -208,17 +209,19 @@ function detailArtist(artist) {
     <div class="section">${sectionHeading('', 'Available work')}${artist.works.length ? `<div class="art-grid">${artist.works.map(artCard).join('')}</div>` : '<p class="muted">Check back for available work.</p>'}</div></section>`;
 }
 
-function detailWork(work) {
+function detailWork(work, places) {
   const artist = work.artist;
-  const contact = external(artist.contactLink) || external(artist.website);
+  const gallery = work.seller==='gallery' && places.find(place=>place.category==='gallery' &&
+    place.name.toLowerCase().trim() === String(work.galleryName || '').toLowerCase().trim());
+  const contact = work.seller==='artist' ? external(artist.contactLink) || external(artist.website) : '';
   const dims = work.dimensions;
   const size = dims ? [dims.height, dims.width, dims.depth].filter(Boolean).join(' × ') + ' ' + dims.unit : '';
   const [first, ...alternates] = work.images;
   return `<section class="full-section inset bottom-space">${lead(artist.market, work.title, '', artistHref(artist), artist.name)}
     <div class="catalog-detail"><div class="large-work">${image(media(first), first.alt || work.title, { width: 700, height: 850, eager: true })}</div><div class="object-copy">
     <p>${link(artistHref(artist), artist.name)}</p>${price(work) ? `<div class="object-price">${esc(price(work))}</div>` : ''}
-    <dl class="facts-table"><div><dt>Medium</dt><dd>${esc(work.medium)}</dd></div>${size ? `<div><dt>Dimensions</dt><dd>${esc(size)}</dd></div>` : ''}${work.year ? `<div><dt>Year</dt><dd>${esc(work.year)}</dd></div>` : ''}</dl>
-    <div class="listing-actions">${contact ? link(contact, 'Ask about this work', 'button') : ''}${save(workHref(work), work.title, artist.name, true)}</div></div></div>
+    <dl class="facts-table"><div><dt>Medium</dt><dd>${esc(work.medium)}</dd></div>${size ? `<div><dt>Dimensions</dt><dd>${esc(size)}</dd></div>` : ''}${work.year ? `<div><dt>Year</dt><dd>${esc(work.year)}</dd></div>` : ''}${work.galleryName ? `<div><dt>Representing gallery</dt><dd>${esc(work.galleryName)}</dd></div>` : ''}</dl>
+    <div class="listing-actions">${gallery ? link(placeHref(gallery), 'View the gallery', 'button') : contact ? link(contact, 'Ask about this work', 'button') : ''}${save(workHref(work), work.title, artist.name, true)}</div></div></div>
     <div class="detail-story"><h2>About this work</h2><p>${esc(work.story)}</p></div>
     ${alternates.length ? `<div class="art-grid">${alternates.filter(photo => media(photo)).map(photo => `<figure>${image(media(photo), photo.alt || work.title)}${photo.credit ? `<figcaption>${esc(photo.credit)}</figcaption>` : ''}</figure>`).join('')}</div>` : ''}</section>`;
 }
@@ -227,11 +230,13 @@ function planner() {
   return `<section class="full-section inset bottom-space">${lead('taos', 'Plan a day in Taos', 'Choose what you want to see and how much time you have.')}
     <div class="plan-layout"><div><form id="itinerary" class="planner-form"><div class="planner-fields">
     <label>Visit date<input type="date" name="date" required></label><label>Start time<input type="time" name="startTime" min="08:00" max="16:59" value="10:00" required></label>
+    <label>Starting point<select name="start"><option value="plaza">Taos Plaza</option><option value="ledoux">Ledoux Street</option><option value="fechin">Fechin House</option></select></label>
     <label>Time available<select name="hours"><option value="3">Half day</option><option value="6">Full day</option></select></label>
     <label>Main interest<select name="interest"><option value="mixed">Art and food</option><option value="art">Galleries and museums</option><option value="history">Art and local history</option></select></label>
     <label>Getting around<select name="transport"><option value="walk">Walking</option><option value="drive">Driving</option></select></label><label>Other preferences<input name="preference" maxlength="180" autocomplete="off"></label></div>
-    <button class="button" type="submit">Make my itinerary</button></form><div id="plan-result" aria-live="polite" hidden></div></div>
-    <aside class="plan-summary"><h2>Save what catches your eye</h2><p>See the work and places you’ve saved on this device.</p>${link('/saved', 'Open saved selections', 'button secondary')}</aside></div></section>`;
+    <button class="button" type="submit">Make my itinerary</button></form><div id="plan-result" tabindex="-1" aria-live="polite" hidden></div></div>
+    <aside class="plan-summary"><h2>Save what catches your eye</h2><p>See the work and places you’ve saved on this device.</p>${link('/saved', 'Open saved selections', 'button secondary')}
+    ${link('/santa-fe', 'Browse Santa Fe', 'text-link')}</aside></div></section>`;
 }
 
 function headLinks(city) {
@@ -278,7 +283,7 @@ export function createCatalog(places, assets) {
         } else if (view === 'artists' && slug && parts.length <= 4) {
           const artist = artists.find(item => item.slug === slug);
           const work = artist && workId && artist.works.find(item => item.id === workId);
-          if (work) { title = work.title; content = detailWork(work); }
+          if (work) { title = work.title; content = detailWork(work, places); }
           else if (artist && !workId) { title = artist.name; content = detailArtist(artist); }
         } else if (routes.has(view) && !slug) {
           const category = routes.get(view);

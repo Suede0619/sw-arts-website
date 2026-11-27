@@ -104,44 +104,92 @@ const itinerary = document.querySelector('#itinerary');
 if (itinerary) {
   const result = document.querySelector('#plan-result');
   const submit = itinerary.querySelector('[type="submit"]');
-  let previousStops = [];
-  async function createPlan(revise) {
+  const tz = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Denver', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+  });
+  const now = Object.fromEntries(tz.formatToParts().map(({type,value})=>[type,value]));
+  const today = now.year+'-'+now.month+'-'+now.day;
+  const nextHour = Number(now.hour)+1;
+  itinerary.elements.date.min = today;
+  itinerary.elements.date.value = nextHour>16 ?
+    new Date(Date.parse(today+'T12:00:00Z')+86400000).toISOString().slice(0,10) : today;
+  if (nextHour>10 && nextHour<=16) itinerary.elements.startTime.value = String(nextHour).padStart(2,'0')+':00';
+  let currentPlan;
+  let brief;
+  function renderPlan(plan, message) {
+    const title = node('h2', plan.stops.length ? (plan.mode === 'ai' ? 'Your itinerary' : 'Suggested itinerary') : 'Try another time');
+    const notice = node('p', message || plan.note);
+    result.replaceChildren(title, notice);
+    if (!plan.stops.length) return;
+    if (plan.origin) result.append(node('p', 'Start at ' + plan.origin + '.'));
+    const list = node('ol', '', 'itinerary-stops');
+    for (const stop of plan.stops) {
+      const item = node('li');
+      const finish = stop.endTime ? ' to ' + stop.endTime : '';
+      const aside = [stop.travelMinutes ? stop.travelMinutes + ' min travel' : '', stop.wait ? stop.wait + ' min before opening' : ''].filter(Boolean);
+      if (aside.length) item.append(node('p', aside.join(' · '), 'muted'));
+      item.append(node('strong', stop.time + finish + ' · ' + stop.name), node('p', stop.reason));
+      if (stop.availability) item.append(node('p', stop.availability, 'muted'));
+      const actions = node('div', '', 'itinerary-actions');
+      if (typeof stop.source === 'string' && stop.source.startsWith('https://')) {
+        const confirm = node('a', 'Official site', 'text-link');
+        confirm.href = stop.source;
+        actions.append(confirm);
+      }
+      const swap = node('button', 'Swap this stop', 'text-link');
+      swap.type = 'button';
+      swap.setAttribute('aria-label', 'Swap ' + stop.name);
+      swap.addEventListener('click', () => createPlan(stop.id));
+      actions.append(swap);
+      item.append(actions);
+      list.append(item);
+    }
+    result.append(list);
+    if (typeof plan.map === 'string' && plan.map.startsWith('https://www.google.com/maps/dir/')) {
+      const map = node('a', 'Open route in Google Maps', 'button secondary');
+      map.href = plan.map;
+      result.append(map);
+    }
+  }
+  async function createPlan(swapId) {
+    if (submit.disabled) return;
     const input = Object.fromEntries(new FormData(itinerary));
+    const unchanged = JSON.stringify(input) === brief;
+    const swap = swapId && unchanged && currentPlan;
     submit.disabled = true;
+    for (const button of result.querySelectorAll('button')) button.disabled = true;
     result.setAttribute('aria-busy', 'true');
     try {
       const response = await fetch('/api/itinerary', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'X-Intake-Request': '1' },
-        body: JSON.stringify({ ...input, avoid: revise ? previousStops : [] }),
+        body: JSON.stringify({ ...input, avoid: swap ? [swapId] : [],
+          retain: swap ? currentPlan.stops.map(stop => stop.id).filter(id => id !== swapId) : [] }),
         signal: AbortSignal.timeout(14000),
       });
-      if (!response.ok) throw new Error('Plan could not be created.');
       const plan = await response.json();
-      previousStops = plan.stops.map(stop => stop.id);
-      const list = node('ol');
-      for (const stop of plan.stops) {
-        const item = node('li');
-        const confirm = node('a', 'Confirm hours and access', 'text-link');
-        if (typeof stop.source === 'string' && stop.source.startsWith('https://')) confirm.href = stop.source;
-        item.append(node('strong', stop.time + '  ' + stop.name), node('p', stop.duration + ' minutes suggested. ' + stop.reason), confirm);
-        list.append(item);
+      if (!response.ok) throw new Error(plan.message || 'We couldn’t make an itinerary. Try again.');
+      if (swap && !plan.stops.length) {
+        renderPlan(currentPlan, plan.note);
+      } else {
+        currentPlan = plan;
+        brief = JSON.stringify(input);
+        renderPlan(plan);
       }
-      const reviseButton = node('button', 'Try a different route', 'button secondary');
-      reviseButton.type = 'button';
-      reviseButton.addEventListener('click', () => createPlan(true));
-      result.replaceChildren(node('h2', plan.mode === 'ai' ? 'Your itinerary' : 'Suggested itinerary'), node('p', plan.note), list, reviseButton);
-    } catch {
-      result.replaceChildren(node('p', 'We couldn’t make an itinerary. Check your date and try again.'));
+    } catch (error) {
+      if (swap) renderPlan(currentPlan, error.message);
+      else result.replaceChildren(node('p', error.message || 'We couldn’t make an itinerary. Try again.'));
     } finally {
       submit.disabled = false;
       result.hidden = false;
       result.removeAttribute('aria-busy');
+      result.focus();
     }
   }
   itinerary.addEventListener('submit', event => {
     event.preventDefault();
-    createPlan(false);
+    createPlan();
   });
 }
 
