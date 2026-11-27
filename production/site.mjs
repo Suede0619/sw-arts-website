@@ -202,7 +202,8 @@ function detailPlace(place) {
   const copy = (place.detail || [place.description]).map(paragraph => `<p>${esc(paragraph)}</p>`).join('');
   return `<section class="full-section inset bottom-space">${lead(place.city, place.name, '', href.slice(0, href.lastIndexOf('/')), categories[place.category])}
     <div class="place-detail-hero">${visual}<div class="place-detail-copy"><span class="eyebrow">${esc(place.locality)}</span>${copy}
-    <div class="listing-actions">${link(place.source, 'Visit the official site', 'button')}${save(href, place.name, place.locality, true)}</div></div></div></section>`;
+    <div class="listing-actions">${place.publicPhone ? link('tel:' + place.publicPhone, 'Call ' + place.name, 'button') :
+      link(place.source, place.sourceLabel || 'Visit the official site', 'button')}${save(href, place.name, place.locality, true)}</div></div></div></section>`;
 }
 
 function detailArtist(artist) {

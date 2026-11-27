@@ -16,6 +16,7 @@ for (const listing of places) {
   assert.ok(!keys.has(listing.city + '/' + listing.id));
   assert.ok(listing.name && listing.locality && listing.description);
   assert.equal(new URL(listing.source).protocol, 'https:');
+  if (listing.publicPhone) assert.match(listing.publicPhone, /^\+1[0-9]{10}$/);
   if (listing.category !== 'gallery' || listing.detail !== undefined) {
     assert.ok(Array.isArray(listing.detail) && listing.detail.length === 2, 'Expected two detail paragraphs for ' + listing.id);
     assert.ok(listing.detail.every(paragraph => typeof paragraph === 'string' && paragraph.trim()), 'Empty detail paragraph for ' + listing.id);
